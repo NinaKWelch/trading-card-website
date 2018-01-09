@@ -154,14 +154,14 @@ ul {
   border-radius: 7px;
 }
 
-#card-001 .card-body {
+#card-002 .card-body {
   margin-top: 18px;
   padding: 5px 15px;
   border: 1px solid #dbe2e9;
   border-radius: 7px;
 }
 
-#card-001 .card-subtitle {
+#card-002 .card-subtitle {
   margin: 18px 0;
   text-align: center;
   font-size: 1.1em;
@@ -169,23 +169,23 @@ ul {
   padding-bottom: 18px;
 }
 
-#card-001 .card-list-group {
+#card-002 .card-list-group {
   list-style: none;
   padding-left: 0;
   padding-bottom: 18px;
 }
 
-#card-001 .card-list-group span {
+#card-002 .card-list-group span {
   font-weight: bold;
 }
 
-#card-001 .card-text {
+#card-002 .card-text {
   padding: 18px 0;
 
 }
 
-#card-001 .card-link {
-
+#card-002 .card-link {
+  text-align: left;
 }
 
 
