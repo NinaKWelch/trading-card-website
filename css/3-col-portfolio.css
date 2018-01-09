@@ -56,7 +56,7 @@ body {
 
 ul {
   margin-top: 0;
-  margin-bottom: 0rem; /* changed */
+  margin-bottom: 0; /* changed */
 }
 
 /* Styling for individual cards  */
@@ -73,30 +73,33 @@ ul {
     border: 1px solid #dbe2e9;
     border-radius: 7px;
 }
+
 #card-001 .card-title {
 	font-size: 1.5em;
 	text-transform: uppercase;
     text-align: center;
 }
+
 #card-001 img.card-img {
 	border: 1px solid #dbe2e9;
 	border-radius: 7px;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
 }
+
 #card-001 .card-body {
     margin-top: 15px;
     padding: 5px 15px;
     border: 1px solid #dbe2e9;
 	border-radius: 7px;
 }
+
 #card-001 .card-subtitle {
     margin: 18px 0;
     text-align: center;
     font-size: 1.1em;
     font-style: italic;
-    font-weight: normal;
-	color: #90b4d6;
-	border-bottom: 1px solid #dbe2e9;
+	  color: #90b4d6;
+	  border-bottom: 1px solid #dbe2e9;
     padding-bottom: 18px;
 }
 
@@ -106,10 +109,15 @@ ul {
     border-bottom: 1px solid #dbe2e9;
     padding-bottom: 18px;
 }
+
 #card-001 .card-list-group span {
 	font-weight: bold;
 }
 
+#card-001 .card-text {
+  padding: 18px 0;
+
+}
 
 /* Card no 002  */
 
