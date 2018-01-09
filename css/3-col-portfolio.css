@@ -45,6 +45,10 @@ body {
   margin-bottom: 0;
 }
 
+.card-link:hover {
+  text-decoration: none;
+}
+
 .card-link + .card-link {
   margin-left: 0; /* changed */
 }
@@ -118,6 +122,10 @@ ul {
 
 #card-001 .card-text {
   padding: 18px 0;
+
+}
+
+#card-001 .card-link {
 
 }
 
