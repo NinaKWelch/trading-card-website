@@ -185,8 +185,14 @@ ul {
 
 }
 
-#card-002 a.card-link {
+#card-002 .card-link {
   text-align: right;
+}
+
+#card-002 .card-link a {
+}
+
+#card-002 .card-link a:hover {
 }
 
 
