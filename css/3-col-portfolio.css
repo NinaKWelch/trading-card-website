@@ -164,8 +164,9 @@ ul {
 #card-002 .card-subtitle {
   margin: 18px 0;
   text-align: center;
-  font-size: 1.1em;
+  font-size: 1.4em;
   font-style: italic;
+  font-weight: bold;
   padding-bottom: 18px;
 }
 
