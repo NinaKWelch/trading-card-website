@@ -22,6 +22,43 @@ body {
   margin-bottom: 30px;
 }
 
+
+/* Bootstrap Card styling overide */
+
+.card {
+  background-color: #fff;
+  background-clip: border-box;
+  border: none; /* changed */
+  border-radius: 0; /* changed */
+}
+
+.card-body {
+  padding: 0; /* changed */
+}
+
+.card-title {
+  margin-bottom: 0; /* changed */
+}
+
+.card-subtitle {
+  margin-top: 0; /* changed */
+  margin-bottom: 0;
+}
+
+.card-link + .card-link {
+  margin-left: 0; /* changed */
+}
+
+.card-img {
+  width: 100%;
+  border-radius: 0; /* changed */
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0rem; /* changed */
+}
+
 /* Styling for individual cards  */
 
 /* Card no 001  */
@@ -63,13 +100,13 @@ body {
     padding-bottom: 18px;
 }
 
-#card-001 .list-group {
+#card-001 .card-list-group {
 	list-style: none;
     padding-left: 0;
     border-bottom: 1px solid #dbe2e9;
     padding-bottom: 18px;
 }
-#card-001 .list-group span {
+#card-001 .card-list-group span {
 	font-weight: bold;
 }
 
