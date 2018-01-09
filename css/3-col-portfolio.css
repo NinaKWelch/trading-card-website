@@ -131,6 +131,63 @@ ul {
 
 /* Card no 002  */
 
+#card-002.card {
+  padding: 15px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #303030;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  border: 1px solid #dbe2e9;
+  border-radius: 7px;
+}
+
+#card-002 .card-title {
+  margin: 18px;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#card-002 img.card-img {
+  border: 1px solid #dbe2e9;
+  border-radius: 7px;
+}
+
+#card-001 .card-body {
+  margin-top: 18px;
+  padding: 5px 15px;
+  border: 1px solid #dbe2e9;
+  border-radius: 7px;
+}
+
+#card-001 .card-subtitle {
+  margin: 18px 0;
+  text-align: center;
+  font-size: 1.1em;
+  font-style: italic;
+  padding-bottom: 18px;
+}
+
+#card-001 .card-list-group {
+  list-style: none;
+  padding-left: 0;
+  padding-bottom: 18px;
+}
+
+#card-001 .card-list-group span {
+  font-weight: bold;
+}
+
+#card-001 .card-text {
+  padding: 18px 0;
+
+}
+
+#card-001 .card-link {
+
+}
+
 
 /* Card no 003  */
 
