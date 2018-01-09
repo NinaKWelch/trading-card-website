@@ -26,50 +26,51 @@ body {
 
 /* Card no 001  */
 
-#card-001 {
-	background-color: #fafbfc;
+#card-001.card {
+    background-color: #fafbfc;
     padding: 15px;
-	font-family: Verdana, Arial, sans-serif;
-	font-size: 14px;
-	color: #303030;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 14px;
+    color: #303030;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    border: 1px solid #dbe2e9;
+    border-radius: 7px;
 }
-#card-001 #card-title {
+#card-001 .card-title {
 	font-size: 1.5em;
 	text-transform: uppercase;
+    text-align: center;
 }
-#card-001 #card-info {
-  margin-top: 15px;
-  padding: 5px 15px;
-}
-#card-001 #card-intro {
-  font-size: 1.1em;
-	color: #90b4d6;
-}
-#card-001 #card-facts {
-	list-style: none;
-}
-#card-001 .align-left {
-	padding-left: 0;
-}
-#card-001 .align-center {
-	text-align: center;
-}
-#card-001 .text-bold {
-	font-weight: bold;
-}
-#card-001 .text-italic {
-	font-style: italic;
-}
-#card-001 .border-box {
-	box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
-}
-#card-001 .border-solid {
+#card-001 img.card-img {
 	border: 1px solid #dbe2e9;
 	border-radius: 7px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
 }
-#card-001 .divider {
+#card-001 .card-body {
+    margin-top: 15px;
+    padding: 5px 15px;
+    border: 1px solid #dbe2e9;
+	border-radius: 7px;
+}
+#card-001 .card-subtitle {
+    margin: 18px 0;
+    text-align: center;
+    font-size: 1.1em;
+    font-style: italic;
+    font-weight: normal;
+	color: #90b4d6;
 	border-bottom: 1px solid #dbe2e9;
-  padding-bottom: 18px;
+    padding-bottom: 18px;
+}
+
+#card-001 .list-group {
+	list-style: none;
+    padding-left: 0;
+    border-bottom: 1px solid #dbe2e9;
+    padding-bottom: 18px;
+}
+#card-001 .list-group span {
+	font-weight: bold;
 }
 
 
