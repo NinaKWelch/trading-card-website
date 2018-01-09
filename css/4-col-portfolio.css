@@ -21,3 +21,77 @@ body {
 .pagination {
   margin-bottom: 30px;
 }
+
+/* Styling for individual cards  */
+
+/* Card no 001  */
+
+#card-001 {
+	background-color: #fafbfc;
+    padding: 15px;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 14px;
+	color: #303030;
+}
+#card-001 #card-title {
+	font-size: 1.5em;
+	text-transform: uppercase;
+}
+#card-001 #card-info {
+  margin-top: 15px;
+  padding: 5px 15px;
+}
+#card-001 #card-intro {
+  font-size: 1.1em;
+	color: #90b4d6;
+}
+#card-001 #card-facts {
+	list-style: none;
+}
+#card-001 .align-left {
+	padding-left: 0;
+}
+#card-001 .align-center {
+	text-align: center;
+}
+#card-001 .text-bold {
+	font-weight: bold;
+}
+#card-001 .text-italic {
+	font-style: italic;
+}
+#card-001 .border-box {
+	box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+#card-001 .border-solid {
+	border: 1px solid #dbe2e9;
+	border-radius: 7px;
+}
+#card-001 .divider {
+	border-bottom: 1px solid #dbe2e9;
+  padding-bottom: 18px;
+}
+
+
+/* Card no 002  */
+
+
+/* Card no 003  */
+
+
+/* Card no 004  */
+
+
+/* Card no 005  */
+
+
+/* Card no 006  */
+
+
+/* Card no 007  */
+
+
+/* Card no 001  */
+
+
+/* Card no 001  */
