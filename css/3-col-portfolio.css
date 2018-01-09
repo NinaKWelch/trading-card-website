@@ -77,7 +77,7 @@ ul {
 #card-001 .card-title {
   margin: 18px;
 	font-size: 1.5em;
-  font-style: bold;
+  font-weight: bold;
 	text-transform: uppercase;
   text-align: center;
 }
