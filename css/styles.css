@@ -63,6 +63,55 @@ ul {
   margin-bottom: 0; /* changed */
 }
 
+
+/* Styling for emojis  */
+.em,.em-svg{
+  height:1.2em;
+  width:1.2em;
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:contain;
+  display:inline-block;
+  vertical-align: text-bottom;
+}
+
+
+/* Styling for contributor profiles  */
+
+#profiles {
+  margin-top: 3em;
+}
+
+#profiles .rounded-circle {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  margin-bottom: 1em;
+}
+
+#profiles h3 {
+  color: #90b4d6;
+  font-weight: normal;
+}
+#profiles h4 {
+  font-size: 1.2em;
+  color: #303030;
+  margin-bottom: 1.1em;
+}
+
+#profiles .btn-group {
+  margin-bottom: 2em;
+
+}
+
+/* Styling for social icons  */
+
+.social {
+  width: 2.2em;
+}
+.social path {
+  fill: #90b4d6;
+}
+
+
 /* Styling for individual cards  */
 
 /* Card no 001  */
