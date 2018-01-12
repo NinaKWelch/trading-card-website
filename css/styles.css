@@ -357,6 +357,57 @@ ul {
 
 /* Card no 003  */
 
+#card-003.card {
+  border: 1px solid #BEBEBE;
+  width:300px;
+  padding:10px;
+  background-color: #F0E68C;
+  box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.2)
+}
+
+#card-003 .card-title {
+  font-size: 1.3em;
+  margin: 1em 0;
+}
+
+#card-003 img.card-img {
+
+}
+
+#card-003 .card-body {
+  margin-top: 5px;
+  border:1px solid #D3D3D3;
+  padding: 25px 10px;
+  background-color: #f3eba5;
+  box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.2)
+}
+
+#card-003 .card-subtitle {
+    font-style: italic;
+    font-size: 0.9em;
+
+}
+
+#card-003 .card-list-group {
+  list-style-type: none;
+  padding-left: 3em;
+  margin: 1em 0;
+}
+
+#card-003 .card-list-group span {
+  font-weight: bold;
+}
+
+#card-003 .card-text {
+  font-size: 0.9em;
+
+}
+
+#card-003 .card-link {
+   display: none;
+}
+
+
 
 /* Card no 004  */
 
