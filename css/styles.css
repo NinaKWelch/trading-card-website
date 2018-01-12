@@ -219,13 +219,13 @@ ul {
 
 }
 
-#card-001 .card-link {
-
+#card-002 .card-link {
+  display: none;
 }
 
-/* Card no 002  */
+/* Sample Card no 100  */
 
-#card-002.card {
+#card-100.card {
   padding: 15px;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
@@ -235,7 +235,7 @@ ul {
   border-radius: 7px;
 }
 
-#card-002 .card-title {
+#card-100 .card-title {
   margin: 18px;
   font-size: 1.5em;
   font-weight: bold;
@@ -243,19 +243,19 @@ ul {
   text-align: center;
 }
 
-#card-002 img.card-img {
+#card-100 img.card-img {
   border: 1px solid #dbe2e9;
   border-radius: 7px;
 }
 
-#card-002 .card-body {
+#card-100 .card-body {
   margin-top: 18px;
   padding: 5px 15px;
   border: 1px solid #dbe2e9;
   border-radius: 7px;
 }
 
-#card-002 .card-subtitle {
+#card-100 .card-subtitle {
   margin: 18px 0;
   text-align: center;
   font-size: 1.4em;
@@ -264,29 +264,93 @@ ul {
   padding-bottom: 18px;
 }
 
-#card-002 .card-list-group {
+#card-100 .card-list-group {
   list-style: none;
   padding-left: 0;
   padding-bottom: 18px;
 }
 
-#card-002 .card-list-group span {
+#card-100 .card-list-group span {
   font-weight: bold;
 }
 
-#card-002 .card-text {
+#card-100 .card-text {
   padding: 18px 0;
 
 }
 
-#card-002 .card-link {
+#card-100 .card-link {
   text-align: right;
 }
 
-#card-002 .card-link a {
+#card-100 .card-link a {
 }
 
-#card-002 .card-link a:hover {
+#card-100 .card-link a:hover {
+}
+
+
+/* Card no 002  */
+
+#card-002.card {
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 6px #ccc;
+    background-image: url(https://s26.postimg.org/lpbpvvcxl/glitter_background.jpg);
+}
+
+#card-002 .card-title {
+    font-family: 'Lato', sans-serif;
+    padding-left: 5px;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.3em;
+    margin: 1em 0;
+}
+
+#card-002 img.card-img {
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+#card-002 .card-body {
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: #E0E0E0;
+}
+
+#card-002 .card-subtitle {
+    font-style: italic;
+    font-size: 0.8em;
+    margin: 1em 0;
+}
+
+#card-002 .card-list-group {
+    font-family: 'Catamaran', sans-serif;
+    font-size: small;
+    list-style-type: none;
+    display: block;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#card-002 .card-list-group span {
+    font-weight: bold;
+}
+
+#card-002 .card-text {
+    font-family: 'Catamaran', sans-serif;
+    font-size: small;
+    padding-left: 5px;
+    padding-right: 5px;
+        margin: 1em 0;
+}
+
+#card-002 .card-link {
+  display: none;
 }
 
 
