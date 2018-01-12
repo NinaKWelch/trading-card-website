@@ -5,26 +5,11 @@
 ## Resources
 
 This website uses the following resources:
-
-[![Start Bootstrap Templates](https://startbootstrap.com/assets/img/templates)]
-
-**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-bare/)**
-
-## Status
-
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-bare/master/LICENSE)
-[![npm version](https://img.shields.io/npm/v/startbootstrap-bare.svg)](https://www.npmjs.com/package/startbootstrap-bare)
-[![Build Status](https://travis-ci.org/BlackrockDigital/startbootstrap-bare.svg?branch=master)](https://travis-ci.org/BlackrockDigital/startbootstrap-bare)
-[![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-bare/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-bare)
-[![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-bare/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-bare?type=dev)
-
-## Download and Installation
-
-To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/bare/)
-* Install via npm: `npm i startbootstrap-bare`
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-bare.git`
-* [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-bare)
+* Hosting by [GitHub Pages](https://pages.github.com/)
+* Framework by [Bootstrap](https://github.com/twbs/bootstrap)
+* Templates by [Start Bootstrap](https://github.com/BlackrockDigital/startbootstrap)
+* Emojis by [Emoji CSS](https://afeld.github.io/emoji-css/)
+* Social Icons by [Simple Icons](https://github.com/simple-icons/simple-icons )
 
 ## Usage
 
