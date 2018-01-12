@@ -456,11 +456,80 @@ ul {
   font-size: 1em;
   margin-bottom: 10px;
 }
+
 #card-004 .card-link {
-display: none;
+  display: none;
 }
 
 /* Card no 005  */
+
+#card-005.card {
+ font-family: helvetica, sans-serif;
+  border: 1px solid rgb(197, 197, 197);
+  box-shadow: 10px 10px 31px 3px rgba(184,184,184,1);
+  padding: 0px 10px 10px 10px;
+  color: #ffffff;
+  text-align: justify;
+  border-radius: 7px;
+  background: -webkit-linear-gradient(left, #414166, #cc7474);
+  background: -o-linear-gradient(left, #414166, #cc7474);
+  background: linear-gradient(to right, #414166, #cc7474);
+}
+
+#card-005 .card-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 270%;
+  font-weight: 800;
+  margin: 18px 0px 10px 0px;
+}
+
+#card-005 img.card-img {
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: 1px solid #ffffff;
+}
+
+#card-005 .card-body {
+  border: 1px solid #ffffff;
+  padding: 15px 10px;
+  background:#414166;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 15px;
+  background: -webkit-linear-gradient(right, #303066, #cc6363);
+  background: -o-linear-gradient(right, #303066, #cc6363);
+  background: linear-gradient(to left, #303066, #cc6363);
+
+}
+
+#card-005 .card-subtitle {
+  font-style: italic;
+  font-size: 1em;
+}
+
+#card-005 .card-list-group {
+  list-style-type: none;
+  padding-left: 0px;
+  margin: 20px 0;
+}
+
+#card-005 .card-list-group span {
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 0.5em;
+}
+
+#card-005 .card-text {
+  padding-right: 10px;
+  line-height: 1.2em;
+
+}
+
+#card-005 .card-link {
+  display: none;
+}
+
 
 
 /* Card no 006  */
