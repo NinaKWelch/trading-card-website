@@ -17,6 +17,11 @@ This website uses the following resources:
 
 TBC
 
+## Ideas
+
+* Create a slider for displaying cards like [example 1](https://tympanus.net/Development/3DGallery/index.html) or like [example 1](http://www.maisengasse.at/home/) that looks different from typical carousels or sliders
+* Create maytbe different categories like cats, dogs, birds etc.
+
 ## Bugs and Issues
 
 * How to use SVG images so that their color can be chaged without adding all the code to the HTML page  
