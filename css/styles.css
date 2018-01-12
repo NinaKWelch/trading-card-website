@@ -316,6 +316,7 @@ ul {
 }
 
 #card-002 .card-body {
+    margin-top: 5px;
     padding: 5px;
     border: 1px solid white;
     border-radius: 10px;
