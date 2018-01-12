@@ -1,10 +1,12 @@
-# [Start Bootstrap - Bare](https://startbootstrap.com/template-overviews/bare/)
+# [Website - Animal Trading Cards](https://ninakwelch.github.io/trading-card-website/index.html#)
 
-[Bare](http://startbootstrap.com/template-overviews/bare/) is a bare HTML starter template for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This template features predefined file paths for Bootstrap and jQuery, so you can quickly create Bootstrap websites.
+[Trading Cards Website](https://ninakwelch.github.io/trading-card-website/index.html#) is a collaborative project for students of [Udacity Google Developer Challenge](https://www.udacity.com/google-scholarships) started by [Nina Welch](https://github.com/NinaKWelch). This template features predefined file paths for Bootstrap and jQuery, so you can quickly create Bootstrap websites.
 
-## Preview
+## Resources
 
-[![Bare Preview](https://startbootstrap.com/assets/img/templates/bare.jpg)](https://blackrockdigital.github.io/startbootstrap-bare/)
+This website uses the following resources:
+
+[![Start Bootstrap Templates](https://startbootstrap.com/assets/img/templates)]
 
 **[View Live Preview](https://blackrockdigital.github.io/startbootstrap-bare/)**
 
