@@ -369,6 +369,7 @@ ul {
 }
 
 #card-003 img.card-img {
+  background: white;
 
 }
 
@@ -381,8 +382,8 @@ ul {
 }
 
 #card-003 .card-subtitle {
-    font-style: italic;
-    font-size: 0.9em;
+  font-style: italic;
+  font-size: 0.9em;
 }
 
 #card-003 .card-list-group {
