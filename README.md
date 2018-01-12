@@ -19,7 +19,7 @@ TBC
 
 ## Ideas
 
-* Create a slider for displaying cards like [example 1](https://tympanus.net/Development/3DGallery/index.html) or like [example 1](http://www.maisengasse.at/home/) that looks different from typical carousels or sliders
+* Create a slider for displaying cards like [example 1](https://tympanus.net/Development/3DGallery/index.html) or like [example 2](http://www.maisengasse.at/home/) that looks different from typical carousels or sliders
 * Create maytbe different categories like cats, dogs, birds etc.
 
 ## Bugs and Issues
