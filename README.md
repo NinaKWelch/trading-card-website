@@ -11,39 +11,31 @@ This website uses the following resources:
 * Emojis by [Emoji CSS](https://afeld.github.io/emoji-css/)
 * Social Icons by [Simple Icons](https://github.com/simple-icons/simple-icons )
 
-## Usage
+## In Development
 
-### Basic Usage
+### Create a Pinterest style gallery for the cards
 
-After downloading, simply edit the HTML and CSS files included with the template in your favorite text editor to make changes. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
-
-### Advanced Usage
-
-After installation, run `npm install` and then run `gulp dev` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
+TBC
 
 ## Bugs and Issues
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-bare/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/bare/).
+* How to use SVG images so that their color can be chaged without adding all the code to the HTML page  
 
-## Custom Builds
+## Contributors
 
-You can hire Start Bootstrap to create a custom build of any template, or create something from scratch using Bootstrap. For more information, visit the **[custom design services page](https://startbootstrap.com/bootstrap-design-services/)**.
+* Nina Welch 
+many more to come...I hope
 
 ## About
 
-Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
+The project was inspired by all the wonderful [Animal Trading Cards](https://classroom.udacity.com/courses/ud304-emea/lessons/42d3d82e-6056-4162-9183-750d863c24f6/concepts/12cb8710-01aa-4c3f-9ed9-6c563cfddc7a)from the resourceful students at [Udacity Google Developer Challenge](https://www.udacity.com/google-scholarships). How amazing would it be, if we could see them all in one place!
 
-* https://startbootstrap.com
-* https://twitter.com/SBootstrap
+I would love all of you get involved. Simplest way to contribute is to submit your card and have it displayed on the home page. If you would like to contribute some ideas, all the better.
 
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
+For those who are dying to put their fresh javaScript skills to test - it would be soo fab to add some cool features. It’s a team effort!
 
-* http://davidmiller.io
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
-
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+To get things started, [let me know about your ideas](https://discussions.udacity.com/t/paw-prints-new-shared-project-for-everyone-to-take-part-in/523110) and what you’d like to do.
 
 ## Copyright and License
 
-Copyright 2013-2017 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-bare/blob/gh-pages/LICENSE) license.
+TBC
