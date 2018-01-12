@@ -83,8 +83,10 @@ ul {
 }
 
 #profiles .rounded-circle {
+   border: 1px solid #dbe2e9;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
   margin-bottom: 1em;
+
 }
 
 #profiles h3 {
@@ -110,6 +112,50 @@ ul {
   fill: #90b4d6;
 }
 
+
+/* Styling for About page  */
+
+
+#content h2 {
+  margin: 1em 0;
+}
+
+#banner .card-body {
+  padding: 3em 0 0 0;
+}
+
+#banner img {
+  margin: 2em 0;
+}
+#banner .btn-info {
+  background: #00ace6;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+#todo {
+  margin-top: 2em;
+}
+
+#todo .card {
+  height: 100%;
+
+}
+#todo .card-body {
+  background: #e9ecef;
+  padding: 2em 1em;
+  margin: 1.5em 0;
+ border-radius: 7px;
+}
+
+#todo ul {
+  margin: 1em 0;
+  list-style: none;
+
+}
+
+#list {
+  margin-bottom: 40px;
+}
 
 /* Styling for individual cards  */
 
