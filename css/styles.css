@@ -405,10 +405,60 @@ ul {
 }
 
 
-
-
 /* Card no 004  */
 
+
+#card-004.card {
+  font-family: 'Open Sans', sans-serif;
+  border: 1px solid #D3D3D3;
+  border-radius: 4px;
+  box-shadow: 7px 7px 7px #D3D3D3;
+}
+
+#card-004 .card-title {
+  margin: 20px;
+  padding-top: 5px;
+  letter-spacing: 1px;
+  font-size: 2em;
+  border-bottom: 1px dashed #D3D3D3;
+  border-top: 1px dashed #D3D3D3;
+}
+
+#card-004 img.card-img {
+  padding: 0px 20px;
+}
+
+#card-004 .card-body {
+  margin: 20px;
+  border: 1px solid #D3D3D3;
+  border-radius: 4px;
+  padding: 12px;
+  background-color: rgba(211,211,211,0.3);
+}
+
+#card-004 .card-subtitle {
+  font-style: italic;
+  font-size: 1.1em;
+  margin-top: 15px;
+}
+
+#card-004 .card-list-group {
+  list-style: none;
+  padding: 0;
+  margin: 15px 0;
+}
+
+#card-004 .card-list-group span {
+  font-weight: 800;
+}
+
+#card-004 .card-text {
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+#card-004 .card-link {
+display: none;
+}
 
 /* Card no 005  */
 
