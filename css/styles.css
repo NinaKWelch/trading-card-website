@@ -736,5 +736,67 @@ If you don't have a link, leave it as it is */
 
 /* Card no 009  */
 
+#card-009.card {
+  background-color:#3CB371;
+  border: dotted red;
+  border-radius: 20px;
+  box-shadow: 10px 29px 197px 35px rgba(0,0,0,0.75);
+  padding-bottom: 15px;
+  font-family: Arial;
+}
+
+#card-009 .card-title {
+  font-size: 2em;
+  padding: 20px 0;
+  margin: 1em 0;
+  text-align: center;
+  background-color: #255d00;
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+#card-009 .second-title {
+
+}
+
+#card-009 img.card-img {
+  padding: 3.5%;
+  margin-bottom: 20px;
+}
+
+#card-009 .card-body {
+  margin: 3.5%;
+  padding: 20px 3px;
+  background-color:#F08080;
+  border: groove #a8aba6;
+  box-shadow:  7px 11px 58px 2px rgba(0,0,0,0.75);
+}
+
+#card-009 .card-subtitle {
+  font-style: italic;
+  text-align: center;
+  font-size: 1em;
+
+}
+
+#card-009 .card-list-group {
+  list-style-type: none;
+  padding: 1.2em 0;
+  font-size: 0.9em;
+}
+
+#card-009 .card-list-group span {
+  font-weight: bold;
+  color: #8001ff;
+}
+
+#card-009 .card-text {
+  font-size: 0.9em;
+}
+
+#card-009 .card-link {
+ display: none;
+}
+
 
 /* Card no 010  */
