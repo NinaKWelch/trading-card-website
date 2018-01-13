@@ -678,6 +678,61 @@ If you don't have a link, leave it as it is */
 
 /* Card no 008  */
 
+#card-008.card {
+  border-style: solid 0.5px #DCDCDC;
+  padding: 1em;
+  font-family: "helvetica", "arial", sans-serif;
+  box-shadow: 4px 6px 5px #DCDCDC;
+}
+
+#card-008 .card-title {
+  padding: 0.5em 0;
+  font-weight: 700;
+}
+
+#card-008 .second-title {
+
+}
+
+#card-008 img.card-img {
+  border: solid 1px grey;
+}
+
+#card-008 .card-body {
+  border: solid;
+  border-color: #DCDCDC;
+  border-width: 0.5px;
+  padding: 0.5em;
+  margin-top: 5px;
+}
+
+#card-008 .card-subtitle {
+  font-size: 0.95em;
+  font-style: italic;
+  padding-top: 1em;
+}
+
+#card-008 .card-list-group {
+  margin: 1em 0;
+  padding: 0;
+  list-style-type: none;
+  font-size: 0.95em;
+  line-height: 1.2em;
+}
+
+#card-008 .card-list-group span {
+  font-weight: bold;
+}
+
+#card-008 .card-text {
+  font-size: 0.95em;
+  line-height: 1.2em;
+}
+
+#card-008 .card-link {
+ display: none;
+}
+
 
 /* Card no 009  */
 
