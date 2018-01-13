@@ -534,6 +534,74 @@ ul {
 /* Card no 006  */
 
 #card-006.card {
+  background-image: url("https://s5.postimg.org/x4gqozzfr/vector-repeating-whippet-dog-icon-pattern.jpg");
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+  padding: 10px 10px 10px 10px;
+  box-shadow: 6px 6px 3px #e6e6e6;
+  background-color: #595959;
+  font-family: Arapey;
+}
+
+#card-006 .card-title {
+  color: #f2f2f2;
+  font-size: 1.2em;
+  padding: 1em 0;
+}
+
+/* if you have a second line on the card title,
+use this class */
+#card-006 .second-title {
+
+}
+
+#card-006 img.card-img {
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+#card-006 .card-body {
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+  padding: 30px 10px 10px 10px;
+  background-color: #ffffff;
+  text-align: justify;
+}
+
+#card-006 .card-subtitle {
+  font-style: italic;
+  font-size: 1em;
+}
+
+#card-006 .card-list-group {
+  list-style-type: none;
+  font-size: 0.95em;
+  margin: 1.2em 0;
+  padding: 0;
+  line-height: 1.2em;
+}
+
+#card-006 .card-list-group span {
+  font-weight: bold;
+
+}
+
+#card-006 .card-text {
+    font-size: 0.95em;
+  line-height: 1.2em;
+}
+
+/* If you have a link in your card, add the syles here
+If you don't have a link, leave it as it is */
+#card-006 .card-link {
+ display: none;
+}
+
+
+/* Card no 007  */
+
+
+#card-007.card {
   font-family: "Arial";
   border-style: solid;
   border-color: #1e2f2f;
@@ -544,7 +612,7 @@ ul {
   padding: 18px;
 }
 
-#card-006 .card-title {
+#card-007 .card-title {
   margin-bottom: 1em;
   padding: 5px 0px 0px 20px;
   font-family: "Verdana";
@@ -553,13 +621,13 @@ ul {
   font-size: 1.3em;
   text-shadow: #adebeb 1px 0 10px;
 }
-#card-006 .card-sub-title {
+#card-007 .second-title {
   color: #476b6b;
   font-weight: 600;
   text-shadow: #051414 1px 0 10px;
 }
 
-#card-006 img.card-img {
+#card-007 img.card-img {
   margin-bottom: 15px;
   border-radius: 20px 20px 0px 0px;
   border-top-style: solid;
@@ -568,7 +636,7 @@ ul {
   box-shadow: -5px -5px 5px  #bcb9a9;
 }
 
-#card-006 .card-body {
+#card-007 .card-body {
   margin-bottom: 5px;
   padding: 20px 10px;
   background-color:  #476b6b;
@@ -579,24 +647,24 @@ ul {
   box-shadow: -5px 5px 5px #9b977d;
 }
 
-#card-006 .card-subtitle {
+#card-007 .card-subtitle {
   font-style: italic;
   color: #bcb9a9;
   font-size: 1em;
 }
 
-#card-006 .card-list-group {
+#card-007 .card-list-group {
   list-style-type: none;
   padding: 20px 0;
   line-height: 1.1em;
 }
 
-#card-006 .card-list-group span {
+#card-007 .card-list-group span {
   font-weight: bold;
   text-align: left;
 }
 
-#card-006 .card-text {
+#card-007 .card-text {
   color: #051414;
   text-align: justify;
   font-size: 1em;
@@ -604,14 +672,9 @@ ul {
   padding: 5px;
 }
 
-#card-006 .card-link {
+#card-007 .card-link {
  display: none;
 }
-
-
-
-/* Card no 007  */
-
 
 /* Card no 008  */
 
