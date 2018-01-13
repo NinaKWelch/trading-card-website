@@ -531,8 +531,83 @@ ul {
 }
 
 
-
 /* Card no 006  */
+
+#card-006.card {
+  font-family: "Arial";
+  border-style: solid;
+  border-color: #1e2f2f;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #333333;
+  background-clip: border-box;
+  background-color: #1e2f2f;
+  padding: 18px;
+}
+
+#card-006 .card-title {
+  margin-bottom: 1em;
+  padding: 5px 0px 0px 20px;
+  font-family: "Verdana";
+  font-weight: 700;
+  color: #051414;
+  font-size: 1.3em;
+  text-shadow: #adebeb 1px 0 10px;
+}
+#card-006 .card-sub-title {
+  color: #476b6b;
+  font-weight: 600;
+  text-shadow: #051414 1px 0 10px;
+}
+
+#card-006 img.card-img {
+  margin-bottom: 15px;
+  border-radius: 20px 20px 0px 0px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-color: #334d4d;
+  box-shadow: -5px -5px 5px  #bcb9a9;
+}
+
+#card-006 .card-body {
+  margin-bottom: 5px;
+  padding: 20px 10px;
+  background-color:  #476b6b;
+  border-radius: 0px 0px 10px 10px;
+  border-bottom-style: solid;
+  border-right-style: solid;
+  border-color: #334d4d;
+  box-shadow: -5px 5px 5px #9b977d;
+}
+
+#card-006 .card-subtitle {
+  font-style: italic;
+  color: #bcb9a9;
+  font-size: 1em;
+}
+
+#card-006 .card-list-group {
+  list-style-type: none;
+  padding: 20px 0;
+  line-height: 1.1em;
+}
+
+#card-006 .card-list-group span {
+  font-weight: bold;
+  text-align: left;
+}
+
+#card-006 .card-text {
+  color: #051414;
+  text-align: justify;
+  font-size: 1em;
+  line-height: 1.1em;
+  padding: 5px;
+}
+
+#card-006 .card-link {
+ display: none;
+}
+
 
 
 /* Card no 007  */
