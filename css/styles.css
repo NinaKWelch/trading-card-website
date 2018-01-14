@@ -24,7 +24,6 @@ body {
 
 
 /* Bootstrap Card styling overide */
-
 .card {
   background-color: #fff;
   background-clip: border-box;
@@ -65,7 +64,6 @@ ul {
 
 
 /* Number of columns for different screen widths */
-
 @media (min-width: 576px) {
     .card-columns {
         -webkit-column-count: 1;
@@ -103,8 +101,7 @@ ul {
 }
 
 
-/* Styling for contributor profiles  */
-
+/* CONTRIBUTORS PAGE  */
 #profiles {
   margin-top: 3em;
 }
@@ -130,8 +127,8 @@ ul {
   margin-bottom: 2em;
 }
 
-/* Styling for social icons  */
 
+/* Styling for social icons  */
 .social {
   width: 2.2em;
 }
@@ -140,9 +137,7 @@ ul {
 }
 
 
-/* Styling for About page  */
-
-
+/* ABOUT PAGE  */
 #content h2 {
   margin: 1em 0;
 }
@@ -184,6 +179,7 @@ ul {
   margin-bottom: 40px;
 }
 
+/* HOMEPAGE */
 /* Styling for individual cards  */
 
 /* Card no 001  */
@@ -384,6 +380,7 @@ ul {
 
 
 /* Card no 003  */
+
 #card-003.card {
   border: 1px solid #BEBEBE;
   padding:10px;
@@ -398,7 +395,6 @@ ul {
 
 #card-003 img.card-img {
   background: white;
-
 }
 
 #card-003 .card-body {
@@ -492,7 +488,7 @@ ul {
 /* Card no 005  */
 
 #card-005.card {
- font-family: helvetica, sans-serif;
+  font-family: helvetica, sans-serif;
   border: 1px solid rgb(197, 197, 197);
   box-shadow: 10px 10px 31px 3px rgba(184,184,184,1);
   padding: 0px 10px 10px 10px;
@@ -577,8 +573,6 @@ ul {
   padding: 1em 0;
 }
 
-/* if you have a second line on the card title,
-use this class */
 #card-006 .second-title {
 
 }
@@ -619,8 +613,6 @@ use this class */
   line-height: 1.2em;
 }
 
-/* If you have a link in your card, add the syles here
-If you don't have a link, leave it as it is */
 #card-006 .card-link {
  display: none;
 }
@@ -768,7 +760,7 @@ If you don't have a link, leave it as it is */
   background-color:#3CB371;
   border: dotted red;
   border-radius: 20px;
-  box-shadow: 10px 29px 197px 35px rgba(0,0,0,0.75);
+  box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.75);
   font-family: Arial;
 }
 
@@ -830,7 +822,7 @@ If you don't have a link, leave it as it is */
   font-size: 14px;
   text-align: justify;
   background-color: #778344;
-  border:2px dashed white;
+  border: 2px dashed white;
   border-radius: 4px;
   padding: 10px 10px 10px 10px;
 }
@@ -907,7 +899,6 @@ If you don't have a link, leave it as it is */
   font-size: 15px;
   box-shadow: 5px 4px 4px gray;
   border: 1px solid silver;
-  margin: 0;
   border-radius: 5px;
   font-family: "Source Sans Pro", sans-serif;
   padding: 10px;
@@ -969,3 +960,22 @@ If you don't have a link, leave it as it is */
 
 
 /* Card no 013  */
+
+
+
+
+
+/* Making any card linkable without changing the styling */
+
+.card-switch {
+color: inherit;
+text-decoration: none;
+}
+
+.card-switch:hover {
+color: inherit;
+text-decoration: none;
+}
+
+
+
