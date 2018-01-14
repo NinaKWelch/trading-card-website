@@ -64,6 +64,33 @@ ul {
 }
 
 
+/* Number of columns for different screen widths */
+
+@media (min-width: 576px) {
+    .card-columns {
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+    }
+}
+
+@media (min-width: 768px) {
+    .card-columns {
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+    }
+}
+
+@media (min-width: 992px) {
+    .card-columns {
+        -webkit-column-count: 3;
+        -moz-column-count: 3;
+        column-count: 3;
+    }
+}
+
+
 /* Styling for emojis  */
 .em,.em-svg{
   height:1.2em;
@@ -233,6 +260,7 @@ ul {
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
   border: 1px solid #dbe2e9;
   border-radius: 7px;
+  margin-top: 15px;
 }
 
 #card-100 .card-title {
@@ -879,7 +907,7 @@ If you don't have a link, leave it as it is */
   font-size: 15px;
   box-shadow: 5px 4px 4px gray;
   border: 1px solid silver;
-  margin: 3px 10px;
+  margin: 0;
   border-radius: 5px;
   font-family: "Source Sans Pro", sans-serif;
   padding: 10px;
