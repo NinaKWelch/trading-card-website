@@ -797,6 +797,82 @@ If you don't have a link, leave it as it is */
 
 /* Card no 010  */
 
+#card-010.card {
+  font-family: opens-sans, sans-serif;
+  font-size: 14px;
+  text-align: justify;
+  background-color: #778344;
+  border:2px dashed white;
+  border-radius: 4px;
+  padding: 10px 10px 10px 10px;
+}
+
+#card-010 .card-title {
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  font-size: 1.3em;
+  padding: 15px 0;
+}
+
+#card-010 .second-title {
+
+}
+
+#card-010 img.card-img {
+  border-radius: 4px;
+  margin: 10px 0 15px 0;
+}
+
+#card-010 .card-body {
+  box-sizing: border-box;
+  border-radius: 3px;
+  padding: 26px 10px 6px 10px;
+  background-color: #cfd6cd;
+}
+
+#card-010 .card-subtitle {
+  font-style: italic;
+  font-size: 1em;
+  padding-bottom: 13px;
+}
+
+#card-010 .card-list-group {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  line-height: 1.2em;
+}
+#card-010 .card-list-group:before {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 90%;
+  padding-bottom: 7px;
+  border-top: 1px solid #000;
+}
+#card-010 .card-list-group:after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 90%;
+  padding-top: 7px;
+  border-bottom: 1px solid #000;
+}
+
+#card-010 .card-list-group span {
+  font-weight: bold;
+}
+
+#card-010 .card-text {
+  padding-top: 13px;
+  line-height: 1.2em;
+}
+
+#card-010 .card-link {
+ display: none;
+}
+
 
 /* Card no 011  */
 
