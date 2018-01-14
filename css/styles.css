@@ -873,8 +873,68 @@ If you don't have a link, leave it as it is */
  display: none;
 }
 
-
 /* Card no 011  */
+
+#card-011.card {
+  font-size: 15px;
+  box-shadow: 5px 4px 4px gray;
+  border: 1px solid silver;
+  margin: 3px 10px;
+  border-radius: 5px;
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 10px;
+  text-align: justify;
+}
+
+#card-011 .card-title {
+  font-family: "Dancing Script", cursive;
+  letter-spacing: 5px;
+  text-align: center;
+  padding: 15px 0 5px 0;
+}
+
+#card-011 .second-title {
+
+}
+
+#card-011 img.card-img {
+  border: 1px solid silver;
+  border-radius: 5px;
+}
+
+#card-011 .card-body {
+  margin-top: 10px;
+  border: 1px solid silver;
+  border-radius: 5px;
+  padding: 15px 10px;
+}
+
+#card-011 .card-subtitle {
+  font-style: italic;
+  font-size: 1em;
+  text-indent: 20px;
+}
+
+#card-011 .card-list-group {
+  list-style-type: none;
+  margin: 0;
+  padding: 15px 0;
+  line-height: 1.2em;
+}
+
+#card-011 .card-list-group span {
+  font-weight: bold;
+  padding-right: 5px;
+}
+
+#card-011 .card-text {
+  text-indent: 20px;
+  line-height: 1.2em;
+}
+
+#card-100 .card-link {
+ display: none;
+}
 
 
 /* Card no 012  */
