@@ -741,13 +741,12 @@ If you don't have a link, leave it as it is */
   border: dotted red;
   border-radius: 20px;
   box-shadow: 10px 29px 197px 35px rgba(0,0,0,0.75);
-  padding-bottom: 15px;
   font-family: Arial;
 }
 
 #card-009 .card-title {
   font-size: 2em;
-  padding: 20px 0;
+  padding: 0.7em 0;
   margin: 1em 0;
   text-align: center;
   background-color: #255d00;
@@ -760,12 +759,11 @@ If you don't have a link, leave it as it is */
 }
 
 #card-009 img.card-img {
-  padding: 3.5%;
-  margin-bottom: 20px;
+  padding: 0 20px;
 }
 
 #card-009 .card-body {
-  margin: 3.5%;
+  margin: 20px;
   padding: 20px 3px;
   background-color:#F08080;
   border: groove #a8aba6;
@@ -776,13 +774,12 @@ If you don't have a link, leave it as it is */
   font-style: italic;
   text-align: center;
   font-size: 1em;
-
 }
 
 #card-009 .card-list-group {
   list-style-type: none;
-  padding: 1.2em 0;
   font-size: 0.9em;
+  padding: 20px 0;
 }
 
 #card-009 .card-list-group span {
@@ -798,5 +795,13 @@ If you don't have a link, leave it as it is */
  display: none;
 }
 
-
 /* Card no 010  */
+
+
+/* Card no 011  */
+
+
+/* Card no 012  */
+
+
+/* Card no 013  */
