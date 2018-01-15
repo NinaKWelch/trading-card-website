@@ -60,6 +60,10 @@ ul {
 
 
 /* Number of columns for different screen widths */
+.card-columns {
+    -moz-column-gap: 2rem;
+    column-gap: 2rem;
+}
 @media (min-width: 576px) {
     .card-columns {
         -webkit-column-count: 1;
@@ -487,7 +491,7 @@ ul {
 #card-005.card {
   font-family: helvetica, sans-serif;
   border: 1px solid rgb(197, 197, 197);
-  box-shadow: 10px 10px 31px 3px rgba(184,184,184,1);
+  box-shadow: 3px 3px 10px 1px rgba(184,184,184,1);
   padding: 0px 10px 10px 10px;
   color: #ffffff;
   text-align: justify;
@@ -757,7 +761,7 @@ ul {
   background-color:#3CB371;
   border: dotted red;
   border-radius: 20px;
-  box-shadow: 10px 29px 197px 35px rgba(0,0,0,0.75);
+  box-shadow: 3px 7px 7px 7px rgba(0,0,0,0.75);
   font-family: Arial;
 }
 

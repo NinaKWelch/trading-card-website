@@ -1,6 +1,6 @@
 # [Website - Animal Trading Cards](https://ninakwelch.github.io/trading-card-website/index.html#)
 
-[Trading Cards Website](https://ninakwelch.github.io/trading-card-website/index.html#) is a collaborative project for students of [Udacity Google Developer Challenge](https://www.udacity.com/google-scholarships) started by [Nina Welch](https://github.com/NinaKWelch). 
+[Trading Cards Website](https://ninakwelch.github.io/trading-card-website/index.html#) is a collaborative project for students of [Udacity Google Developer Challenge](https://www.udacity.com/google-scholarships) started by [Nina Welch](https://github.com/NinaKWelch).
 
 ## Resources
 
@@ -24,7 +24,8 @@ TBC
 
 ## Bugs and Issues
 
-* How to use SVG images so that their color can be chaged without adding all the code to the HTML page  
+* How to use SVG images so that their color can be chaged without adding all the code to the HTML page
+* All major browsers except Firefox currently clip your .absolute-content to the boundaries of the column it's within. [link1](https://github.com/twbs/bootstrap/issues/20161) - maybe use flexbox instead?
 
 ## Contributors
 
