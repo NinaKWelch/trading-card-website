@@ -25,7 +25,7 @@ TBC
 ## Bugs and Issues
 
 * How to use SVG images so that their color can be chaged without adding all the code to the HTML page
-* All major browsers except Firefox currently clip your .absolute-content to the boundaries of the column it's within. [link1](https://github.com/twbs/bootstrap/issues/20161) - maybe use flexbox instead?
+* All major browsers except Firefox currently clip your .absolute-content to the boundaries of the column it's within when using Bootstrap card-columns class. [link1](https://github.com/twbs/bootstrap/issues/20161) - maybe use flexbox instead?
 
 ## Contributors
 
