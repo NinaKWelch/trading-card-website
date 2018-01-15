@@ -20,6 +20,7 @@ body {
   background-clip: border-box;
   border: none; /* changed */
   border-radius: 0; /* changed */
+  margin-top: 1em;
 }
 
 .card-body {
