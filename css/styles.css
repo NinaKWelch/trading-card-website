@@ -14,13 +14,9 @@ body {
   }
 }
 
-.portfolio-item {
+/* .pagination {
   margin-bottom: 30px;
-}
-
-.pagination {
-  margin-bottom: 30px;
-}
+} */
 
 
 /* Bootstrap Card styling overide */
@@ -761,7 +757,7 @@ ul {
   background-color:#3CB371;
   border: dotted red;
   border-radius: 20px;
-  box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.75);
+  box-shadow: 10px 29px 197px 35px rgba(0,0,0,0.75);
   font-family: Arial;
 }
 
