@@ -147,33 +147,20 @@ ul {
 }
 #banner .btn-info {
   background: #00ace6;
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
 }
 
 #todo {
-  margin-top: 2em;
+  margin: 2em 0 3em 0;
 }
 
 #todo .card {
   height: 100%;
-
-}
-#todo .card-body {
-  background: #e9ecef;
-  padding: 2em 1em;
-  margin: 1.5em 0;
- border-radius: 7px;
+  border: 1px solid #00ace6;
+  border-radius: 7px;
+  margin-bottom: 10px;
 }
 
-#todo ul {
-  margin: 1em 0;
-  list-style: none;
-
-}
-
-#list {
-  margin-bottom: 40px;
-}
 
 /* HOMEPAGE */
 
