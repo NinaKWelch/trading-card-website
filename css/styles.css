@@ -138,13 +138,14 @@ ul {
   margin: 1em 0;
 }
 
-#banner .card-body {
+#banner .card-block {
   padding: 3em 0 0 0;
 }
 
 #banner img {
   margin: 2em 0;
 }
+
 #banner .btn-info {
   background: #00ace6;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
