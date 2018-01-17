@@ -13,14 +13,16 @@ This website uses the following resources:
 
 ## In Development
 
-### Create a Pinterest style gallery for the cards
+### Pinterest style gallery for the cards
 
-TBC
+Current layout uses [Bootstrap](https://getbootstrap.com/docs/4.0/components/card/) card-columns. 
+There is an issue with box-shadow property: if box-shadow is wide it gets cropped on all other browsers apart from Firefox.
+Maybe flexbox is a better option? To be explored...
 
 ## Ideas
 
 * Create a slider for displaying cards like [example 1](https://tympanus.net/Development/3DGallery/index.html) or like [example 2](http://www.maisengasse.at/home/) that looks different from typical carousels or sliders
-* Create maytbe different categories like cats, dogs, birds etc.
+* Create different categories like cats, dogs, birds etc.
 
 ## Bugs and Issues
 
