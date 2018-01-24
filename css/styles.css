@@ -355,7 +355,7 @@ ul {
     font-size: small;
     padding-left: 5px;
     padding-right: 5px;
-        margin: 1em 0;
+    margin: 1em 0;
 }
 
 #card-002 .card-link {
@@ -1082,7 +1082,6 @@ ul {
 }
 
 #card-014 .second-title {
-
 }
 
 #card-014 img.card-img {
@@ -1111,16 +1110,13 @@ ul {
   padding: 20px 0;
   list-style-type: none;
   padding-left: 30px;
-
 }
 
 #card-014 .card-list-group span {
   font-weight: bold;
-
 }
 
 #card-014 .card-text {
-
 }
 
 #card-014 .card-link {
@@ -1129,7 +1125,6 @@ ul {
 
 
 /* Card no 015  */
-
 #card-015.card {
   font-family: 'Lato', sans-serif;
   font-size: 16px;
@@ -1150,7 +1145,6 @@ ul {
 }
 
 #card-015 .second-title {
-
 }
 
 #card-015 img.card-img {
@@ -1195,10 +1189,254 @@ ul {
 
 
 /* Card no 016  */
+#card-016.card {
+  font-family: sans-serif;
+
+  border: large grey;
+  border-style: inset;
+  padding:20px;
+  border-radius:20px;
+}
+
+#card-016 .card-title {
+  padding: ;
+  font-size: 1.4em;
+  font-weight: 600;
+}
+
+#card-016 .second-title {
+}
+
+#card-016 img.card-img {
+}
+
+#card-016 .card-body {
+  font-family: serif;
+  line-height: 1.2em;
+}
+
+#card-016 .card-subtitle {
+  font-size: 1.1em;
+  font-style: italic;
+}
+
+#card-016 .card-list-group {
+  list-style-type: none;
+  padding: 0px;
+  font-size: 1.1em;
+}
+
+#card-016 .card-list-group span {
+  font-weight: bold;
+  font-family: serif;
+  font:bold;
+}
+
+#card-016 .card-text {
+}
+
+#card-016 .card-link {
+ display: none;
+}
 
 
+/* Card no 017  */
+#card-017.card {
+  font-family: serif;
+  border-style: solid;
+  border-width: thin;
+  box-shadow: 10px 10px 10px 0px;
+  padding: 10px;
+}
+
+#card-017 .card-title {
+  font-size: 1.8em;
+  font-weight: 600;
+  padding: 0.8em 0;
+  text-align: center;
+}
+
+#card-017 .second-title {
+}
+
+#card-017 img.card-img {
+  border-style: solid;
+  border-width: thin;
+}
+
+#card-017 .card-body {
+  padding: 20px 0 15px 0;
+  font-size: 1.1em;
+  line-height: 1.2em;
+  margin-top: 15px;
+  border-style: solid;
+  border-width: thin;
+}
+
+#card-017 .card-subtitle {
+  font-size: 1em;
+  font-style: italic;
+}
+
+#card-017 .card-list-group {
+  padding: 15px 0 15px 40px;
+  list-style-type: none;
+}
+
+#card-017 .card-list-group span {
+  font-weight: bold;
+}
+
+#card-017 .card-text {
+}
+
+#card-017 .card-link {
+ display: none;
+}
 
 
+/* Card no 018  */
+#card-018.card {
+  font-family: serif;
+  border: 1px solid #AAAAAA;
+  padding: 10px;
+  box-shadow: 3px 3px 5px 6px #ccc;
+}
+
+#card-018 .card-title {
+  padding: 1em 0;
+  font-size: 1.3em;
+  font-weight: 600;
+}
+
+#card-018 .second-title {
+}
+
+#card-018 img.card-img {
+}
+
+#card-018 .card-body {
+  padding: 25px 5px 20px 5px;
+  font-size: 1.1em;
+  line-height: 1.2em;
+  border: 1px solid #AAAAAA;
+  margin-top: 15px;
+}
+
+#card-018 .card-subtitle {
+  font-size: 1em;
+  font-style: italic;
+}
+
+#card-018 .card-list-group {
+  padding: 20px 0;
+  list-style: none;
+  padding-left: 0;
+}
+
+#card-018 .card-list-group span {
+  font-weight: bold;
+}
+
+#card-018 .card-text {
+  text-align: justify;
+}
+
+#card-018 .card-link {
+ display none;
+}
+
+
+/* Card no 019  */
+#card-019.card {
+  font-family: 'Roboto', sans-serif;
+  color: rgb(250, 250, 250);
+  display: inline-block;
+  padding: 16px 22px 22px 22px;
+  background-color: rgb(241, 241, 241);
+  background-image: url("http://u.hgtm.de/gfewd-pj2-animal-trading-card/underwater.png");
+  background-size: cover;
+  border: 2px solid rgb(39, 46, 44);
+  border-radius: 22px;
+  box-shadow: 6px 6px 22px rgb(177, 177, 177);
+}
+
+#card-019 .card-title {
+  font-family: 'Bangers', cursive;
+  font-size: 45px;
+  letter-spacing: 1.2px;
+  text-shadow: 2px 2px 8px #000000;
+  text-align: center;
+  margin: 0px 0px 12px 0px;
+  text-transform: uppercase;
+  padding: ;
+  font-size: ;
+}
+
+#card-019 .second-title {
+}
+
+#card-019 img.card-img {
+  margin: 0px;
+  border: 1px solid rgba(39, 46, 44, 0.4);
+  border-radius: 12px 12px 0px 0px;
+  box-shadow: 0px 0px 14px rgba(153, 194, 186, 0.2);
+}
+
+#card-019 .card-body {
+  line-height: 1.3;
+  font-size: 15px;
+  margin-top: -5px;
+  padding: 14px;
+  background-color: rgba(0, 0, 0, 0.42);
+  border: 1px solid rgba(39, 46, 44, 0.4);
+  border-radius: 0px 0px 12px 12px;
+  box-shadow: 0px 0px 14px rgba(153, 194, 186, 0.2);
+  padding: ;
+  font-size: ;
+  line-height: ;
+}
+
+#card-019 .card-subtitle {
+  font-size: 15px;
+  font-style: italic;
+  padding-top: 10px
+}
+
+#card-019 .card-list-group {
+  padding: 20px 0;
+  list-style-type: none;
+  text-align: right;
+}
+
+#card-019 li:nth-child(odd) {
+  background-color: rgba(0, 0, 0, 0.42);
+  padding: 4px 6px;
+}
+
+#card-019 li:nth-child(even) {
+  background-color: rgba(125, 125, 125, 0.42);
+  padding: 4px 6px;
+}
+
+#card-019 .card-list-group span {
+  font-weight: bold;
+  float: left;
+}
+
+#card-019 .card-text {
+  margin: 1px;
+  text-align: justify;
+}
+
+#card-019 .card-link {
+ display: none;
+}
+
+
+/* Card no 020  */
+
+/* Card no 021  */
 
 /* Making any card linkable without changing the styling */
 
