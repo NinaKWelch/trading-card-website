@@ -76,8 +76,12 @@
     <!-- Cards -->
     <div class="card-columns">
 
+      <div>
+        <a href="#" onclick="reset();">RESET CARD STYLES</a>
+      </div>
+
       <div id="card-001" class="card mb-4">
-        <a class="card-switch" href="card_001.html">
+        <a class="card-switch" href="#" onclick="processClicks(1);">
           <h2 class="card-title">Sea Otter</h2>
           <img class="card-img" src="http://res.cloudinary.com/ninaw/image/upload/v1511278408/Sea_Otter_hrsztz.jpg" alt="Otter spalshing around in water">
           <div class="card-body">
@@ -436,7 +440,7 @@
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
-  <script> $( "[id^='card-']" ).attr('class', 'style1');</script>
+  <script src="cards.js"></script>
 
 
 

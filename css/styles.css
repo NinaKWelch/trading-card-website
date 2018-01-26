@@ -1437,7 +1437,7 @@ ul {
 /* Card no 020  */
 #card-020.card {
   font-family:'Rosarivo', serif;
-  background: url('https://image.ibb.co/jiLKHb/card_bg.jpg') no-repeat 0 0;
+  background-image: url("http://res.cloudinary.com/ninaw/image/upload/v1516990043/card-bg-bigger_wsz3e1.jpg");
   border-top: 4px solid #3c364e;
   border-right: 5px solid #3c364e;
   border-bottom: 7px solid #3c364e;
