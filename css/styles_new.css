@@ -233,6 +233,73 @@ ul {
 
 
 /* Sample Card no 100  */
+
+.style1 {
+  padding: 15px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #303030;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  border: 1px solid #dbe2e9;
+  border-radius: 7px;
+  margin-top: 15px;
+}
+
+.style1 .card-title {
+  margin: 2px;
+  font-size: 20em;
+  font-weight: bold;
+  text-transform: lowercase;
+  text-align: center;
+  color: pink;
+}
+
+.style1 img.card-img {
+  border: 1px solid #dbe2e9;
+  border-radius: 7px;
+}
+
+.style1 .card-body {
+  margin-top: 18px;
+  padding: 5px 15px;
+  border: 1px solid #dbe2e9;
+  border-radius: 7px;
+}
+
+.style1 .card-subtitle {
+  margin: 18px 0;
+  text-align: center;
+  font-size: 1.4em;
+  font-style: italic;
+  font-weight: bold;
+  padding-bottom: 18px;
+}
+
+.style1 .card-list-group {
+  list-style: none;
+  padding-left: 0;
+  padding-bottom: 18px;
+}
+
+.style1 .card-list-group span {
+  font-weight: bold;
+}
+
+.style1 .card-text {
+  padding: 18px 0;
+
+}
+
+.style1 .card-link {
+  text-align: right;
+}
+
+.style1 .card-link a {
+}
+
+.style1 .card-link a:hover {
+}
+
 #card-100.card {
   padding: 15px;
   font-family: Helvetica, Arial, sans-serif;
@@ -1434,7 +1501,6 @@ ul {
 }
 
 
-/* Card no 020  */
 /* Card no 020  */
 #card-020.card {
   font-family:'Rosarivo', serif;
