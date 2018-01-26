@@ -84,6 +84,14 @@ ul {
     }
 }
 
+@media (min-width: 1200px) {
+    .card-columns {
+        -webkit-column-count: 3;
+        -moz-column-count: 3;
+        column-count: 3;
+    }
+}
+
 @media (min-width: 1536px) {
     .card-columns {
         -webkit-column-count: 4;
