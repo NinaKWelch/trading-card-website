@@ -84,7 +84,7 @@ ul {
     }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1536px) {
     .card-columns {
         -webkit-column-count: 4;
         -moz-column-count: 4;
