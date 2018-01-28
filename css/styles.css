@@ -84,15 +84,11 @@ ul {
     }
 }
 
-@media (min-width: 1200px) {
-    .card-columns {
-        -webkit-column-count: 3;
-        -moz-column-count: 3;
-        column-count: 3;
-    }
-}
 
-@media (min-width: 1536px) {
+@media (min-width: 1500px) {
+    .container {
+      max-width: 1400px;
+    }
     .card-columns {
         -webkit-column-count: 4;
         -moz-column-count: 4;
@@ -184,73 +180,8 @@ ul {
 
 /* Styling for individual cards  */
 
-
-/* Card no 001  */
-#card-001.card {
-  background-color: #fafbfc;
-  padding: 15px;
-  font-family: Verdana, Arial, sans-serif;
-  font-size: 14px;
-  color: #303030;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
-  border: 1px solid #dbe2e9;
-  border-radius: 7px;
-}
-
-#card-001 .card-title {
-  margin: 18px;
-	font-size: 1.5em;
-  font-weight: bold;
-	text-transform: uppercase;
-  text-align: center;
-}
-
-#card-001 img.card-img {
-	border: 1px solid #dbe2e9;
-	border-radius: 7px;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
-}
-
-#card-001 .card-body {
-  margin-top: 18px;
-  padding: 5px 15px;
-  border: 1px solid #dbe2e9;
-	border-radius: 7px;
-}
-
-#card-001 .card-subtitle {
-  margin: 18px 0;
-  text-align: center;
-  font-size: 1.1em;
-  font-style: italic;
-	color: #90b4d6;
-	border-bottom: 1px solid #dbe2e9;
-  padding-bottom: 18px;
-}
-
-#card-001 .card-list-group {
-	list-style: none;
-  padding-left: 0;
-  border-bottom: 1px solid #dbe2e9;
-  padding-bottom: 18px;
-}
-
-#card-001 .card-list-group span {
-	font-weight: bold;
-}
-
-#card-001 .card-text {
-  padding: 18px 0;
-
-}
-
-#card-002 .card-link {
-  display: none;
-}
-
-
 /* Sample Card no 100  */
-#card-100.card {
+.style100 {
   padding: 15px;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
@@ -261,7 +192,7 @@ ul {
   margin-top: 15px;
 }
 
-#card-100 .card-title {
+.style100 .card-title {
   margin: 18px;
   font-size: 1.5em;
   font-weight: bold;
@@ -269,19 +200,19 @@ ul {
   text-align: center;
 }
 
-#card-100 img.card-img {
+.style100 img.card-img {
   border: 1px solid #dbe2e9;
   border-radius: 7px;
 }
 
-#card-100 .card-body {
+.style100 .card-body {
   margin-top: 18px;
   padding: 5px 15px;
   border: 1px solid #dbe2e9;
   border-radius: 7px;
 }
 
-#card-100 .card-subtitle {
+.style100 .card-subtitle {
   margin: 18px 0;
   text-align: center;
   font-size: 1.4em;
@@ -290,34 +221,98 @@ ul {
   padding-bottom: 18px;
 }
 
-#card-100 .card-list-group {
+.style100 .card-list-group {
   list-style: none;
   padding-left: 0;
   padding-bottom: 18px;
 }
 
-#card-100 .card-list-group span {
+.style100 .card-list-group span {
   font-weight: bold;
 }
 
-#card-100 .card-text {
+.style100 .card-text {
   padding: 18px 0;
 
 }
 
-#card-100 .card-link {
+.style100 .card-link {
   text-align: right;
 }
 
-#card-100 .card-link a {
+.style100 .card-link a {
 }
 
-#card-100 .card-link a:hover {
+.style100 .card-link a:hover {
 }
 
 
-/* Card no 002  */
-#card-002.card {
+/* Card no 1  */
+.style1 {
+  background-color: #fafbfc;
+  padding: 15px;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 14px;
+  color: #303030;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  border: 1px solid #dbe2e9;
+  border-radius: 7px;
+}
+
+.style1 .card-title {
+  margin: 18px;
+	font-size: 1.5em;
+  font-weight: bold;
+	text-transform: uppercase;
+  text-align: center;
+}
+
+.style1 img.card-img {
+	border: 1px solid #dbe2e9;
+	border-radius: 7px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+.style1 .card-body {
+  margin-top: 18px;
+  padding: 5px 15px;
+  border: 1px solid #dbe2e9;
+	border-radius: 7px;
+}
+
+.style1 .card-subtitle {
+  margin: 18px 0;
+  text-align: center;
+  font-size: 1.1em;
+  font-style: italic;
+	color: #90b4d6;
+	border-bottom: 1px solid #dbe2e9;
+  padding-bottom: 18px;
+}
+
+.style1 .card-list-group {
+	list-style: none;
+  padding-left: 0;
+  border-bottom: 1px solid #dbe2e9;
+  padding-bottom: 18px;
+}
+
+.style1 .card-list-group span {
+	font-weight: bold;
+}
+
+.style1 .card-text {
+  padding: 18px 0;
+
+}
+
+.style2 .card-link {
+  display: none;
+}
+
+
+/* Card no 2  */
+.style2 {
     padding: 5px;
     border: 1px solid white;
     border-radius: 10px;
@@ -325,7 +320,7 @@ ul {
     background-image: url(https://s26.postimg.org/lpbpvvcxl/glitter_background.jpg);
 }
 
-#card-002 .card-title {
+.style2 .card-title {
     font-family: 'Lato', sans-serif;
     padding-left: 5px;
     color: black;
@@ -335,12 +330,12 @@ ul {
     margin: 1em 0;
 }
 
-#card-002 img.card-img {
+.style2 img.card-img {
     border: 1px solid white;
     border-radius: 10px;
 }
 
-#card-002 .card-body {
+.style2 .card-body {
     margin-top: 5px;
     padding: 5px;
     border: 1px solid white;
@@ -348,13 +343,13 @@ ul {
     background-color: #E0E0E0;
 }
 
-#card-002 .card-subtitle {
+.style2 .card-subtitle {
     font-style: italic;
     font-size: 0.8em;
     margin: 1em 0;
 }
 
-#card-002 .card-list-group {
+.style2 .card-list-group {
     font-family: 'Catamaran', sans-serif;
     font-size: small;
     list-style-type: none;
@@ -363,11 +358,11 @@ ul {
     padding-right: 5px;
 }
 
-#card-002 .card-list-group span {
+.style2 .card-list-group span {
     font-weight: bold;
 }
 
-#card-002 .card-text {
+.style2 .card-text {
     font-family: 'Catamaran', sans-serif;
     font-size: small;
     padding-left: 5px;
@@ -375,29 +370,29 @@ ul {
     margin: 1em 0;
 }
 
-#card-002 .card-link {
+.style2 .card-link {
   display: none;
 }
 
 
-/* Card no 003  */
-#card-003.card {
+/* Card no 3  */
+.style3 {
   border: 1px solid #BEBEBE;
   padding:10px;
   background-color: #F0E68C;
   box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.2)
 }
 
-#card-003 .card-title {
+.style3 .card-title {
   font-size: 1.3em;
   margin: 1em 0;
 }
 
-#card-003 img.card-img {
+.style3 img.card-img {
   background: white;
 }
 
-#card-003 .card-body {
+.style3 .card-body {
   margin-top: 5px;
   border:1px solid #D3D3D3;
   padding: 25px 10px;
@@ -405,39 +400,39 @@ ul {
   box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.2)
 }
 
-#card-003 .card-subtitle {
+.style3 .card-subtitle {
   font-style: italic;
   font-size: 0.9em;
 }
 
-#card-003 .card-list-group {
+.style3 .card-list-group {
   list-style-type: none;
   padding-left: 3em;
   margin: 1em 0;
 }
 
-#card-003 .card-list-group span {
+.style3 .card-list-group span {
   font-weight: bold;
 }
 
-#card-003 .card-text {
+.style3 .card-text {
   font-size: 0.9em;
 }
 
-#card-003 .card-link {
+.style3 .card-link {
    display: none;
 }
 
 
-/* Card no 004  */
-#card-004.card {
+/* Card no 4  */
+.style4 {
   font-family: 'Open Sans', sans-serif;
   border: 1px solid #D3D3D3;
   border-radius: 4px;
   box-shadow: 7px 7px 7px #D3D3D3;
 }
 
-#card-004 .card-title {
+.style4 .card-title {
   margin: 20px;
   padding-top: 5px;
   letter-spacing: 1px;
@@ -446,11 +441,11 @@ ul {
   border-top: 1px dashed #D3D3D3;
 }
 
-#card-004 img.card-img {
+.style4 img.card-img {
   padding: 0px 20px;
 }
 
-#card-004 .card-body {
+.style4 .card-body {
   margin: 20px;
   border: 1px solid #D3D3D3;
   border-radius: 4px;
@@ -458,34 +453,34 @@ ul {
   background-color: rgba(211,211,211,0.3);
 }
 
-#card-004 .card-subtitle {
+.style4 .card-subtitle {
   font-style: italic;
   font-size: 1.1em;
   margin-top: 15px;
 }
 
-#card-004 .card-list-group {
+.style4 .card-list-group {
   list-style: none;
   padding: 0;
   margin: 15px 0;
 }
 
-#card-004 .card-list-group span {
+.style4 .card-list-group span {
   font-weight: 800;
 }
 
-#card-004 .card-text {
+.style4 .card-text {
   font-size: 1em;
   margin-bottom: 10px;
 }
 
-#card-004 .card-link {
+.style4 .card-link {
   display: none;
 }
 
 
-/* Card no 005  */
-#card-005.card {
+/* Card no 5  */
+.style5 {
   font-family: helvetica, sans-serif;
   border: 1px solid rgb(197, 197, 197);
   box-shadow: 3px 3px 10px 1px rgba(184,184,184,1);
@@ -498,7 +493,7 @@ ul {
   background: linear-gradient(to right, #414166, #cc7474);
 }
 
-#card-005 .card-title {
+.style5 .card-title {
   text-align: center;
   text-transform: uppercase;
   font-size: 270%;
@@ -506,13 +501,13 @@ ul {
   margin: 18px 0px 10px 0px;
 }
 
-#card-005 img.card-img {
+.style5 img.card-img {
   margin-bottom: 10px;
   border-radius: 10px;
   border: 1px solid #ffffff;
 }
 
-#card-005 .card-body {
+.style5 .card-body {
   border: 1px solid #ffffff;
   padding: 15px 10px;
   background:#414166;
@@ -525,36 +520,36 @@ ul {
 
 }
 
-#card-005 .card-subtitle {
+.style5 .card-subtitle {
   font-style: italic;
   font-size: 1em;
 }
 
-#card-005 .card-list-group {
+.style5 .card-list-group {
   list-style-type: none;
   padding-left: 0px;
   margin: 20px 0;
 }
 
-#card-005 .card-list-group span {
+.style5 .card-list-group span {
   font-size: 17px;
   font-weight: bold;
   line-height: 0.5em;
 }
 
-#card-005 .card-text {
+.style5 .card-text {
   padding-right: 10px;
   line-height: 1.2em;
 
 }
 
-#card-005 .card-link {
+.style5 .card-link {
   display: none;
 }
 
 
-/* Card no 006  */
-#card-006.card {
+/* Card no 6  */
+.style6 {
   background-image: url("https://s5.postimg.org/x4gqozzfr/vector-repeating-whippet-dog-icon-pattern.jpg");
   border: 1px solid #d9d9d9;
   border-radius: 5px;
@@ -564,22 +559,22 @@ ul {
   font-family: Arapey;
 }
 
-#card-006 .card-title {
+.style6 .card-title {
   color: #f2f2f2;
   font-size: 1.2em;
   padding: 1em 0;
 }
 
-#card-006 .second-title {
+.style6 .second-title {
 
 }
 
-#card-006 img.card-img {
+.style6 img.card-img {
   margin-bottom: 20px;
   border-radius: 5px;
 }
 
-#card-006 .card-body {
+.style6 .card-body {
   border: 1px solid #d9d9d9;
   border-radius: 5px;
   padding: 30px 10px 10px 10px;
@@ -587,12 +582,12 @@ ul {
   text-align: justify;
 }
 
-#card-006 .card-subtitle {
+.style6 .card-subtitle {
   font-style: italic;
   font-size: 1em;
 }
 
-#card-006 .card-list-group {
+.style6 .card-list-group {
   list-style-type: none;
   font-size: 0.95em;
   margin: 1.2em 0;
@@ -600,23 +595,23 @@ ul {
   line-height: 1.2em;
 }
 
-#card-006 .card-list-group span {
+.style6 .card-list-group span {
   font-weight: bold;
 
 }
 
-#card-006 .card-text {
+.style6 .card-text {
     font-size: 0.95em;
   line-height: 1.2em;
 }
 
-#card-006 .card-link {
+.style6 .card-link {
  display: none;
 }
 
 
-/* Card no 007  */
-#card-007.card {
+/* Card no 7  */
+.style7 {
   font-family: "Arial";
   border-style: solid;
   border-color: #1e2f2f;
@@ -627,7 +622,7 @@ ul {
   padding: 18px;
 }
 
-#card-007 .card-title {
+.style7 .card-title {
   margin-bottom: 1em;
   padding: 5px 0px 0px 20px;
   font-family: "Verdana";
@@ -636,13 +631,13 @@ ul {
   font-size: 1.3em;
   text-shadow: #adebeb 1px 0 10px;
 }
-#card-007 .second-title {
+.style7 .second-title {
   color: #476b6b;
   font-weight: 600;
   text-shadow: #051414 1px 0 10px;
 }
 
-#card-007 img.card-img {
+.style7 img.card-img {
   margin-bottom: 15px;
   border-radius: 20px 20px 0px 0px;
   border-top-style: solid;
@@ -651,7 +646,7 @@ ul {
   box-shadow: -5px -5px 5px  #bcb9a9;
 }
 
-#card-007 .card-body {
+.style7 .card-body {
   margin-bottom: 5px;
   padding: 20px 10px;
   background-color:  #476b6b;
@@ -662,24 +657,24 @@ ul {
   box-shadow: -5px 5px 5px #9b977d;
 }
 
-#card-007 .card-subtitle {
+.style7 .card-subtitle {
   font-style: italic;
   color: #bcb9a9;
   font-size: 1em;
 }
 
-#card-007 .card-list-group {
+.style7 .card-list-group {
   list-style-type: none;
   padding: 20px 0;
   line-height: 1.1em;
 }
 
-#card-007 .card-list-group span {
+.style7 .card-list-group span {
   font-weight: bold;
   text-align: left;
 }
 
-#card-007 .card-text {
+.style7 .card-text {
   color: #051414;
   text-align: justify;
   font-size: 1em;
@@ -687,33 +682,33 @@ ul {
   padding: 5px;
 }
 
-#card-007 .card-link {
+.style7 .card-link {
  display: none;
 }
 
 
-/* Card no 008  */
-#card-008.card {
+/* Card no 8  */
+.style8 {
   border-style: solid 0.5px #DCDCDC;
   padding: 1em;
   font-family: "helvetica", "arial", sans-serif;
   box-shadow: 4px 6px 5px #DCDCDC;
 }
 
-#card-008 .card-title {
+.style8 .card-title {
   padding: 0.5em 0;
   font-weight: 700;
 }
 
-#card-008 .second-title {
+.style8 .second-title {
 
 }
 
-#card-008 img.card-img {
+.style8 img.card-img {
   border: solid 1px grey;
 }
 
-#card-008 .card-body {
+.style8 .card-body {
   border: solid;
   border-color: #DCDCDC;
   border-width: 0.5px;
@@ -721,13 +716,13 @@ ul {
   margin-top: 5px;
 }
 
-#card-008 .card-subtitle {
+.style8 .card-subtitle {
   font-size: 0.95em;
   font-style: italic;
   padding-top: 1em;
 }
 
-#card-008 .card-list-group {
+.style8 .card-list-group {
   margin: 1em 0;
   padding: 0;
   list-style-type: none;
@@ -735,22 +730,22 @@ ul {
   line-height: 1.2em;
 }
 
-#card-008 .card-list-group span {
+.style8 .card-list-group span {
   font-weight: bold;
 }
 
-#card-008 .card-text {
+.style8 .card-text {
   font-size: 0.95em;
   line-height: 1.2em;
 }
 
-#card-008 .card-link {
+.style8 .card-link {
  display: none;
 }
 
 
-/* Card no 009  */
-#card-009.card {
+/* Card no 9  */
+.style9 {
   background-color:#3CB371;
   border: dotted red;
   border-radius: 20px;
@@ -758,7 +753,7 @@ ul {
   font-family: Arial;
 }
 
-#card-009 .card-title {
+.style9 .card-title {
   font-size: 2em;
   padding: 0.7em 0;
   margin: 1em 0;
@@ -768,15 +763,15 @@ ul {
   text-decoration: underline;
 }
 
-#card-009 .second-title {
+.style9 .second-title {
 
 }
 
-#card-009 img.card-img {
+.style9 img.card-img {
   padding: 0 20px;
 }
 
-#card-009 .card-body {
+.style9 .card-body {
   margin: 20px;
   padding: 20px 3px;
   background-color:#F08080;
@@ -784,34 +779,34 @@ ul {
   box-shadow:  7px 11px 58px 2px rgba(0,0,0,0.75);
 }
 
-#card-009 .card-subtitle {
+.style9 .card-subtitle {
   font-style: italic;
   text-align: center;
   font-size: 1em;
 }
 
-#card-009 .card-list-group {
+.style9 .card-list-group {
   list-style-type: none;
   font-size: 0.9em;
   padding: 20px 0;
 }
 
-#card-009 .card-list-group span {
+.style9 .card-list-group span {
   font-weight: bold;
   color: #8001ff;
 }
 
-#card-009 .card-text {
+.style9 .card-text {
   font-size: 0.9em;
 }
 
-#card-009 .card-link {
+.style9 .card-link {
  display: none;
 }
 
 
-/* Card no 010  */
-#card-010.card {
+/* Card no 10  */
+.style10 {
   font-family: opens-sans, sans-serif;
   font-size: 14px;
   text-align: justify;
@@ -821,7 +816,7 @@ ul {
   padding: 10px 10px 10px 10px;
 }
 
-#card-010 .card-title {
+.style10 .card-title {
   text-align: center;
   text-transform: uppercase;
   color: white;
@@ -829,35 +824,35 @@ ul {
   padding: 15px 0;
 }
 
-#card-010 .second-title {
+.style10 .second-title {
 
 }
 
-#card-010 img.card-img {
+.style10 img.card-img {
   border-radius: 4px;
   margin: 10px 0 15px 0;
 }
 
-#card-010 .card-body {
+.style10 .card-body {
   box-sizing: border-box;
   border-radius: 3px;
   padding: 26px 10px 6px 10px;
   background-color: #cfd6cd;
 }
 
-#card-010 .card-subtitle {
+.style10 .card-subtitle {
   font-style: italic;
   font-size: 1em;
   padding-bottom: 13px;
 }
 
-#card-010 .card-list-group {
+.style10 .card-list-group {
   list-style-type: none;
   margin: 0;
   padding: 0;
   line-height: 1.2em;
 }
-#card-010 .card-list-group:before {
+.style10 .card-list-group:before {
   content: "";
   display: block;
   margin: 0 auto;
@@ -865,7 +860,7 @@ ul {
   padding-bottom: 7px;
   border-top: 1px solid #000;
 }
-#card-010 .card-list-group:after {
+.style10 .card-list-group:after {
   content: "";
   display: block;
   margin: 0 auto;
@@ -874,22 +869,22 @@ ul {
   border-bottom: 1px solid #000;
 }
 
-#card-010 .card-list-group span {
+.style10 .card-list-group span {
   font-weight: bold;
 }
 
-#card-010 .card-text {
+.style10 .card-text {
   padding-top: 13px;
   line-height: 1.2em;
 }
 
-#card-010 .card-link {
+.style10 .card-link {
  display: none;
 }
 
 
-/* Card no 011  */
-#card-011.card {
+/* Card no 11  */
+.style11 {
   font-size: 15px;
   box-shadow: 5px 4px 4px gray;
   border: 1px solid silver;
@@ -899,59 +894,59 @@ ul {
   text-align: justify;
 }
 
-#card-011 .card-title {
+.style11 .card-title {
   font-family: "Dancing Script", cursive;
   letter-spacing: 5px;
   text-align: center;
   padding: 15px 0 5px 0;
 }
 
-#card-011 .second-title {
+.style11 .second-title {
 
 }
 
-#card-011 img.card-img {
+.style11 img.card-img {
   border: 1px solid silver;
   border-radius: 5px;
 }
 
-#card-011 .card-body {
+.style11 .card-body {
   margin-top: 10px;
   border: 1px solid silver;
   border-radius: 5px;
   padding: 15px 10px;
 }
 
-#card-011 .card-subtitle {
+.style11 .card-subtitle {
   font-style: italic;
   font-size: 1em;
   text-indent: 20px;
 }
 
-#card-011 .card-list-group {
+.style11 .card-list-group {
   list-style-type: none;
   margin: 0;
   padding: 15px 0;
   line-height: 1.2em;
 }
 
-#card-011 .card-list-group span {
+.style11 .card-list-group span {
   font-weight: bold;
   padding-right: 5px;
 }
 
-#card-011 .card-text {
+.style11 .card-text {
   text-indent: 20px;
   line-height: 1.2em;
 }
 
-#card-100 .card-link {
+.style100 .card-link {
  display: none;
 }
 
 
-/* Card no 012  */
-#card-012.card {
+/* Card no 12  */
+.style12 {
   font-family: "Times New Roman", Georgia, Serif;
   border-radius: 2px;
   padding: 10px;
@@ -960,51 +955,51 @@ ul {
   box-shadow: 10px 10px 5px grey;
 }
 
-#card-012 .card-title {
+.style12 .card-title {
   font-weight: bold;
   padding: 0.9em 0;
   font-size: 1.2em;
 }
 
-#card-012 .second-title {
+.style12 .second-title {
 
 }
 
-#card-012 img.card-img {
+.style12 img.card-img {
 
 }
 
-#card-012 .card-body {
+.style12 .card-body {
   margin-top: 5px;
   padding: 25px 10px;
   border: solid 1px grey;
   line-height: 1.2em;
 }
 
-#card-012 .card-subtitle {
+.style12 .card-subtitle {
   font-style: italic;
   font-size: 1em;
 }
 
-#card-012 .card-list-group {
+.style12 .card-list-group {
   padding: 15px 10px;
   list-style: none;
 }
 
-#card-012 .card-list-group span {
+.style12 .card-list-group span {
   font-weight: bold;
 }
 
-#card-012 .card-text {
+.style12 .card-text {
 }
 
-#card-012 .card-link {
+.style12 .card-link {
  display: none;
 }
 
 
-/* Card no 013  */
-#card-013.card {
+/* Card no 13  */
+.style13 {
   font-family: Times New Roman, serif;
   border-radius: 15px;
   padding: 10px 15px;
@@ -1013,7 +1008,7 @@ ul {
   box-shadow: 10px 7px 15px #596856;
 }
 
-#card-013 .card-title {
+.style13 .card-title {
   margin: 1em 0;
   border:5px solid #94ad8f;
   border-radius: 5px;
@@ -1026,15 +1021,15 @@ ul {
   text-shadow: 2px 2px 10px #495e43;
   background: linear-gradient(#a6c99f,#85a37f);
 }
-#card-013 .second-title {
+.style13 .second-title {
 
 }
 
-#card-013 img.card-img {
+.style13 img.card-img {
   border-radius: 5px;
 }
 
-#card-013 .card-body {
+.style13 .card-body {
   margin-top: 5px;
   padding: 17px 0;
   font-size: ;
@@ -1043,7 +1038,7 @@ ul {
   box-shadow: 3px 3px 15px #596856;
 }
 
-#card-013 .card-subtitle {
+.style13 .card-subtitle {
   font-size: 1em;
   font-style: italic;
   text-align: center;
@@ -1053,7 +1048,7 @@ ul {
   margin-bottom: 17px;
 }
 
-#card-013 .card-list-group {
+.style13 .card-list-group {
   list-style-type: none;
   border-radius: 5px;
   border:2px solid #94ad8f;
@@ -1062,22 +1057,22 @@ ul {
 
 }
 
-#card-013 .card-list-group span {
+.style13 .card-list-group span {
   font-weight: bold;
 }
 
-#card-013 .card-text {
+.style13 .card-text {
   margin-top: 17px;
   background-color: #e5d1c3;
 }
 
-#card-013 .card-link {
+.style13 .card-link {
  display: none;
 }
 
 
-/* Card no 014  */
-#card-014.card {
+/* Card no 14  */
+.style14 {
  font-family: 'Great Vibes', black, cursive;
   border-radius: 15px;
   padding: 10px 15px;
@@ -1086,7 +1081,7 @@ ul {
   box-shadow: 5px 7px 20px #dda04f;
 }
 
-#card-014 .card-title {
+.style14 .card-title {
   margin: 1em 0;
   padding:10px;
   text-align: center;
@@ -1098,15 +1093,15 @@ ul {
   background: url("https://image.freepik.com/free-photo/grunge-paper-background_1048-6689.jpg");
 }
 
-#card-014 .second-title {
+.style14 .second-title {
 }
 
-#card-014 img.card-img {
+.style14 img.card-img {
   border-radius: 5px;
   box-shadow: 0px 2px 15px #fcb455;
 }
 
-#card-014 .card-body {
+.style14 .card-body {
   background: url("https://image.freepik.com/free-photo/grunge-paper-background_1048-6689.jpg");
   margin: 25px 0;
   padding: 8px;
@@ -1117,32 +1112,32 @@ ul {
   box-shadow: 0px 2px 15px black;
 }
 
-#card-014 .card-subtitle {
+.style14 .card-subtitle {
   text-align: center;
   text-shadow: 2px 2px 10px #dda04f;
   font-size: 20px;
 }
 
-#card-014 .card-list-group {
+.style14 .card-list-group {
   padding: 20px 0;
   list-style-type: none;
   padding-left: 30px;
 }
 
-#card-014 .card-list-group span {
+.style14 .card-list-group span {
   font-weight: bold;
 }
 
-#card-014 .card-text {
+.style14 .card-text {
 }
 
-#card-014 .card-link {
+.style14 .card-link {
  display: none;
 }
 
 
-/* Card no 015  */
-#card-015.card {
+/* Card no 15  */
+.style15 {
   font-family: 'Lato', sans-serif;
   font-size: 16px;
   border: 2px solid #fff;
@@ -1152,7 +1147,7 @@ ul {
   background-image: url(https://st.depositphotos.com/2942061/4028/i/950/depositphotos_40289037-stock-photo-skating-ice-background.jpg);
 }
 
-#card-015 .card-title {
+.style15 .card-title {
   padding: 5px 0 10px 0;
   text-align: center;
   font-family: : 'Anton', sans-serif;
@@ -1161,14 +1156,14 @@ ul {
   text-shadow: 2px 2px 2px #aaa;
 }
 
-#card-015 .second-title {
+.style15 .second-title {
 }
 
-#card-015 img.card-img {
+.style15 img.card-img {
   border-radius: 10px;
 }
 
-#card-015 .card-body {
+.style15 .card-body {
   margin-top: 1em;
   border: 2px solid #fff;
   background-color: rgba(255, 255, 255, 0.5);
@@ -1177,36 +1172,36 @@ ul {
   font-weight: 500;
 }
 
-#card-015 .card-subtitle {
+.style15 .card-subtitle {
   font-size: 1em;
   font-style: italic;
   text-align: justify;
 }
 
-#card-015 .card-list-group {
+.style15 .card-list-group {
   padding: 0.5em 0;
   list-style: none;
   padding-left: 0px;
   line-height: 2em;
 }
 
-#card-015 .card-list-group span {
+.style15 .card-list-group span {
   font-weight: 900;
 }
 
-#card-015 .card-text {
+.style15 .card-text {
   text-align: justify;
   line-height: 1.2em;
   padding-bottom: 0.7em;
 }
 
-#card-015 .card-link {
+.style15 .card-link {
  display: none;
 }
 
 
-/* Card no 016  */
-#card-016.card {
+/* Card no 16  */
+.style16 {
   font-family: sans-serif;
 
   border: large grey;
@@ -1215,50 +1210,50 @@ ul {
   border-radius:20px;
 }
 
-#card-016 .card-title {
+.style16 .card-title {
   padding: ;
   font-size: 1.4em;
   font-weight: 600;
 }
 
-#card-016 .second-title {
+.style16 .second-title {
 }
 
-#card-016 img.card-img {
+.style16 img.card-img {
 }
 
-#card-016 .card-body {
+.style16 .card-body {
   font-family: serif;
   line-height: 1.2em;
 }
 
-#card-016 .card-subtitle {
+.style16 .card-subtitle {
   font-size: 1.1em;
   font-style: italic;
 }
 
-#card-016 .card-list-group {
+.style16 .card-list-group {
   list-style-type: none;
   padding: 0px;
   font-size: 1.1em;
 }
 
-#card-016 .card-list-group span {
+.style16 .card-list-group span {
   font-weight: bold;
   font-family: serif;
   font:bold;
 }
 
-#card-016 .card-text {
+.style16 .card-text {
 }
 
-#card-016 .card-link {
+.style16 .card-link {
  display: none;
 }
 
 
-/* Card no 017  */
-#card-017.card {
+/* Card no 17  */
+.style17 {
   font-family: serif;
   border-style: solid;
   border-width: thin;
@@ -1266,7 +1261,7 @@ ul {
   padding: 10px;
 }
 
-#card-017 .card-title {
+.style17 .card-title {
   font-size: 1.8em;
   font-weight: 600;
   padding: 0.8em 0;
@@ -1312,27 +1307,27 @@ ul {
 }
 
 
-/* Card no 018  */
-#card-018.card {
+/* Card no 18  */
+.style18 {
   font-family: serif;
   border: 1px solid #AAAAAA;
   padding: 10px;
   box-shadow: 3px 3px 5px 6px #ccc;
 }
 
-#card-018 .card-title {
+.style18 .card-title {
   padding: 1em 0;
   font-size: 1.3em;
   font-weight: 600;
 }
 
-#card-018 .second-title {
+.style18 .second-title {
 }
 
-#card-018 img.card-img {
+.style18 img.card-img {
 }
 
-#card-018 .card-body {
+.style18 .card-body {
   padding: 25px 5px 20px 5px;
   font-size: 1.1em;
   line-height: 1.2em;
@@ -1340,32 +1335,32 @@ ul {
   margin-top: 15px;
 }
 
-#card-018 .card-subtitle {
+.style18 .card-subtitle {
   font-size: 1em;
   font-style: italic;
 }
 
-#card-018 .card-list-group {
+.style18 .card-list-group {
   padding: 20px 0;
   list-style: none;
   padding-left: 0;
 }
 
-#card-018 .card-list-group span {
+.style18 .card-list-group span {
   font-weight: bold;
 }
 
-#card-018 .card-text {
+.style18 .card-text {
   text-align: justify;
 }
 
-#card-018 .card-link {
+.style18 .card-link {
  display none;
 }
 
 
-/* Card no 019  */
-#card-019.card {
+/* Card no 19  */
+.style19 {
   font-family: 'Roboto', sans-serif;
   color: rgb(250, 250, 250);
   display: inline-block;
@@ -1378,7 +1373,7 @@ ul {
   box-shadow: 6px 6px 22px rgb(177, 177, 177);
 }
 
-#card-019 .card-title {
+.style19 .card-title {
   font-family: 'Bangers', cursive;
   font-size: 45px;
   letter-spacing: 1.2px;
@@ -1390,17 +1385,17 @@ ul {
   font-size: ;
 }
 
-#card-019 .second-title {
+.style19 .second-title {
 }
 
-#card-019 img.card-img {
+.style19 img.card-img {
   margin: 0px;
   border: 1px solid rgba(39, 46, 44, 0.4);
   border-radius: 12px 12px 0px 0px;
   box-shadow: 0px 0px 14px rgba(153, 194, 186, 0.2);
 }
 
-#card-019 .card-body {
+.style19 .card-body {
   line-height: 1.3;
   font-size: 15px;
   margin-top: -5px;
@@ -1414,45 +1409,45 @@ ul {
   line-height: ;
 }
 
-#card-019 .card-subtitle {
+.style19 .card-subtitle {
   font-size: 15px;
   font-style: italic;
   padding-top: 10px
 }
 
-#card-019 .card-list-group {
+.style19 .card-list-group {
   padding: 20px 0;
   list-style-type: none;
   text-align: right;
 }
 
-#card-019 li:nth-child(odd) {
+.style19 li:nth-child(odd) {
   background-color: rgba(0, 0, 0, 0.42);
   padding: 4px 6px;
 }
 
-#card-019 li:nth-child(even) {
+.style19 li:nth-child(even) {
   background-color: rgba(125, 125, 125, 0.42);
   padding: 4px 6px;
 }
 
-#card-019 .card-list-group span {
+.style19 .card-list-group span {
   font-weight: bold;
   float: left;
 }
 
-#card-019 .card-text {
+.style19 .card-text {
   margin: 1px;
   text-align: justify;
 }
 
-#card-019 .card-link {
+.style19 .card-link {
  display: none;
 }
 
 
-/* Card no 020  */
-#card-020.card {
+/* Card no 20  */
+.style20 {
   font-family:'Rosarivo', serif;
   background-image: url("http://res.cloudinary.com/ninaw/image/upload/v1516990043/card-bg-bigger_wsz3e1.jpg");
   border-top: 4px solid #3c364e;
@@ -1468,7 +1463,7 @@ ul {
   color: #3c364e;
 }
 
-#card-020 .card-title {
+.style20 .card-title {
   padding: 10px 0;
   font-size: 28px;
   margin: 0;
@@ -1477,14 +1472,14 @@ ul {
   font-weight: bold;
 }
 
-#card-020 .second-title {
+.style20 .second-title {
 }
 
-#card-020 img.card-img {
+.style20 img.card-img {
   padding: 18px 0;
 }
 
-#card-020 .card-body {
+.style20 .card-body {
   padding: 15px;
   font-size: 16px;
   background-color: rgba(255, 255, 255, 0.65);
@@ -1497,27 +1492,27 @@ ul {
   font-family:'Rosarivo', serif;
 }
 
-#card-020 .card-subtitle {
+.style20 .card-subtitle {
   font-size: 16px;
   font-style: italic;
   margin-bottom: 16px;
 }
 
-#card-020 .card-list-group {
+.style20 .card-list-group {
   padding: 0;
   line-height: ;
   list-style-type: none;
   margin-bottom: 16px;
 }
 
-#card-020 .card-list-group span {
+.style20 .card-list-group span {
   font-weight: bold;
 }
 
-#card-020 .card-text {
+.style20 .card-text {
 }
 
-#card-020 .card-link {
+.style20 .card-link {
  display: none;
 }
 

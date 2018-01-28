@@ -1,5 +1,22 @@
 
 
+// Changes all card styles to look like the card that was clicked
+
+function applyStyleToAll(cardIndex) {
+	$( "[id^='card-']").attr('class', 'card mb-4 '+'style'+cardIndex);
+}
+
+// Reset button for card styles back to being all different
+function reset() {
+		for (var i = 1; i <= 21; i++) {
+		var temp = 'card-'+i; // TODO: take off the 00
+		$( "[id="+temp+"]" ).attr('class', 'card mb-4 '+'style'+i);
+	}
+}
+
+
+
+
 
 
 
@@ -19,38 +36,3 @@
 
 
 //$( "div:contains('dog')" ).css( "text-decoration", "underline" );
-
-
-/*
-//
-//
-//
-*/
-//$( "[id^='card-']" ).attr('class', 'newClass');
-
-/*
-//
-//
-//
-*/
-
-// processClicks(1);
-
-function processClicks(cardIndex) {
-//  var cardIndex = 1;
-  $( "[id^='card-']" ).attr('class', 'style'+cardIndex);
-  $( "[class^='card-title']" ).attr('class', 'card-title'+cardIndex);
-//  $( "[class^='card-img']" ).attr('class', 'card-img'+1);
-//  $( "[class^='card-body']" ).attr('class', 'card-body'+cardIndex);
-}
-
-function reset() {
-	for (var i = 1; i <= 2; i++) {
-		var temp = 'card-00'+i; // TODO: take off the 00
-		$( "[id="+temp+"]" ).attr('class', 'style'+i);
-		$( "[id="+temp+"]" ).find( "[class^='card-title']" ).attr( "class", "card-title"+i );
-//		$( "[id="+temp+"][class^="card-title"]" ).attr('class', 'card-title'+i);
-	}
-}
-
-

@@ -68,6 +68,7 @@
     <div class="container text-center">
       <h1 class="display-4">Let's add some cool cards & features!</h1>
       <p class="lead">Try this - click or tap on any card and see what happens...</p>
+      <button type="button" class="btn btn-large btn-light" onclick="reset()">RESET CARD STYLES</button>
     </div>
   </div>
 
@@ -77,8 +78,8 @@
     <!-- Cards -->
     <div class="card-columns">
 
-      <div id="card-001" class="card mb-4">
-        <a class="card-switch" href="card_001.html">
+      <div id="card-1" class="card mb-4 style1">
+        <a class="card-switch" href="#" onclick="applyStyleToAll(1)">
           <h2 class="card-title">Sea Otter</h2>
           <img class="card-img" src="http://res.cloudinary.com/ninaw/image/upload/v1511278408/Sea_Otter_hrsztz.jpg" alt="Otter spalshing around in water">
           <div class="card-body">
@@ -94,8 +95,8 @@
         </a><!-- /.card-switch -->
       </div><!-- /.card -->
 
-      <div id="card-002" class="card mb-4">
-        <a class="card-switch" href="card_002.html">
+      <div id="card-2" class="card mb-4 style2">
+        <a class="card-switch" href="#" onclick="applyStyleToAll(2)">
           <h2 class="card-title">Canadian Sphynx</h2>
           <img class="card-img" src="https://s1.postimg.org/6a2eo5ltb3/sphynx_main.jpg" alt="A bicolor Sphynx cat looking straight into the camera" alt="Card image cap">
           <div  class="card-body">
@@ -114,8 +115,8 @@
         </a><!-- /.card-switch -->
       </div><!-- /.card -->
 
-      <div id="card-003" class="card mb-4">
-        <a class="card-switch" href="card_003.html">
+      <div id="card-3" class="card mb-4 style3">
+        <a class="card-switch" href="#" onclick="applyStyleToAll(3)">
           <h2 class="card-title">Pikachu</h2>
           <img class="card-img" src="img/pikachu.png" alt="Pikachu">
           <div  class="card-body">
@@ -131,8 +132,8 @@
         </a><!-- /.card-switch -->
       </div><!-- /.card -->
 
-      <div id="card-004" class="card mb-4">
-        <a class="card-switch" href="card_004.html">
+      <div id="card-4" class="card mb-4 style4">
+        <a class="card-switch" href="#" onclick="applyStyleToAll(4)">
           <h2 class="card-title">Owl</h2>
           <img class="card-img" src="http://static.boredpanda.com/blog/wp-content/uploads/2014/12/owl-photography-2__880.jpg" alt="Owl">
           <div  class="card-body">
@@ -148,8 +149,8 @@
         </a><!-- /.card-switch -->
       </div><!-- /.card -->
 
-      <div id="card-005" class="card mb-4">
-        <a class="card-switch" href="card_005.html">
+      <div id="card-5" class="card mb-4 style5">
+        <a class="card-switch" href="#" onclick="applyStyleToAll(5)">
           <h2 class="card-title">Grizzly Bear</h2>
           <img class="card-img" src="https://img.huffingtonpost.com/asset/57f23fd81b00007f08ef3fad.jpeg?cache=xrgktdi5wj&ops=scalefit_720_noupscale" alt="grizzly bear">
           <div  class="card-body">
@@ -165,8 +166,8 @@
         </a><!-- /.card-switch -->
       </div><!-- /.card -->
 
-      <div id="card-006" class="card mb-4">
-        <a class="card-switch" href="card_006.html">
+      <div id="card-6" class="card mb-4 style6">
+        <a class="card-switch" href="#" onclick="applyStyleToAll(6)">
           <h2 class="card-title">Whippet Dog Breed</h2>
           <img class="card-img" src="https://s5.postimg.org/kaw0hsz0n/IMG_5181.jpg" alt="whippet">
           <div  class="card-body">
@@ -182,8 +183,8 @@
         </a><!-- /.card-switch -->
       </div><!-- /.card -->
 
-      <div id="card-007" class="card mb-4">
-        <a class="card-switch" href="card_007.html">
+      <div id="card-7" class="card mb-4 style7">
+        <a class="card-switch" href="#" onclick="applyStyleToAll(7)">
           <h2 class="card-title">Common leopard gecko<br><small class="second-title">(spotted fat-tailed gecko)</small></h2>
           <img class="card-img" src="https://www.desktopbackground.org/t/2015/12/21/1060821_green-leopard-gecko_996x664_h.jpg" alt="leopard gecko">
           <div  class="card-body">
@@ -199,8 +200,8 @@
         </a><!-- /.card-switch -->
       </div><!-- /.card -->
 
-      <div id="card-008" class="card mb-4">
-        <a class="card-switch" href="card_008.html">
+      <div id="card-8" class="card mb-4 style8">
+        <a class="card-switch" href="#" onclick="applyStyleToAll(8)">
           <h2 class="card-title">Rico</h2>
           <img class="card-img" src="https://lafeber.com/pet-birds/wp-content/uploads/Cockatiel-300x300.jpg" alt="Cockatiel">
           <div  class="card-body">
@@ -216,8 +217,8 @@
         </a><!-- /.card-switch -->
       </div><!-- /.card -->
 
-      <div id="card-009" class="card mb-4">
-        <a class="card-switch" href="card_009.html">
+      <div id="card-9" class="card mb-4 style9">
+        <a class="card-switch" href="#" onclick="applyStyleToAll(9)">
           <h2 class="card-title">Ozzie(my dog)</h2>
           <img class="card-img" src="https://preview.ibb.co/cwKWUm/Poza.jpg" alt="Ozzie">
           <div  class="card-body">
@@ -233,8 +234,8 @@
         </a><!-- /.card-switch -->
       </div><!-- /.card -->
 
-      <div id="card-010" class="card mb-4">
-        <a class="card-switch" href="card_010.html">
+      <div id="card-10" class="card mb-4 style10">
+        <a class="card-switch" href="#" onclick="applyStyleToAll(10)">
           <h2 class="card-title">Iberian Lynx</h2>
           <img class="card-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Iberian_Lynx_cub_12.jpg/442px-Iberian_Lynx_cub_12.jpg" alt="Iberian Lynx">
           <div  class="card-body">
@@ -250,8 +251,8 @@
         </a><!-- /.card-switch -->
       </div><!-- /.card -->
 
-      <div id="card-011" class="card mb-4">
-        <a class="card-switch" href="card_011.html">
+      <div id="card-11" class="card mb-4 style11">
+        <a class="card-switch" href="#" onclick="applyStyleToAll(11)">
           <h2 class="card-title">Scottish Fold</h2>
           <img class="card-img" src="http://www.catbreedselector.com/wp-content/uploads/2017/03/Scottish-Fold-Cats.jpg" alt="Cat">
           <div  class="card-body">
@@ -267,8 +268,8 @@
         </a><!-- /.card-switch -->
       </div><!-- /.card -->
 
-      <div id="card-012" class="card mb-4">
-        <a class="card-switch" href="card_012.html">
+      <div id="card-12" class="card mb-4 style12">
+        <a class="card-switch" href="#" onclick="applyStyleToAll(12)">
           <h2 class="card-title">Fox</h2>
           <img class="card-img" src="https://dobresklepymotocyklowe.pl/images/A-MAILINGI/fox.jpg" alt="fox">
           <div  class="card-body">
@@ -284,8 +285,8 @@
         </a><!-- /.card-switch -->
       </div><!-- /.card -->
 
-      <div id="card-013" class="card mb-4">
-        <a class="card-switch" href="card_013.html">
+      <div id="card-13" class="card mb-4 style13">
+        <a class="card-switch" href="#" onclick="applyStyleToAll(13)">
           <h2 class="card-title">Burrowing Owl</h2>
           <img class="card-img" src="http://sagerealtor.com//wp-content/uploads/2015/03/owl1.jpg" alt="borrowing owl agains blurred nature background">
           <div  class="card-body">
@@ -302,8 +303,8 @@
       </div><!-- /.card -->
 
 
-      <div id="card-014" class="card mb-4">
-        <a class="card-switch" href="card_014.html">
+      <div id="card-14" class="card mb-4 style14">
+        <a class="card-switch" href="#" onclick="applyStyleToAll(14)">
           <h2 class="card-title">Occamy</h2>
           <img class="card-img" src="https://cdnb.artstation.com/p/assets/images/images/004/478/751/large/stephen-molyneaux-occamy1200.jpg?1484004795" alt="harry potter stephen-molyneaux-occamy1200">
           <div  class="card-body">
@@ -319,8 +320,8 @@
         </a><!-- /.card-switch -->
       </div><!-- /.card -->
 
-      <div id="card-015" class="card mb-4">
-        <a class="card-switch" href="card_015.html">
+      <div id="card-15" class="card mb-4 style15">
+        <a class="card-switch" href="#" onclick="applyStyleToAll(15)">
           <h2 class="card-title">White Tiger</h2>
           <img class="card-img" src="https://www.walldevil.com/wallpapers/a42/wallpaper-tiger-serbian-white-background-cute.jpg" alt="white-tiger">
           <div  class="card-body">
@@ -335,8 +336,8 @@
         </a><!-- /.card-switch -->
       </div><!-- /.card -->
 
-      <div id="card-016" class="card mb-4">
-        <a class="card-switch" href="card_016.html">
+      <div id="card-16" class="card mb-4 style16">
+        <a class="card-switch" href="#" onclick="applyStyleToAll(16)">
           <h2 class="card-title">Dog</h2>
           <img class="card-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9Fc_5s_a4ei3UEXTJaI7WAplKo6VNLlR8WnV9qM69mqyYLAZJ" alt="Dog">
           <div  class="card-body">
@@ -352,8 +353,8 @@
         </a><!-- /.card-switch -->
       </div><!-- /.card -->
 
-      <div id="card-017" class="card mb-4">
-        <a class="card-switch" href="card_017.html">
+      <div id="card-17" class="card mb-4 style17">
+        <a class="card-switch" href="#" onclick="applyStyleToAll(17)">
           <h2 class="card-title">Deer</h2>
           <img class="card-img" src="https://upload.wikimedia.org/wikipedia/commons/4/42/Key_Deer_JCB.jpg" class="pictureborder" alt="Deer">
           <div  class="card-body">
@@ -369,8 +370,8 @@
         </a><!-- /.card-switch -->
       </div><!-- /.card -->
 
-      <div id="card-018" class="card mb-4">
-        <a class="card-switch" href="card_018.html">
+      <div id="card-18" class="card mb-4 style18">
+        <a class="card-switch" href="#" onclick="applyStyleToAll(18)">
           <h2 class="card-title">Labrador Retriever</h2>
           <img class="card-img" src="https://vetstreet.brightspotcdn.com/dims4/default/4b20efe/2147483647/crop/0x0%2B0%2B0/resize/645x380/quality/90/?url=https%3A%2F%2Fvetstreet-brightspot.s3.amazonaws.com%2Ff8%2F7a54f0a10511e087a80050568d634f%2Ffile%2FLabrador-1-645mk062111.jpg" alt="Labrador Retriever">
           <div  class="card-body">
@@ -386,8 +387,8 @@
         </a><!-- /.card-switch -->
       </div><!-- /.card -->
 
-      <div id="card-019" class="card mb-4">
-        <a class="card-switch" href="card_019.html">
+      <div id="card-19" class="card mb-4 style19">
+        <a class="card-switch" href="#" onclick="applyStyleToAll(19)">
           <h2 class="card-title">Northern Pike</h2>
           <img class="card-img" src="http://u.hgtm.de/gfewd-pj2-animal-trading-card/pike.png" alt="Northern Pike" class="pic">
           <div  class="card-body">
@@ -404,8 +405,8 @@
         </a><!-- /.card-switch -->
       </div><!-- /.card -->
 
-      <div id="card-020" class="card mb-4">
-        <a class="card-switch" href="card_020.html">
+      <div id="card-20" class="card mb-4 style20">
+        <a class="card-switch" href="#" onclick="applyStyleToAll(20)">
           <h2 class="card-title">Common Raven<small class="second-title"></small><!----></h2>
           <img class="card-img" src="https://image.ibb.co/hy9Dcb/common_raven.png" alt="Common Raven">
           <div  class="card-body">
@@ -421,8 +422,8 @@
         </a><!-- /.card-switch -->
       </div><!-- /.card -->
 
-      <div id="card-100" class="card mb-4">
-        <a class="card-switch" href="card_100.html">
+      <div id="card-100" class="card mb-4 style100">
+        <a class="card-switch" href="#" onclick="applyStyleToAll(100)">
           <h2 class="card-title">Animal Name</h2>
           <img class="card-img" src="http://placehold.it/700x500" alt="Card image cap">
           <div  class="card-body">
@@ -454,7 +455,7 @@
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
-
+  <script src="cards.js"></script>
 
 </body>
 
