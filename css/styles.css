@@ -2118,6 +2118,258 @@ ul {
 }
 
 
+/* Card no 30  */
+.style30 {
+  font-family: futura;
+  font-weight: 400;
+  font-color: indigo;
+  padding: 15px 10px 15px 10px;
+  box-shadow: 6px 14px 20px rgba(0, 0, 0, 0.4);
+  background-color: #c4dcef;
+  border: 2px solid black;
+}
+
+.style30 .card-title {
+  padding: 20px 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.style30 .second-title {
+}
+
+.style30 img.card-img {
+  border: 4px dotted gray;
+  border-radius: 20px;
+}
+
+.style30 .card-body {
+  margin-top: 10px;
+  color: black;
+  text-align: center;
+  font-size: 18px;
+}
+
+.style30 .card-subtitle {
+  font-size: 20px;
+  padding: 3px;
+  text-align: center;
+  background: #DCDCDC;
+  box-shadow: 2px 2px 2px #8f8f8f;
+  text-shadow: ;
+  border-radius: 1px;
+  border: 2px solid gray;
+}
+
+.style30 .card-list-group {
+  list-style: none;
+  font-weight:bold;
+  padding: 20px 0;
+  text-align: center;
+  line-height: 1.3em;
+}
+
+.style30 .card-list-group span {
+}
+
+.style30 .card-text {
+  font-size: 20px;
+  line-height: 1.3em;
+  padding: 3px;
+  background: #DCDCDC;
+  box-shadow: 2px 2px 2px #8f8f8f;
+  text-shadow: ;
+  border-radius: 1px;
+  border: 2px solid gray;
+}
+
+.style30 .card-link {
+ display: none;
+}
+
+
+/* Card no 31  */
+.style31 {
+  background-color: #c4dcef;
+  padding: 15px 10px 15px 10px;
+  box-shadow: 6px 14px 20px rgba(0, 0, 0, 0.4);
+  border: 2px solid blue;
+  border-radius: 10px;
+  font-family: "calibri", arial, Garamond;
+}
+
+.style31 .card-title {
+  margin: 5px 0 15px 0;
+  background: #47a2ed;
+  text-align: center;
+  font-size: 27px;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #aaa;
+  color: #0000ff;
+  box-shadow: 2px 2px 2px #8f8f8f;
+  border-radius: 5px;
+  border: 2px solid blue;
+}
+
+.style31 .second-title {
+}
+
+.style31 img.card-img {
+  border: 1px #e1e1e1;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+.style31 .card-body {
+  font-size: 18px;
+  line-height: 1.2em;
+  border: 2px solid blue;
+  padding: 30px 10px;
+  border-radius: 10px;
+  background-color: #47a2ed;
+}
+
+.style31 .card-subtitle {
+  font-size: 18px;
+  font-style: italic;
+}
+
+.style31 .card-list-group {
+  list-style: none;
+  padding: 20px 0;
+  margin: 0;
+
+}
+
+.style31 .card-list-group span {
+  font-weight: bold;
+}
+
+.style31 .card-text {
+}
+
+.style31 .card-link {
+ display: none;
+}
+
+
+/* Card no 32  */
+.style32 {
+  font-family: Times, Verdana, Helvetica, sans-serif;
+  border: 1px solid lightgray;
+  box-shadow: 9px 7px 7px lightgray;
+  border-radius: 25px;
+  background-color: #e6f7ff;
+  padding: 12px;
+}
+
+.style32 .card-title {
+  padding: 20px 0 28px 0;
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.style32 .second-title {
+}
+
+.style32 img.card-img {
+}
+
+.style32 .card-body {
+  line-height: ;
+  padding: 30px 10px;
+  border: 1px solid lightgray;
+  font-size:  18px;
+  line-height: 140%;
+}
+
+.style32 .card-subtitle {
+  font-style: oblique;
+  font-size:  18px;
+}
+
+.style32 .card-list-group {
+  list-style-type: none;
+  padding: 30px 0;
+
+}
+
+.style32 .card-list-group span {
+  font-weight: bold;
+}
+
+.style32 .card-text {
+  padding: 5px;
+}
+
+.style32 .card-link {
+ display: none;
+}
+
+
+/* Card no 33  */
+.style33 {
+  font-family: serif;
+  border: .1px solid #b8b8b8;
+  box-shadow: 5px 5px 5px #d3d3d3;
+  padding: 10px 15px;
+}
+
+.style33 .card-title {
+  padding: 12px 0 22px 0;
+  color:  #b75800;
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+.style33 .second-title {
+}
+
+.style33 img.card-img {
+  padding-bottom: 10px;
+}
+
+.style33 .card-body {
+  line-height: 23px;
+  font-size: 18px;
+  border: .1px solid #b8b8b8;
+  padding: 20px 10px;
+  text-align: justify;
+}
+
+.style33 .card-subtitle {
+  font-size: 18px;
+  font-style: italic;
+}
+
+.style33 .card-list-group {
+  list-style: none;
+  padding: 20px 0;
+
+}
+
+.style33 .card-list-group span {
+  font-weight: bold;
+}
+
+.style33 .card-text {
+
+}
+
+.style33 .card-link {
+ display: none;
+}
+
+
+/* Card no 34  */
+
+
+/* Card no 35  */
+
+
+/* Card no 36 */
+
+
 /* Card no 030  */
 
 
