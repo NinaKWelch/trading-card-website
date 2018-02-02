@@ -3000,9 +3000,10 @@ use this class */
 }
 
 .style41 .card-title {
-  padding: 5px 0 20px 0;
+  padding: 20px 0;
   font-size: 21px;
   text-align: center;
+  font-weight: bold;
 }
 
 .style41 .second-title {
@@ -3017,10 +3018,11 @@ use this class */
 
 .style41 .card-body {
   margin-top: 8px;
-  padding-top: 25px;
+  padding: 20px 5px;
   font-size: 18px;
   border: solid 1px grey;
   text-align: center;
+  line-height: 1.2em;
 }
 
 .style41 .card-subtitle {
@@ -3031,7 +3033,7 @@ use this class */
 }
 
 .style41 .card-list-group {
-  padding: 20px 0 0 0;
+  padding: 15px 0;
   list-style: none;
 }
 
@@ -3040,6 +3042,7 @@ use this class */
 }
 
 .style41 .card-text {
+  font-style: italic;
 }
 
 .style41 .card-link {
