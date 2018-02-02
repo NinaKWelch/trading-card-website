@@ -2084,12 +2084,9 @@ ul {
   padding-top: 15px;
 }
 
-.style27 .card-link {
- text-align: right;
-}
-
 .style27 .card-block {
-  display: none;
+  text-align: right;
+  margin-bottom: 10px;
 }
 
 /* Additional style for the button in card 27 */
@@ -2855,7 +2852,6 @@ use this class */
 }
 
 .style39 .second-title {
-  padding-top: 0;
   font-family: 'Roboto', sans-serif;
   font-size: 0.6em;
   font-weight: normal;
@@ -2890,7 +2886,7 @@ use this class */
 
 .style39 .card-text {
 }
-
+/*
 .style39 .card-block {
   padding-top: 3px;
 }
@@ -2900,6 +2896,7 @@ use this class */
   line-height: 1.3em;
   margin: 3px;
 }
+*/
 .style39 a.card-link {
   text-decoration: none;
   line-height: .5em;
@@ -2909,6 +2906,18 @@ use this class */
 }
 
 .style39 .card-link {
+}
+
+.style39 #magic {
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 1em;
+  width: 100%;
+  background: #795548;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
 }
 
 /* Card no 40 */
@@ -2982,12 +2991,124 @@ use this class */
 }
 
 
-
 /* Card no 41 */
+.style41 {
+  font-family: sans-serif;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+  background-color: #ffb366;
+  border: solid 2px gray;
+}
 
+.style41 .card-title {
+  padding: 5px 0 20px 0;
+  font-size: 21px;
+  text-align: center;
+}
+
+.style41 .second-title {
+}
+
+.style41 img.card-img {
+  border: solid 2px grey;
+  margin: 0 2px;
+  padding: 2px;
+  border-radius: 5px;
+}
+
+.style41 .card-body {
+  margin-top: 8px;
+  padding-top: 25px;
+  font-size: 18px;
+  border: solid 1px grey;
+  text-align: center;
+}
+
+.style41 .card-subtitle {
+  font-size: 1em;
+  text-align: center;
+  font-style: italic;
+  font-weight: normal;
+}
+
+.style41 .card-list-group {
+  padding: 20px 0 0 0;
+  list-style: none;
+}
+
+.style41 .card-list-group span {
+  font-weight: bold;
+}
+
+.style41 .card-text {
+}
+
+.style41 .card-link {
+   display: none;
+}
+
+.style41 .card-block {
+  display: none;
+}
 
 
 /* Card no 42 */
+.style42 {
+  font-family: serif;
+  border-style: solid;
+  border-color: #cecece;
+  border-width: 1px;
+  padding: 10px;
+  box-shadow: 7px 7px #e6e6e6;
+}
+
+.style42 .card-title {
+  padding: 20px 0 15px 0;
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.style42 .second-title {
+}
+
+.style42 img.card-img {
+  padding-bottom: 10px;
+}
+
+.style42 .card-body {
+  margin-top: 5px;
+  padding: 25px 10px;
+  font-size: 18px;
+  line-height: 1.2em;
+  border-style: solid;
+  border-color: #cecece;
+  border-width: 1px;
+}
+
+.style42 .card-subtitle {
+  font-size: 1em;
+  font-style: italic;
+}
+
+.style42 .card-list-group {
+  padding: 15px 0;
+  list-style-type: none;
+}
+
+.style42 .card-list-group span {
+  font-weight: bold;
+}
+
+.style42 .card-text {
+  line-height: 1.1em;
+}
+
+.style42 .card-link {
+  display: none;
+}
+
+.style42 .card-block {
+  display: none;
+}
 
 
 
