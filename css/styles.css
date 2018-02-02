@@ -246,6 +246,10 @@ ul {
 .style100 .card-link a:hover {
 }
 
+.style100 .card-block {
+  display: none;
+}
+
 
 /* Card no 1  */
 .style1 {
@@ -306,7 +310,11 @@ ul {
 
 }
 
-.style2 .card-link {
+.style1 .card-link {
+  display: none;
+}
+
+.style1 .card-block {
   display: none;
 }
 
@@ -374,6 +382,9 @@ ul {
   display: none;
 }
 
+.style2 .card-block {
+  display: none;
+}
 
 /* Card no 3  */
 .style3 {
@@ -423,6 +434,9 @@ ul {
    display: none;
 }
 
+.style3 .card-block {
+  display: none;
+}
 
 /* Card no 4  */
 .style4 {
@@ -478,6 +492,9 @@ ul {
   display: none;
 }
 
+.style4 .card-block {
+  display: none;
+}
 
 /* Card no 5  */
 .style5 {
@@ -547,6 +564,9 @@ ul {
   display: none;
 }
 
+.style5 .card-block {
+  display: none;
+}
 
 /* Card no 6  */
 .style6 {
@@ -609,6 +629,9 @@ ul {
  display: none;
 }
 
+.style6 .card-block {
+  display: none;
+}
 
 /* Card no 7  */
 .style7 {
@@ -686,6 +709,9 @@ ul {
  display: none;
 }
 
+.style7 .card-block {
+  display: none;
+}
 
 /* Card no 8  */
 .style8 {
@@ -743,6 +769,9 @@ ul {
  display: none;
 }
 
+.style8 .card-block {
+  display: none;
+}
 
 /* Card no 9  */
 .style9 {
@@ -804,6 +833,9 @@ ul {
  display: none;
 }
 
+.style9 .card-block {
+  display: none;
+}
 
 /* Card no 10  */
 .style10 {
@@ -882,6 +914,9 @@ ul {
  display: none;
 }
 
+.style10 .card-block {
+  display: none;
+}
 
 /* Card no 11  */
 .style11 {
@@ -944,6 +979,10 @@ ul {
  display: none;
 }
 
+.style11 .card-block {
+  display: none;
+}
+
 
 /* Card no 12  */
 .style12 {
@@ -995,6 +1034,10 @@ ul {
 
 .style12 .card-link {
  display: none;
+}
+
+.style12 .card-block {
+  display: none;
 }
 
 
@@ -1070,6 +1113,10 @@ ul {
  display: none;
 }
 
+.style13 .card-block {
+  display: none;
+}
+
 
 /* Card no 14  */
 .style14 {
@@ -1133,6 +1180,10 @@ ul {
 
 .style14 .card-link {
  display: none;
+}
+
+.style14 .card-block {
+  display: none;
 }
 
 
@@ -1199,6 +1250,10 @@ ul {
  display: none;
 }
 
+.style15 .card-block {
+  display: none;
+}
+
 
 /* Card no 16  */
 .style16 {
@@ -1251,6 +1306,9 @@ ul {
  display: none;
 }
 
+.style16 .card-block {
+  display: none;
+}
 
 /* Card no 17  */
 .style17 {
@@ -1306,6 +1364,9 @@ ul {
  display: none;
 }
 
+.style17 .card-block {
+  display: none;
+}
 
 /* Card no 18  */
 .style18 {
@@ -1356,6 +1417,10 @@ ul {
 
 .style18 .card-link {
  display none;
+}
+
+.style18 .card-block {
+  display: none;
 }
 
 
@@ -1445,6 +1510,9 @@ ul {
  display: none;
 }
 
+.style19 .card-block {
+  display: none;
+}
 
 /* Card no 20  */
 .style20 {
@@ -1516,6 +1584,9 @@ ul {
  display: none;
 }
 
+.style20 .card-block {
+  display: none;
+}
 
 /* Card no 021  */
 .style21 {
@@ -1613,6 +1684,10 @@ ul {
  display: none;
 }
 
+.style21 .card-block {
+  display: none;
+}
+
 
 /* Card no 022  */
 .style22 {
@@ -1699,6 +1774,10 @@ ul {
  display: none;
 }
 
+.style22 .card-block {
+  display: none;
+}
+
 
 /* Card no 023  */
 .style23 {
@@ -1758,6 +1837,11 @@ ul {
  display: none;
 }
 
+.style23 .card-block {
+  display: none;
+}
+
+
 /* Card no 024  */
 .style24 {
   font-family: 'Open Sans', 'Arial', sans-serif;
@@ -1813,6 +1897,10 @@ ul {
 
 .style24 .card-link {
  display: none;
+}
+
+.style24 .card-block {
+  display: none;
 }
 
 
@@ -1873,6 +1961,10 @@ ul {
 
 .style25 .card-link {
  display: none;
+}
+
+.style25 .card-block {
+  display: none;
 }
 
 
@@ -1937,6 +2029,10 @@ ul {
  display: none;
 }
 
+.style26 .card-block {
+  display: none;
+}
+
 /* Card no 027  */
 .style27 {
   font-family: sans-serif;
@@ -1991,6 +2087,11 @@ ul {
 .style27 .card-link {
  text-align: right;
 }
+
+.style27 .card-block {
+  display: none;
+}
+
 /* Additional style for the button in card 27 */
 .style27 #magic {
   background: #795548;
@@ -2065,6 +2166,10 @@ ul {
  display: none;
 }
 
+.style28 .card-block {
+  display: none;
+}
+
 
 /* Card no 029  */
 .style29 {
@@ -2115,6 +2220,10 @@ ul {
 
 .style29 .card-link {
  display: none;
+}
+
+.style29 .card-block {
+  display: none;
 }
 
 
@@ -2187,6 +2296,10 @@ ul {
  display: none;
 }
 
+.style30 .card-block {
+  display: none;
+}
+
 
 /* Card no 31  */
 .style31 {
@@ -2252,6 +2365,10 @@ ul {
  display: none;
 }
 
+.style31 .card-block {
+  display: none;
+}
+
 
 /* Card no 32  */
 .style32 {
@@ -2306,6 +2423,10 @@ ul {
  display: none;
 }
 
+.style32 .card-block {
+  display: none;
+}
+
 
 /* Card no 33  */
 .style33 {
@@ -2358,6 +2479,10 @@ ul {
 
 .style33 .card-link {
  display: none;
+}
+
+.style33 .card-block {
+  display: none;
 }
 
 
@@ -2422,6 +2547,10 @@ ul {
  display: none;
 }
 
+.style34 .card-block {
+  display: none;
+}
+
 
 /* Card no 35  */
 .style35 {
@@ -2470,6 +2599,10 @@ ul {
 
 .style35 .card-link {
  display: none;
+}
+
+.style35 .card-block {
+  display: none;
 }
 
 
@@ -2545,6 +2678,10 @@ ul {
  display: none;
 }
 
+.style36 .card-block {
+  display: none;
+}
+
 
 /* Card no 37 */
 .style37 {
@@ -2604,6 +2741,10 @@ ul {
 
 .style37 .card-link {
  display: none;
+}
+
+.style37 .card-block {
+  display: none;
 }
 
 
@@ -2692,6 +2833,10 @@ use this class */
  display: none;
 }
 
+.style38 .card-block {
+  display: none;
+}
+
 
 /* Card no 39 */
 .style39 {
@@ -2766,7 +2911,6 @@ use this class */
 .style39 .card-link {
 }
 
-
 /* Card no 40 */
 .style40 {
    background-color: #BADA55;
@@ -2832,6 +2976,11 @@ use this class */
 .style40 .card-link {
    display: none;
 }
+
+.style40 .card-block {
+  display: none;
+}
+
 
 
 /* Card no 41 */
