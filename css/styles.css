@@ -3011,15 +3011,16 @@ use this class */
 
 .style41 img.card-img {
   border: solid 2px grey;
-  margin: 0 2px;
+  margin-left: 1%;
   padding: 2px;
   border-radius: 5px;
+  max-width: 98%;
 }
 
 .style41 .card-body {
   margin-top: 8px;
   padding: 20px 5px;
-  font-size: 18px;
+  font-size: 16px;
   border: solid 1px grey;
   text-align: center;
   line-height: 1.2em;
