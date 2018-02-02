@@ -2547,14 +2547,302 @@ ul {
 
 
 /* Card no 37 */
+.style37 {
+  background: #eedcdc;
+  border: 1px solid #101018;
+  padding: 10px;
+  box-shadow:  10px 10px 10px black;
+  font-family: monospace;
+}
+
+.style37 .card-title {
+  padding: 45px 0;
+  font-family: Gloria Hallelujah;
+  text-align: center;
+  font-size: 35px;
+}
+
+.style37 h2:hover {
+    color: darkblue;
+}
+
+.style37 .second-title {
+}
+
+.style37 img.card-img {
+  margin: 0 10%;
+  width: 80%;
+  border: 2px dashed gray;
+  border-radius: 20px;
+}
+
+.style37 .card-body {
+  font-size: 0.9em;
+  line-height: 1.2em;
+  border: 3px solid lightgrey;
+  margin: 15px 10px 10px 10px;
+  padding: 25px 10px;
+}
+
+.style37 .card-subtitle {
+  font-size: 1em;
+  font-style: italic;
+}
+
+.style37 .card-list-group {
+  padding: 15px 0;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.style37 .card-list-group span {
+  font-weight: bold;
+}
+
+.style37 .card-text {
+}
+
+.style37 .card-link {
+ display: none;
+}
 
 
 /* Card no 38  */
+.style38 {
+  padding: 10px;
+  /* this is a CSS pattern I found on http://lea.verou.me/css3patterns/ */
+  background-color:sandybrown;
+  background-image:
+  radial-gradient(circle at 100% 150%, sandybrown 24%, white 25%, white 28%, sandybrown 29%, sandybrown 36%, white 36%, white 40%, transparent 40%, transparent),
+  radial-gradient(circle at 0    150%, sandybrown 24%, white 25%, white 28%, sandybrown 29%, sandybrown 36%, white 36%, white 40%, transparent 40%, transparent),
+  radial-gradient(circle at 50%  100%, white 10%, sandybrown 11%, sandybrown 23%, white 24%, white 30%, sandybrown 31%, sandybrown 43%, white 44%, white 50%, sandybrown 51%, sandybrown 63%, white 64%, white 71%, transparent 71%, transparent),
+  radial-gradient(circle at 100% 50%, white 5%, sandybrown 6%, sandybrown 15%, white 16%, white 20%, sandybrown 21%, sandybrown 30%, white 31%, white 35%, sandybrown 36%, sandybrown 45%, white 46%, white 49%, transparent 50%, transparent),
+  radial-gradient(circle at 0    50%, white 5%, sandybrown 6%, sandybrown 15%, white 16%, white 20%, sandybrown 21%, sandybrown 30%, white 31%, white 35%, sandybrown 36%, sandybrown 45%, white 46%, white 49%, transparent 50%, transparent);
+  background-size:100px 50px;
+  /* here finishes the pattern core */
+  border: 5px solid sandybrown;
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px #d6d6d6;
+  padding: 0px 10px 10px;
+  font-size:12pt;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.style38 .card-title {
+  font-family: 'Spectral SC', serif;
+  font-size: 24pt;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  padding: 10px auto;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+/* if you have a second line on the card title,
+use this class */
+#card-100 .second-title {
+
+}
+
+.style38 img.card-img {
+  border: 5px solid white;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.style38 .card-body {
+  margin-right: 25px;
+  margin-left: 25px;
+  justify-content: center;
+  background-color: white;
+  padding:10px;
+  border-radius: 10px;
+  font-size:13pt;
+}
+
+.style38 .card-subtitle {
+  font-size: 1em;
+  font-style: italic;
+  text-align: justify;
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.style38 .card-list-group {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 5px;
+}
+
+.style38 .card-list-group span {
+  font-weight: bold;
+}
+
+.style38 .card-text {
+  font-style: italic;
+  text-align: justify;
+}
+
+.style38 .card-link {
+ display: none;
+}
 
 
 /* Card no 39 */
+.style39 {
+  padding: 15px;
+  background-color: #eaaa7f29;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  box-shadow: 5px 5px 5px #D3D3D3;
+}
+
+.style39 .card-title {
+  margin: .3em 0;
+  font-size: 2em;
+  font-family: 'Bungee', cursive;
+  text-align: center;
+}
+
+.style39 .second-title {
+  padding-top: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.6em;
+  font-weight: normal;
+}
+
+.style39 img.card-img {
+}
+
+.style39 .card-body {
+  margin-top: 10px;
+  padding: 10px;
+  padding-bottom: 0px;
+  font-size: 14px;
+  line-height: 1.4em;
+}
+
+.style39 .card-subtitle {
+  margin-top: 0px;
+  font-size: 18px;
+  font-style: italic;
+}
+
+.style39 .card-list-group {
+  padding-left: 0px;
+  list-style-type: none;
+  padding: 15px 0;
+}
+
+.style39 .card-list-group span {
+  font-weight: bold;
+}
+
+.style39 .card-text {
+}
+
+.style39 .card-block {
+  padding-top: 3px;
+}
+
+.style39 .card-block p {
+  font-size: 0.8em;
+  line-height: 1.3em;
+  margin: 3px;
+}
+.style39 a.card-link {
+  text-decoration: none;
+  line-height: .5em;
+}
+.style39 a.card-link:hover {
+  text-decoration: underline;
+}
+
+.style39 .card-link {
+}
 
 
+/* Card no 40 */
+.style40 {
+   background-color: #BADA55;
+   padding: 15px;
+   border: thin solid #BADA55;
+   border-radius: 10px;
+   box-shadow: 5px 5px 10px 3px lightgray;
+   font-family: "Times New Roman", Times, serif;
+}
+
+.style40 .card-title {
+   font-family: 'Coustard', serif;
+   padding: 18px 0 15px;
+   font-size: 26pt;
+   font-weight: bold;
+   text-align: center;
+   color: #374119;
+   position: relative;
+   margin: 0;
+}
+
+.style40 .second-title {
+}
+
+.style40 img.card-img {
+   padding: 0 0 15px;
+   margin: 0;
+}
+
+.style40 .card-body {
+   font-family: "Times New Roman", Times, serif;
+   color: #5d6d2a;
+   padding: 0 15px;
+   border: thin solid white;
+   font-size: 12pt;
+   margin-bottom: 20px;
+}
+
+.style40 .card-subtitle {
+   font-style: italic;
+   font-size: 14pt;
+   text-align: center;
+   margin: 16px auto;
+}
+
+.style40 .card-list-group {
+   list-style: none outside;
+   margin: 0;
+   padding: 0;
+   line-height: 20px;
+}
+
+.style40 .card-list-group span {
+   font-weight: bold;
+   color: #4a5722;
+}
+
+.style40 .card-text {
+   line-height: 20px;
+   padding: 20px 0;
+}
+
+.style40 .card-link {
+   display: none;
+}
+
+
+/* Card no 41 */
+
+
+
+/* Card no 42 */
+
+
+
+/* Card no 43 */
 
 
 /* Making any card linkable without changing the styling */

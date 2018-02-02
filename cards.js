@@ -8,8 +8,8 @@ function applyStyleToAll(cardIndex) {
 
 // Reset button for card styles back to being all different
 function reset() {
-		for (var i = 1; i <= 36; i++) {
-		var temp = 'card-'+i; // TODO: take off the 00
+		for (var i = 1; i <= 41; i++) {
+		var temp = 'card-'+i;
 		$( "[id="+temp+"]" ).attr('class', 'card mb-4 '+'style'+i);
 	}
 }
