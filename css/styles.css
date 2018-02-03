@@ -3115,9 +3115,268 @@ use this class */
 }
 
 
-
 /* Card no 43 */
+.style43 {
+  border: solid 1px #e4e4e4;
+  padding: 40px;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 10px 10px 11px 0 rgba(0,0,0,0.11);
 
+}
+
+.style43 .card-title {
+  font-family: "Six Caps", sans-serif;
+  font-weight: 500;
+  color: #181c27;
+  text-transform: uppercase;
+  font-size: 95px;
+  line-height: 100px;
+  margin: 20px 0 40px;
+  background: linear-gradient(0deg, #dcd4df, #ffffff, #ffffff 40px);
+}
+
+.style43 .second-title {
+  display: none;
+}
+
+.style43 card-img {
+}
+
+.style43 img.card-img {
+  border-radius: 5px;
+}
+
+.style43 img.card-img:hover {
+  opacity: 0.7;
+}
+
+
+.style43 .card-body {
+  border-top: solid 5px #dcd4df;
+  border-bottom: solid 5px #dcd4df;
+  margin: 35px 0 0 0;
+  padding: 30px 0;
+  font-family: "Poppins", sans-serif;
+  color: #181c27;
+  font-size: 12px;
+  text-align: justify;
+}
+
+.style43 .card-subtitle {
+  font-style: italic;
+  font-size: 1em;
+}
+
+.style43 .card-list-group {
+  list-style-type: none;
+  padding: 15px 0;
+  margin: 0;
+}
+
+.style43 .card-list-group span {
+  font-weight: bold;
+}
+
+.style43 .card-text {
+}
+
+.style43 .card-link {
+ display: none;
+}
+
+.style43 .card-block {
+  display: none;
+}
+
+
+/* Card no 44 */
+.style44 {
+  background-color: #417780;
+  background-image: url('http://www.grzegorzgebik.eu/bg.jpg');
+  border: 1px solid #417780;
+  border-radius: 10px;
+  -webkit-box-shadow: 10px 10px 15px -10px rgba(0,0,0,0.5);
+  -moz-box-shadow: 10px 10px 15px -10px rgba(0,0,0,0.5);
+  box-shadow: 10px 10px 15px -10px rgba(0,0,0,0.5);
+  font-family: Lato, sans-serif;
+}
+
+.style44 .card-title {
+  font-size: 2em;
+  line-height: 2.25em;
+  margin: 0px;
+  font-family: Open Sans, sans-serif;
+  font-weight: 600;
+  text-align: center;
+  color: #f5e8d7;
+}
+
+.style44 img.card-img {
+  padding: 0px 15px 15px 15px;
+}
+
+.style44 .card-body {
+  border: 1px solid #eee;
+  border-radius: 0px 0px 10px 10px;
+  padding: 15px;
+  margin: 0px 15px 15px 15px;
+  background-color: #f5e8d7;
+  font-size: 16px;
+  color: #417780;
+  line-height: 1.2em;
+}
+
+.style44 .card-subtitle {
+  font-weight: 400;
+  font-size: 1em;
+  font-style: italic;
+  padding-bottom: 15px;
+}
+
+.style44 .card-list-group {
+  list-style: none;
+  padding: 15px 0;
+  border-top: 1px solid #417780;
+  border-bottom: 1px solid #417780;
+}
+
+.style44 .card-list-group span {
+  font-weight: 700;
+}
+
+.style44 .card-text {
+   margin-bottom: 0px;
+   padding-top: 15px;
+}
+
+.style44 .card-link {
+  display: none;
+}
+
+.style44 .card-block {
+  display: none;
+}
+
+
+
+/* Card no 45 */
+.style45 {
+  font-family: serif;
+  border-style: outset;
+  padding: 20px;
+  box-shadow: 10px 10px 5px grey;
+}
+
+.style45 .card-title {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.style45 img.card-img {
+  padding: 15px 0 20px;
+  width: 80%;
+}
+
+.style45 .card-body {
+  border-style: solid;
+  border-color: #e1e3e2;
+  padding: 20px 10px;
+  line-height: 1.2em;
+}
+
+.style45 .card-subtitle {
+  font-style: italic;
+  font-size: 1em;
+}
+
+.style45 .card-list-group {
+  list-style: none;
+  padding: 15px 0;
+}
+
+.style45 .card-list-group span {
+  font-weight: bold;
+}
+
+.style45 .card-text {
+}
+
+.style45 .card-link {
+  display: none;
+}
+
+.style45 .card-block {
+  display: none;
+}
+
+
+/* Card no 46 */
+.style46 {
+  padding: 10px;
+  border:1px solid #000;
+  color:#000;
+  background-color: #DDD;
+  border-radius: 10px;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  box-shadow: 10px 10px 20px black;
+}
+
+.style46 .card-title {
+  padding: ;
+  font-size: ;
+  margin-top: 0;
+  margin-bottom: 10px;
+  color:#303030;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.style46 .second-title {
+}
+
+.style46 img.card-img {
+  border-radius: 10px;
+}
+
+.style46 .card-body {
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: #BBB;
+  padding:12px 10px 30px;
+  font-size: 16px;
+  line-height: 1.1em;
+}
+
+.style46 .card-subtitle {
+  font-size: 1em;
+  font-style: italic;
+  margin-top: 2px;
+}
+
+.style46 .card-list-group {
+  padding: 15px 0;
+  list-style-type: none;
+  color: #000;
+}
+
+.style46 .card-list-group span {
+  font-weight: 600;
+}
+
+.style46 .card-text {
+}
+
+.style46 .card-link {
+   display: none;
+}
+
+.style46 .card-block {
+  display: none;
+}
+
+
+/* Card no 47 */
 
 /* Making any card linkable without changing the styling */
 
