@@ -116,7 +116,7 @@ ul {
 }
 
 #profiles .rounded-circle {
-   border: 1px solid #dbe2e9;
+  border: 1px solid #dbe2e9;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
   margin-bottom: 1em;
 
@@ -135,6 +135,13 @@ ul {
 #profiles .btn-group {
   margin-bottom: 2em;
 }
+
+#profiles .rank {
+  padding: 1.3em;
+  position: absolute;
+  margin-left: 50px;
+}
+
 
 
 /* Styling for social icons  */
@@ -3389,6 +3396,7 @@ text-decoration: none;
 color: inherit;
 text-decoration: none;
 }
+
 
 
 
