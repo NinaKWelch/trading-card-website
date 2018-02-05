@@ -136,10 +136,15 @@ ul {
   margin-bottom: 2em;
 }
 
+.text-center {
+
+}
 #profiles .rank {
-  padding: 1.3em;
+  font-size: 2em;
   position: absolute;
-  margin-left: 50px;
+  margin-top: 0;
+  left: 65%;
+  top: 2%;
 }
 
 
