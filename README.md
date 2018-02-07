@@ -40,7 +40,7 @@ I would love all of you get involved. Simplest way to contribute is to submit yo
 
 For those who are dying to put their fresh javaScript skills to test - it would be soo fab to add some cool features. It’s a team effort!
 
-To get things started, [let me know about your ideas](https://discussions.udacity.com/t/paw-prints-new-shared-project-for-everyone-to-take-part-in/523110) and what you’d like to do.
+To get started, [let me know about your ideas](https://discussions.udacity.com/t/paw-prints-new-shared-project-for-everyone-to-take-part-in/523110) and what you’d like to do.
 
 ## Copyright and License
 
