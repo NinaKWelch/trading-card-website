@@ -30,7 +30,7 @@ Maybe flexbox is a better option? To be explored...
 
 ## Contributors
 
-* Nina Welch + many more to come... I hope!
+* All contributors are listed in [Co-creators page](https://ninakwelch.github.io/trading-card-website/contributors.html)
 
 ## About
 
