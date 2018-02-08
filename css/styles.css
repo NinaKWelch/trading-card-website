@@ -226,6 +226,13 @@ ul {
   background-image: url(https://image.ibb.co/epOdLc/leaves2.png);
 }
 
+.style53-bg {
+  background-image: url("https://orig00.deviantart.net/f828/f/2014/146/4/1/oil_painting_background_by_billijoearm-d7jtpwv.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
 
 /* Styling for individual cards  */
 
@@ -3199,7 +3206,6 @@ use this class */
   opacity: 0.7;
 }
 
-
 .style43 .card-body {
   border-top: solid 5px #dcd4df;
   border-bottom: solid 5px #dcd4df;
@@ -3845,7 +3851,66 @@ use this class */
 
 
 /* Card no 53 */
+.style53 {
+  padding: 0 15px 15px;  
+  box-shadow: 6px 6px 2px rgba(22, 12, 11, 0.5); 
+  background-image: url("https://orig00.deviantart.net/f828/f/2014/146/4/1/oil_painting_background_by_billijoearm-d7jtpwv.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  font-family: Alegreya, sans-serif;
+  border: 1px solid rgba(22, 12, 11, 0.93);
+}
 
+.style53 .card-title {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  text-align: center;
+  font-size: 230%;
+  color: #c2a071;
+  text-shadow: 2px 2px rgba(22, 12, 11, 0.93);
+}
+
+.style53 img.card-img {
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border: 1px solid rgba(22, 12, 11, 0.93);
+  box-shadow: 0px 0px 10px rgb(22, 12, 11);
+}
+
+.style53 .card-body {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #c2a071;
+  font-size: 120%;
+  color: rgb(22, 12, 11);
+  text-align: justify;    
+  border: 1px solid rgba(22, 12, 11, 0.93);
+  box-shadow: 0px 0px 10px rgb(22, 12, 11);
+}
+
+.style53 .card-subtitle {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 100%;
+}
+
+.style53 .card-list-group {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.style53 .card-list-group span {
+  font-weight: bold;
+}
+
+.style53 .card-block {
+  display: none;
+}
 
 /* Card no 54 */
 
