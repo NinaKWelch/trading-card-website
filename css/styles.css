@@ -3389,6 +3389,362 @@ use this class */
 
 
 /* Card no 47 */
+.style47 {
+  font-family: 'helvetica', 'Open Sans', 'sans-serif';
+  border-style: ridge;
+  box-shadow: 10px 10px 5px #888888;
+  border-left-width: 10px;
+  border-color: #85a428;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 10px;
+  background: linear-gradient(#6b9023, #ff9900);
+}
+
+.style47 .card-title {
+  margin: 25px 0;
+  line-height: 1.2em;
+  text-align: center;
+  font-family: 'droid serif';
+  letter-spacing: 3px;
+  font-size: 38px;
+  font-weight: 700;
+  border: ridge 5px;
+  border-color: #85a428;
+  border-top-right-radius: 10px;
+}
+
+.style47 .second-title {
+}
+
+.style47 img.card-img {
+  border: ridge;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin: 5px 0px 13px 0px;
+}
+
+.style47 .card-body {
+  font-size: 15px;
+  color: #262626;
+  line-height: 1.2em;
+  padding: 25px 5px;
+  border-style: ridge;
+  border-top-right-radius: 10px;
+  background-image: url(https://i.pinimg.com/564x/aa/15/c1/aa15c1d7a681d9d0013decd6acbe11f0.jpg);
+}
+
+.style47 .card-subtitle {
+  text-align: justify;
+  font-size: 1em;
+  font-style: italic;
+}
+
+.style47 .card-list-group {
+  list-style-type: none;
+  padding: 15px 0;
+  line-height: 1.5em;
+}
+
+.style47 .card-list-group span {
+  font-weight: bold;
+}
+
+.style47 .card-text {
+  text-align: justify;
+}
+
+.style47 .card-link {
+   display: none;
+}
+
+.style47 .card-block {
+  display: none;
+}
+
+
+/* Card no 48 */
+.style48 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  border: 1px solid #C8C8C8;
+  padding: 15px;
+  background-image: url(https://johnlewis.scene7.com/is/image/JohnLewis/231628188?$prod_main$);
+}
+
+.style48 .card-title {
+  margin: 10px;
+  font-size: 28px;
+  font-weight: 600;
+  text-align: center;
+  color: #fff;
+  text-shadow: 3px 2px 2px rgba(50, 50, 50, 1);
+}
+
+.style48 .second-title {
+}
+
+.style48 img.card-img {
+  margin-top: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #d0bbb6;
+}
+
+.style48 .card-body {
+  border: 1px solid #d0bbb6;
+  padding: 25px 10px;
+  text-align: justify;
+  line-height: 1.2em;
+  background-color: #f8edea;
+}
+
+.style48 .card-subtitle {
+  font-style: italic;
+  font-weight: 100;
+  font-size: 1em;
+}
+
+.style48 .card-list-group {
+  list-style: none;
+  padding: 15px 0;
+}
+
+.style48 .card-list-group span {
+  font-weight: bold;
+}
+
+.style48 .card-text {
+}
+
+.style48 .card-link {
+ display: none;
+}
+
+
+/* Card no 49 */
+.style49 {
+  color: #008B8B;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 3px solid #5F9EA0;
+  background-image: url(http://laoblogger.com/images/fish-pattern-background-5.jpg);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 0px #DCDCDC;
+  padding: 0 15px 15px;
+}
+
+.style49 .card-title {
+  margin: 20px 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  font-weight: 700;
+  border: 3px solid #5F9EA0;
+  border-radius: 10px;
+  background-color: #FFFACD;
+}
+
+.style49 .second-title {
+}
+
+.style49 img.card-img {
+  border: solid 3px;
+  border-color: #5F9EA0;
+  border-radius: 10px;
+}
+
+.style49 .card-body {
+  line-height: 1.2;
+  border: 3px solid #5F9EA0;
+  border-radius: 10px;
+  font-size: 14px;
+  margin-top: 18px;
+  padding: 15px 10px;
+  background-color: #E6E6FA;
+}
+
+.style49 .card-subtitle {
+  font-style: italic;
+  font-size: 1em;
+  text-align: justify;
+}
+
+.style49 .card-list-group {
+  margin: 15px 0;
+  list-style: none;
+  padding: 5px;
+  border: 3px solid #5F9EA0;
+  border-radius: 10px;
+  background-color: #FFFACD;
+}
+
+.style49 .card-list-group span {
+  font-weight: bold;
+}
+
+.style49 .card-text {
+  text-align: justify;
+}
+
+.style49 .card-block {
+  background-color: #E6E6FA;
+  border: 3px solid #5F9EA0;
+  border-radius: 10px;
+  margin-top: 15px;
+  padding: 10px 0 0 10px;
+  line-height: 1.2em;
+}
+
+.style49 .card-link {
+}
+
+.style49 .card-link img {
+  width: 65px;
+  padding-right: 10px;
+}
+
+.style49 .card-block p {
+  padding: 0.3em;
+  text-align: left;
+}
+
+
+/* Card no 50 */
+.style50 {
+  font-family: serif;
+  font-size: 18px;
+  border: 1px solid#CDCDCD;
+  box-shadow: 10px 10px 10px #CDCDCD;
+  padding: 0 1em 1em;
+}
+
+.style50 .card-title {
+  padding: 20px 0;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.style50 .second-title {
+}
+
+.style50 img.card-img {
+  padding-bottom: 1.2em;
+}
+
+.style50 .card-body {
+  line-height: 1.1em;
+  border: 1px #CDCDCD;
+  border-style: solid;
+  padding: 1em;
+}
+
+.style50 .card-subtitle {
+  font-size: 1em;
+  font-style: italic;
+}
+
+.style50 .card-list-group {
+  padding: 20px 0;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.style50 .card-list-group span {
+  font-weight: bold;
+}
+
+.style50 .card-text {
+}
+
+.style50 .card-link {
+   display: none;
+}
+
+.style50 .card-block {
+  display: none;
+}
+
+
+/* Card no 51 */
+.style51 {
+  font-family: Cambria;
+  font-size: 16px;
+  background: linear-gradient(to bottom, #f2d08f, #e1a739);
+  border: 1px solid grey;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px 12px hsla(0, 0%, 0%, 0.5);
+  padding: 15px;
+}
+
+.style51 .card-title {
+  font-family: "Averia Serif Libre", Arial, Helvetica, sans-serif;
+  font-size: 1.6em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.style51 .second-title {
+}
+
+.style51 img.card-img {
+  border: 1px solid grey;
+  border-radius: 10px;
+  margin: 2em 0 1.3em;
+}
+
+.style51 .card-body {
+  padding: 20px 10px 30px;
+  font-size: 1em;
+  line-height: 1.2em;
+  text-align: justify;
+  background: rgb(255, 243, 228);
+  border: 1px solid grey;
+  border-radius: 10px;
+}
+
+.style51 .card-subtitle {
+  font-size: 1em;
+  font-style: italic;
+}
+
+.style51 .card-list-group {
+  padding: 20px 0;
+  list-style-type: none;
+}
+
+.style51 .card-list-group span {
+  font-weight: bold;
+}
+
+.style51 .card-text {
+}
+
+.style51 .card-link {
+   display: none;
+}
+
+.style51 .card-block {
+  display: none;
+}
+
+
+/* Card no 52 */
+
+
+
+/* Card no 53 */
+
+
+/* Card no 54 */
+
+
+/* Card no 55 */
+
+
+/* Card no 56 */
+
+
+/* Card no 57 */
+
 
 /* Making any card linkable without changing the styling */
 
