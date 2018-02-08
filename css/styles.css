@@ -3466,7 +3466,7 @@ use this class */
 /* Card no 48 */
 .style48 {
   font-family: 'Raleway', sans-serif;
-  font-size: 18px;
+  font-size: 17px;
   border: 1px solid #C8C8C8;
   padding: 15px;
   background-image: url(https://johnlewis.scene7.com/is/image/JohnLewis/231628188?$prod_main$);
@@ -3493,12 +3493,12 @@ use this class */
 .style48 .card-body {
   border: 1px solid #d0bbb6;
   padding: 25px 10px;
-  text-align: justify;
   line-height: 1.2em;
   background-color: #f8edea;
 }
 
 .style48 .card-subtitle {
+  text-align: justify;
   font-style: italic;
   font-weight: 100;
   font-size: 1em;
@@ -3507,6 +3507,7 @@ use this class */
 .style48 .card-list-group {
   list-style: none;
   padding: 15px 0;
+
 }
 
 .style48 .card-list-group span {
@@ -3514,6 +3515,7 @@ use this class */
 }
 
 .style48 .card-text {
+  text-align: justify;
 }
 
 .style48 .card-link {
@@ -3695,7 +3697,6 @@ use this class */
   padding: 20px 10px 30px;
   font-size: 1em;
   line-height: 1.2em;
-  text-align: justify;
   background: rgb(255, 243, 228);
   border: 1px solid grey;
   border-radius: 10px;
@@ -3704,6 +3705,7 @@ use this class */
 .style51 .card-subtitle {
   font-size: 1em;
   font-style: italic;
+  text-align: justify;
 }
 
 .style51 .card-list-group {
@@ -3716,6 +3718,7 @@ use this class */
 }
 
 .style51 .card-text {
+  text-align: justify;
 }
 
 .style51 .card-link {
