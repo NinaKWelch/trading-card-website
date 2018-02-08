@@ -190,6 +190,43 @@ ul {
 
 /* HOMEPAGE */
 
+/* Backgronds for select cards */
+.style-bg {
+  background-color: #fff;
+}
+
+.style11-bg {
+  background-image: url(https://svgshare.com/i/2x3.svg);
+  background-size: cover;
+}
+
+.style12-bg {
+  background-color: #f2f2f2;
+}
+
+.style30-bg {
+  background-color: gray;
+}
+
+.style37-bg {
+    background-color: #ece3e3;
+}
+
+.style46-bg {
+  background:-webkit-linear-gradient();
+  background:-o-linear-gradient();
+  background: linear-gradient(to right, #bdc3c7, #2c3e50);
+}
+
+.style51-bg {
+  background-color: orange;
+}
+
+.style52-bg {
+  background-image: url(https://image.ibb.co/epOdLc/leaves2.png);
+}
+
+
 /* Styling for individual cards  */
 
 /* Sample Card no 100  */
@@ -1538,7 +1575,6 @@ ul {
   -webkit-box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.2);
   -moz-box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.2);
   box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.2);
-  margin: 30px auto;
   padding: 15px;
   color: #3c364e;
 }
@@ -3731,7 +3767,81 @@ use this class */
 
 
 /* Card no 52 */
+.style52 {
+  font-family: 'PT Serif', serif;
+  color: #FCF7F7;
+  font-size: 17px;
+  background: #A3D635;
+  border: solid #108743 5px;
+  border-radius: 12px;
+  position: relative;
+  max-width: 90%;
+  margin-left: 5%;
+}
 
+/* outer box */
+.style52:before, .style52:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  -webkit-box-shadow:0 0 30px rgba(0,0,0,0.8), -30px 0 0 rgba(0,0,0,0.8);
+  -moz-box-shadow:0 0 30px rgba(0,0,0,0.8), -30px 0 0 rgba(0,0,0,0.8);
+  box-shadow: 30px 0 0 rgba(0,0,0,0.8), -30px 0 0 rgba(0,0,0,0.8);
+  top:15px;
+  bottom:15px;
+  left: 0;
+  right: 0;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
+}
+
+.style52 .card-title {
+  padding: 5px 0;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 9px 0;
+  text-align: center;
+}
+
+.style52 .second-title {
+}
+
+.style52 img.card-img {
+}
+
+.style52 .card-body {
+  padding: 20px 15px 40px;
+  line-height: 1.3em;
+}
+
+.style52 .card-subtitle {
+  font-size: 1em;
+  text-align: justify;
+  font-style: italic;
+}
+
+.style52 .card-list-group {
+  list-style-type: none;
+  padding: 15px 0;
+}
+
+.style52 .card-list-group span {
+  font-weight: bold;
+  color: #FCF7F7;
+  letter-spacing: 1px;
+}
+
+.style52 .card-text {
+  text-align: justify;
+}
+
+.style52 .card-link {
+   display: none;
+}
+
+.style52 .card-block {
+  display: none;
+}
 
 
 /* Card no 53 */
