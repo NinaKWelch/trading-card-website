@@ -40,7 +40,8 @@ $(document).ready(function() {
     $('#card-52').click(function () {
     	bg.removeClass();
     	bg.addClass('style52-bg');
-    });
+	});
+	
 });
 
 /*function applyStyleToAll(cardIndex) {
@@ -57,10 +58,12 @@ $(document).ready(function() {
 
 // Reset button for card styles back to being all different
 function reset() {
-		for (var i = 1; i <= 53; i++) {
+	for (var i = 1; i <= 54; i++) {
 		var temp = 'card-'+i;
 		$( "[id="+temp+"]" ).attr('class', 'card mb-4 '+'style'+i);
 	}
+	$( ".card-100" ).attr('class', 'card mb-4 '+'style100');  	// reset template card style to original
+	$('body').removeClass(); 									// reset body background to none
 }
 
 
