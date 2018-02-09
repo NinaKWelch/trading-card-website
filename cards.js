@@ -45,15 +45,20 @@ $(document).ready(function() {
         bg.removeClass();
         bg.addClass('style53-bg');
     });
+    $('#card-59').click(function () {
+        bg.removeClass();
+        bg.addClass('style59-bg');
+    });
 });
 
 
 // Reset button for card styles back to being all different
 function reset() {
-		for (var i = 1; i <= 59; i++) {
+		for (var i = 1; i <= 100; i++) {
 		var temp = 'card-'+i;
 		$( "[id="+temp+"]" ).attr('class', 'card mb-4 '+'style'+i);
 	}
+    $('body').removeClass();
 }
 
 

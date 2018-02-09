@@ -27,7 +27,7 @@
 @import "https://fonts.googleapis.com/css?family=Lobster";
 @import "https://fonts.googleapis.com/css?family=Open+Sans";
 @import "https://fonts.googleapis.com/css?family=Josefin+Sans";
-/*@import ;*/
+@import "https://fonts.googleapis.com/css?family=Alegreya";
 
 
 body {
@@ -255,6 +255,13 @@ ul {
   background: url('http://lechrudnicki.com/dev/udacity/img/junglex2.jpg');
   background-size: cover;
 }
+
+.style59-bg {
+  background-image: url("https://orig00.deviantart.net/f828/f/2014/146/4/1/oil_painting_background_by_billijoearm-d7jtpwv.jpg");
+  background-size: cover;
+   background-position: center;
+}
+
 
 /* Styling for individual cards  */
 
@@ -4276,6 +4283,68 @@ use this class */
 
 
 /* Card no 59 */
+.style59 {
+  padding: 0 15px 15px;
+  box-shadow: 6px 6px 2px rgba(22, 12, 11, 0.5);
+  background-image: url("https://orig00.deviantart.net/f828/f/2014/146/4/1/oil_painting_background_by_billijoearm-d7jtpwv.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Alegreya, sans-serif;
+  border: 1px solid rgba(22, 12, 11, 0.93);
+}
+
+.style59 .card-title {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  text-align: center;
+  font-size: 230%;
+  font-weight: 900;
+  color: #c2a071;
+  text-shadow: 2px 2px rgba(22, 12, 11, 0.93);
+}
+
+.style59 img.card-img {
+  margin-bottom: 5px;
+  border-radius: 10px;
+  border: 1px solid rgba(22, 12, 11, 0.93);
+  box-shadow: 0px 0px 10px rgb(22, 12, 11);
+}
+
+.style59 .card-body {
+  padding: 23px 10px;
+  border-radius: 10px;
+  background-color: #c2a071;
+  font-size: 90%;
+  color: rgb(22, 12, 11);
+  line-height: 1.4em;
+  text-align: justify;
+  border: 1px solid rgba(22, 12, 11, 0.93);
+  box-shadow: 0px 0px 10px rgb(22, 12, 11);
+}
+
+.style59 .card-subtitle {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 100%;
+  line-height: 1.4em;
+}
+
+.style59 .card-list-group {
+  list-style-type: none;
+  padding: 10px 0;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.style59 .card-list-group span {
+  font-weight: bold;
+}
+
+.style59 .card-block {
+  display: none;
+}
 
 
 
