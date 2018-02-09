@@ -4,6 +4,30 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-3-col-portfolio/blob/master/LICENSE)
  */
 
+
+ /* Import Google Fonts */
+@import "https://fonts.googleapis.com/css?family=Source+Sans+Pro";
+@import "https://fonts.googleapis.com/css?family=Dancing+Script";
+@import "https://fonts.googleapis.com/css?family=Old+Standard+TT";
+@import "https://fonts.googleapis.com/css?family=Great+Vibes";
+@import "https://fonts.googleapis.com/css?family=Anton|Lato";
+@import "https://fonts.googleapis.com/css?family=Bangers|Roboto";
+@import "https://fonts.googleapis.com/css?family=Rosarivo";
+@import "https://fonts.googleapis.com/css?family=Abril+Fatface|Lato:400,400i,700";
+@import "https://fonts.googleapis.com/css?family=BenchNine""https://fonts.googleapis.com/css?family=Berkshire+Swash|Gloria+Hallelujah";
+@import "https://fonts.googleapis.com/css?family=Berkshire+Swash|Gloria+Hallelujah";
+@import "https://fonts.googleapis.com/css?family=Josefin+Sans|Spectral+SC";
+@import "https://fonts.googleapis.com/css?family=Bungee|Roboto";
+@import "https://fonts.googleapis.com/css?family=Coustard";
+@import "https://fonts.googleapis.com/css?family=Poppins";
+@import "https://fonts.googleapis.com/css?family=Six+Caps";
+@import "https://fonts.googleapis.com/css?family=Ubuntu+Condensed";
+@import "https://fonts.googleapis.com/css?family=Raleway:300i,400,600";
+@import "https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700&amp;subset=latin-ext";
+@import "https://fonts.googleapis.com/css?family=Lobster";
+/*@import ;*/
+
+
 body {
   padding-top: 54px;
 }
