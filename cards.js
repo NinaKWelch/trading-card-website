@@ -41,23 +41,16 @@ $(document).ready(function() {
     	bg.removeClass();
     	bg.addClass('style52-bg');
     });
+    $('#card-53').click(function () {
+        bg.removeClass();
+        bg.addClass('style53-bg');
+    });
 });
-
-/*function applyStyleToAll(cardIndex) {
-	if (cardIndex === 1) {
-	    $("[class='style1']").add('body').css('background-color', '#000000');
-    } else if (cardIndex === 11) {
-        $("[class='style11']").add('body').css('background-image', 'url(https://svgshare.com/i/2x3.svg)');
-    	$("[class='style11']").add('body').css('background-size', 'cover');
-    } else {
-	    $("[class^='style']").add('body').css('background-color', '#ffffff');
-    }
-}*/
 
 
 // Reset button for card styles back to being all different
 function reset() {
-		for (var i = 1; i <= 53; i++) {
+		for (var i = 1; i <= 55; i++) {
 		var temp = 'card-'+i;
 		$( "[id="+temp+"]" ).attr('class', 'card mb-4 '+'style'+i);
 	}

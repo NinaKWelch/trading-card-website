@@ -225,6 +225,10 @@ ul {
   background-image: url(https://image.ibb.co/epOdLc/leaves2.png);
 }
 
+.style53-bg {
+  background: url('http://lechrudnicki.com/dev/udacity/img/junglex2.jpg');
+  background-size: cover;
+}
 
 /* Styling for individual cards  */
 
@@ -3844,9 +3848,148 @@ use this class */
 
 
 /* Card no 53 */
+.style53 {
+  font-family: serif;
+  background-color: #fff;
+  opacity: 0.9;
+  border: 1px solid #000;
+  padding: 10px;
+  box-shadow: 5px 55px 50px -20px #000;
+}
+
+.style53 .card-title {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-color: #605731;
+  color: #fff;
+  font-weight: 700;
+  padding: 10px 0 3px;
+  font-size: 38px;
+}
+
+.style53 .second-title {
+}
+
+.style53 img.card-img {
+  border-radius: 10px;
+  margin: 40px 0 5px;
+}
+
+.style53 .card-body {
+  font-size: 18px;
+  line-height: 1.1em;
+  border: 1px solid #4CAF50;
+  padding: 28px 10px;
+  border-radius: 10px;
+}
+
+.style53 .card-subtitle {
+  font-size: 1em;
+  line-height: 1.1em;
+  font-style: italic;
+}
+
+.style53 .card-list-group {
+  list-style: none;
+  font-size: .8em;
+  padding: 20px 0;
+  line-height: 1.1em;
+}
+
+.style53 .card-list-group span {
+  font-weight: bold;
+}
+
+.style53 .card-text {
+}
+
+.style53 .card-link {
+   display: none;
+}
+
+.style53 .card-block {
+  display: none;
+}
 
 
 /* Card no 54 */
+.style54 {
+  font-family: serif;
+  background-color: #fff;
+  border: 1px solid #ebe6eb;
+  padding: 12px 20px;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(232, 225, 232, 1);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(232, 225, 232, 1);
+  -ms-box-shadow: 10px 10px 5px 0px rgba(232, 225, 232, 1);
+  -o-box-shadow: 10px 10px 5px 0px rgba(232, 225, 232, 1);
+  box-shadow: 10px 10px 5px 0px rgba(232, 225, 232, 1);
+  border-radius: 5px;
+}
+
+.style54 .card-title {
+  padding: 0;
+  font-family: "Lobster", sans-serif;
+  font-size: 28px;
+  color: #c7cdfa;
+}
+
+.style54 .second-title {
+}
+
+.style54 img.card-img {
+  padding: 1% 0;
+}
+
+.style54 img.card-img:hover {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.style54 .card-body {
+  font-size: 18px;
+  line-height: 1.1em;
+  border: 1px solid grey;
+  padding: 10px 10px 25px;
+  border-radius: 5px;
+  background-color: #f2f2e1;
+  margin-top: 6px;
+}
+
+.style54 .card-subtitle {
+  font-style: italic;
+  text-align: justify;
+  font-size: 0.85em;
+  line-height: 1.2em
+}
+
+.style54 .card-list-group {
+  line-height: 20px;
+  list-style: none;
+  padding: 5px 0 20px 20px;
+}
+
+.style54 .card-list-group span {
+  font-weight: bold;
+  color: #495f77;
+}
+
+.style54 .card-text {
+  text-align: justify;
+  color: gray;
+}
+
+.style54 .card-link {
+  color: #495f77;
+}
+
+.style54 .card-link:hover {
+  text-decoration-style: none;
+}
+
+.style54 .card-block {
+    padding-top: 5px;
+}
 
 
 /* Card no 55 */
