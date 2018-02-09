@@ -21,12 +21,32 @@ Maybe flexbox is a better option? To be explored...
 
 ## Ideas
 
-* Create a slider for displaying cards like [example 1](https://tympanus.net/Development/3DGallery/index.html) or like [example 2](http://www.maisengasse.at/home/) that looks different from typical carousels or sliders
-* Create different categories like cats, dogs, birds etc.
+### Co-creators page:
+
+* Who is in your area? An option to look for people by country.
+
+### Cards page:
+
+1. Groupings - See only cats, dogs etc. 
+Question: What groupings would be sensible? Cats, dogs, pets, birds, mammals, fish, primates, fantasy, Harry Potter, Pokemon, insects, land, water, air, continent (Africa, Antarctica, Asia, Australia/Oceania, Europe, North America and South America) - lots of options to consider.
+
+2. Ranking - Ability to like a card
+Question: Is this something that is useful or needed? Card styles could be displayed in the order of most liked.
+
+3. Slider
+Create a slider for displaying cards like [example 1](https://tympanus.net/Development/3DGallery/index.html) or like [example 2](http://www.maisengasse.at/home/) that looks different from typical carousels or sliders
+
+### Fun stuff:
+
+* Some people have picked the same favourite animal, so there could be some kind of match function, like 'Check out who are kindred spirits?'
+* Food chain feature - maybe not so fun but educational! Could be done as a separate page
+
+Comments about these and other ideas welcome!
 
 ## Bugs and Issues
 
 * How to use SVG images so that their color can be chaged without adding all the code to the HTML page  
+* Now that there are more cards and co-creators, the images are starting to load slower. Some kind of progressive loading could be a solution
 
 ## Contributors
 
