@@ -50,7 +50,7 @@ $(document).ready(function() {
 
 // Reset button for card styles back to being all different
 function reset() {
-		for (var i = 1; i <= 55; i++) {
+		for (var i = 1; i <= 59; i++) {
 		var temp = 'card-'+i;
 		$( "[id="+temp+"]" ).attr('class', 'card mb-4 '+'style'+i);
 	}

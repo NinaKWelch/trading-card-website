@@ -25,6 +25,8 @@
 @import "https://fonts.googleapis.com/css?family=Raleway:300i,400,600";
 @import "https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700&amp;subset=latin-ext";
 @import "https://fonts.googleapis.com/css?family=Lobster";
+@import "https://fonts.googleapis.com/css?family=Open+Sans";
+@import "https://fonts.googleapis.com/css?family=Josefin+Sans";
 /*@import ;*/
 
 
@@ -4017,12 +4019,268 @@ use this class */
 
 
 /* Card no 55 */
+.style55 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  border: 1px solid #D3D3D3;
+  border-radius: 4px;
+  box-shadow: 7px 7px 7px #D3D3D3;
+  padding: 20px;
+}
+
+.style55 .card-title {
+  padding: ;
+  font-size: ;
+  letter-spacing: 1px;
+  font-size: 2em;
+  font-weight: 800;
+  border-bottom: 1px dashed #D3D3D3;
+  border-top: 1px dashed #D3D3D3;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.style55 .second-title {
+}
+
+.style55 img.card-img {
+  padding: 25px 0;
+}
+
+.style55 .card-body {
+  font-size: ;
+  line-height: 1.3em;
+  border: 1px solid #D3D3D3;
+  border-radius: 4px;
+  padding: 30px 12px;
+  background-color: rgba(211,211,211,0.3);
+}
+
+.style55 .card-subtitle {
+  font-size: 1em;
+  font-style: italic;
+}
+
+.style55 .card-list-group {
+  list-style: none;
+  padding: 20px 0;
+}
+
+.style55 .card-list-group span {
+  font-weight: 800;
+}
+
+.style55 .card-text {
+}
+
+.style55 .card-link {
+   display: none;
+}
+
+.style55 .card-block {
+  display: none;
+}
 
 
 /* Card no 56 */
+.style56 {
+  font-family: serif;
+  font-size: 18px;
+  box-shadow: 7px 7px 10px skyblue;
+  padding: 10px;
+  background-color: black;
+  color: skyblue;
+}
+
+.style56 .card-title {
+  padding: 25px 0;
+  font-size: 1.5em;
+  font-weight: 800;
+  text-align: center;
+  text-shadow: 1px 1px 8px skyblue;
+}
+
+.style56 .second-title {
+}
+
+.style56 img.card-img {
+  padding-bottom: 20px;
+}
+
+.style56 .card-body {
+  line-height: 1.1em;
+  box-sizing: border-box;
+  border: solid 1px skyblue;
+  padding: 30px 10px;
+}
+
+.style56 .card-subtitle {
+  font-size: 1em;
+  font-style: italic;
+}
+
+.style56 .card-list-group {
+  margin: 15px 0;
+  box-sizing: border-box;
+  border: solid 1px skyblue;
+  list-style: none;
+  padding: 5px;
+}
+
+.style56 .card-list-group span {
+  font-weight: bold;
+}
+
+.style56 .card-text {
+}
+
+.style56 .card-link {
+   display: none;
+}
+
+.style56 .card-block {
+  display: none;
+}
 
 
 /* Card no 57 */
+.style57 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 10px 10px 5px #d5d5d5;
+  background-color: #FFF6F6;
+}
+
+.style57 .card-title {
+  padding: ;
+  font-weight: 800;
+  font-size: 32px;
+  margin: 5px 0px 20px 0px;
+}
+
+.style57 .second-title {
+}
+
+.style57 img.card-img {
+  border: 1px solid grey;
+  margin-bottom: 15px;
+}
+
+.style57 .card-body {
+  font-size: 0.95;
+  line-height: 1.1em;
+  border: 1px solid grey;
+  padding: 20px 15px;
+  background-color: white;
+}
+
+.style57 .card-subtitle {
+  font-size: 1em;
+  line-height: 1.2em;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.style57 .card-list-group {
+  padding: 18px 0;
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.style57 .card-list-group span {
+  font-weight: bold;
+}
+
+.style57 .card-text {
+}
+
+.style57 .card-link {
+   display: none;
+}
+
+.style57 .card-block {
+  display: none;
+}
+
+
+/* Card no 58 */
+.style58 {
+  font-family: serif;
+  font-size: 18px;
+  border: 4px solid black;
+  border-radius: 10px;
+  padding: 25px 15px 18px;
+  background-image: url("http://www.psdgraphics.com/file/2016/dog-paws-pattern.jpg");
+  background-size: cover;
+}
+
+.style58 .card-title {
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
+  border: 4px solid black;
+  border-radius: 10px;
+  padding: 10px 0;
+  background-color: #5cb4e8;
+  opacity: 0.8;
+}
+
+.style58 .second-title {
+}
+
+.style58 img.card-img {
+  border: 4px solid black;
+  border-radius: 10px;
+  border: solid;
+  margin: 10px 0 15px;
+}
+
+.style58 .card-body {
+  line-height: 1.1em;
+  border: 4px solid #000;
+  border-radius: 10px;
+  padding: 28px 10px;
+  background-color: #5cb4e8;
+  opacity: 0.8;
+}
+
+.style58 .card-subtitle {
+  font-size: 1em;
+  font-style: italic;
+  text-align: center;
+}
+
+.style58 .card-list-group {
+  padding: ;
+  list-style-type: none;
+  padding: 16px 0 16px 10px;
+}
+
+.style58 .card-list-group span {
+  font-weight: bold;
+}
+
+.style58 .card-text {
+  text-align: justify;
+}
+
+.style58 .card-link {
+   display: none;
+}
+
+.style58 .card-block {
+  display: none;
+}
+
+
+/* Card no 59 */
+
+
+
+/* Card no 60 */
+
 
 
 /* Making any card linkable without changing the styling */
