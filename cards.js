@@ -58,11 +58,12 @@ $(document).ready(function() {
 
 // Reset button for card styles back to being all different
 function reset() {
-	for (var i = 1; i <= 100; i++) {
+	for (var i = 1; i <= 54; i++) {
 		var temp = 'card-'+i;
 		$( "[id="+temp+"]" ).attr('class', 'card mb-4 '+'style'+i);
 	}
-	$('body').removeClass(); 
+	$( ".card-100" ).attr('class', 'card mb-4 '+'style100');  	// reset template card style to original
+	$('body').removeClass(); 									// reset body background to none
 }
 
 
