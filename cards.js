@@ -13,6 +13,10 @@ $(document).ready(function() {
     	bg.removeClass();
     	bg.addClass('style-bg');
     });
+    $('#card-1').click(function () {
+        bg.removeClass();
+        bg.addClass('style1-bg');
+    });
     $('#card-11').click(function () {
     	bg.removeClass();
     	bg.addClass('style11-bg');
