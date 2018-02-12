@@ -4422,10 +4422,11 @@ use this class */
 .style61 {
   font-family: 'Covered By Your Grace', cursive;
   background-image: url(https://img00.deviantart.net/275b/i/2016/139/8/c/touch_the_sky_by_dreamerwhit-d9r70h9.jpg);
+  background-size: cover;
   border-radius: 15px;
   border: 2px solid #0c0e27;
   box-shadow: 15px 14px 58px -16px;
-  background-position: center;
+
   padding: 0.5em 1em 1em;
 }
 
