@@ -4546,7 +4546,7 @@ use this class */
 
 .style62 .card-list-group li {
   font-family: 'Questrial', sans-serif;
-  height: 54px;
+  min-height: 54px;
   padding-left: 5px;
   margin-bottom: 3px;
   border-radius: 5px;
