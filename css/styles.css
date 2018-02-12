@@ -40,6 +40,25 @@ body {
   }
 }
 
+/* Scroll Button styling */
+.scroll-container {
+  position: absolute;
+  position: fixed;
+  visibility: hidden;
+  opacity: 0.7;
+  right: 1%;
+  bottom: 1%;
+  z-index: 99;
+  padding: 0;
+  width: 50px;
+  height: 50px;
+}
+
+.scrollUp-icon {
+  width: 40px;
+}
+
+
 /* Bootstrap Card styling overide */
 .card {
   background-color: #fff;
