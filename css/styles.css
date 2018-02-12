@@ -4435,7 +4435,7 @@ use this class */
   font-family: 'Berkshire Swash', cursive;
   font-size: 36px;
   font-weight: 520;
-  line-height: 90px;
+  padding: 25px 0;
   text-align: center;
   text-shadow:2px 2px 9px grey;
 }
