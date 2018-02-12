@@ -4508,7 +4508,7 @@ use this class */
   color: red;
   font-size: 36px;
   font-weight: 500;
-  line-height: 65px;
+  padding: 25px 0;
 }
 
 .style62 img.card-img {
