@@ -1,9 +1,8 @@
 
 // Changes all card styles to look like the card that was clicked - by Nina (https://github.com/NinaKWelch)
 function applyStyleToAll(cardIndex) {
-	$("[id^='card-']").attr('class', 'card mb-4 ' + 'style' + cardIndex);
+    $("[id^='card-']").attr('class', 'card mb-4 ' + 'style' + cardIndex);
 }
-
 
 // Reset button for card styles back to being all different - by Nina (https://github.com/NinaKWelch)
 function reset() {
@@ -14,6 +13,7 @@ function reset() {
     $('body').removeClass();
 }
 
+
 // Checks if element (jumbotron) is in the viewport (for scroll button) - by Judit (https://github.com/jpacsai)
 $.fn.isInViewport = function() {
     var elementTop = $(this).offset().top;
@@ -22,7 +22,6 @@ $.fn.isInViewport = function() {
     var viewportBottom = viewportTop + $(window).height();
     return elementBottom > viewportTop && elementTop < viewportBottom;
   };
-
 
 $(document).ready(function() {
     // sets visibility of scroll button on page scroll event - by Judit (https://github.com/jpacsai)
@@ -90,9 +89,3 @@ $(document).ready(function() {
         bg.addClass('style59-bg');
     });
 });
-
-
-
-
-
-
