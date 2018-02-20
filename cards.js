@@ -6,6 +6,16 @@ function applyStyleToAll(cardIndex) {
 	$("[id^='card-']").attr('class', 'card mb-4 ' + 'style' + cardIndex);
 }
 
+// Reset button for card styles back to being all different
+function reset() {
+        for (var i = 1; i <= 100; i++) {
+        var temp = 'card-'+i;
+        $( "[id="+temp+"]" ).attr('class', 'card mb-4 '+'style'+i);
+    }
+    $('body').removeClass();
+}
+
+
 // Backgrounds for select cards
 $(document).ready(function() {
 	var bg = $('body');
@@ -53,32 +63,13 @@ $(document).ready(function() {
         bg.removeClass();
         bg.addClass('style59-bg');
     });
+
 });
 
 
-// Reset button for card styles back to being all different
-function reset() {
-		for (var i = 1; i <= 100; i++) {
-		var temp = 'card-'+i;
-		$( "[id="+temp+"]" ).attr('class', 'card mb-4 '+'style'+i);
-	}
-    $('body').removeClass();
-}
 
 
-/*
-// Attribute Starts With Selector [name^=”value”]
-// Selects elements that have the specified attribute with a value beginning exactly with a given string.
-// This function will select all ids that start with 'card-''
-*/
-
-//$( "[id^='card-']" ).css( "border", "3px dotted green" );
-
-/*
-// :contains() Selector
-// Select all elements that contain the specified text.
-// This function selects all card that contain a word 'dog'
-*/
 
 
-//$( "div:contains('dog')" ).css( "text-decoration", "underline" );
+
+

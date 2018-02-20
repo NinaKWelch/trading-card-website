@@ -138,6 +138,54 @@ ul {
 
 
 /* CONTRIBUTORS PAGE  */
+
+/* Button Group for Countries */
+
+.jumbotron .input-group {
+  display: none;
+}
+
+.btn-toolbar .btn {
+    min-width: 140px;
+    text-align: left;
+}
+
+@media (max-width: 991.98px) {
+   .btn-toolbar {
+    display: inline;
+  }
+  .btn-toolbar .btn {
+    min-width: 50px;
+  }
+  .btn-toolbar .select-all {
+    min-width: 150px;
+  }
+  .btn-toolbar span {
+     display: none;
+  }
+  .btn-toolbar .input-group {
+     display: none;
+  }
+}
+
+@media (max-width: 767.68px) {
+  .btn-toolbar {
+    display: inline;
+  }
+  .btn-toolbar span {
+     display: none;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .btn-group {
+    display: none;
+  }
+  .jumbotron .input-group {
+  display: inline-flex;
+  }
+}
+
 #profiles {
   margin-top: 3em;
 }
@@ -146,7 +194,6 @@ ul {
   border: 1px solid #dbe2e9;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
   margin-bottom: 1em;
-
 }
 
 #profiles h3 {
@@ -163,9 +210,6 @@ ul {
   margin-bottom: 2em;
 }
 
-.text-center {
-
-}
 #profiles .rank {
   font-size: 2em;
   position: absolute;
@@ -212,6 +256,45 @@ ul {
   border: 1px solid #00ace6;
   border-radius: 7px;
   margin-bottom: 10px;
+}
+
+
+/* MATCHES PAGE  */
+#matched,
+#kindered {
+  border: 1px solid #dbe2e9;
+
+}
+
+#matched .rounded-circle,
+#kindered .rounded-circle {
+  border: 1px solid #dbe2e9;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  margin-bottom: 1em;
+}
+
+#matched h3,
+#kindered h3 {
+  margin-bottom: 1em;
+}
+
+@media (min-width: 768px) {
+  #matched.matched-left {
+    max-width: 49%;
+    margin-right: 1%;
+  }
+  #matched.matched-right {
+    max-width: 49%;
+    margin-left: 1%;
+  }
+}
+@media (max-width: 575.98px) {
+  #matched.col-sm-12,
+  #kindered.col-sm-12 {
+    max-width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+  }
 }
 
 

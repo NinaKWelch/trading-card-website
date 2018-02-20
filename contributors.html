@@ -60,20 +60,73 @@
 
     <!-- Page Heading -->
     <div class="jumbotron jumbotron-fluid">
-      <div class="container text-center">
+      <div class="container-fluid text-center">
         <h1 class="display-4">Co-creators</h1>
-        <p class="lead">All the budding web-developers who have contributed to this project!</p>
-      </div>
-    </div>
+        <p class="lead">Find <a href="matches.html">like-minded collaborators</a> or check out people in your area!</p>
+        <div class="btn-group mr-2 select-all" role="group" aria-label="Button for all countries">
+          <button type="button" class="btn btn-large btn-light" onclick="selectCountry(0)"><span>ALL COUNTRIES</span></button>
+      </div><!--/.btn-group -->
+      <div class="input-group justify-content-center">
+        <div class="input-group-prepend">
+          <label class="input-group-text" for="inputGroupSelect01"><span class="em-svg em-earth_africa"></span></label>
+        </div><!--/.input-group-prepend -->
+        <select class="custom-select" id="inputGroupCountries">
+          <option selected>Select Country...</option>
+          <option onclick="selectCountry(0)">All</option>
+          <option onclick="selectCountry(1)">Bulgaria</option>
+          <option onclick="selectCountry(2)">Croatia</option>
+          <option onclick="selectCountry(3)">Egypt</option>
+          <option onclick="selectCountry(4)">Finland</option>
+          <option onclick="selectCountry(5)">Germany</option>
+          <option onclick="selectCountry(6)">Greece</option>
+          <option onclick="selectCountry(7)">Hungary</option>
+          <option onclick="selectCountry(8)">Israel</option>
+          <option onclick="selectCountry(9)">Italy</option>
+          <option onclick="selectCountry(10)">Poland</option>
+          <option onclick="selectCountry(11)">Portugal</option>
+          <option onclick="selectCountry(12)">Romania</option>
+          <option onclick="selectCountry(13)">Slovakia</option>
+          <option onclick="selectCountry(14)">Spain</option>
+          <option onclick="selectCountry(15)">Turkey</option>
+          <option onclick="selectCountry(16)">UK</option>
+        </select>
+      </div><!--/.input-group -->
+      </div><!--/.container -->
+    </div><!--/.jumbotron -->
 
+    <div class="btn-toolbar mb-3 d-flex justify-content-center" role="toolbar" aria-label="Select by country">
+        <div class="btn-group mr-2 btn-group-lg" role="group" aria-label="Buttons for different countries">
+          <button type="button" class="btn btn-light" onclick="selectCountry(1)"><i class="em-svg em-flag-bg"></i> <span>Bulgaria</span></button>
+          <button type="button" class="btn btn-light" onclick="selectCountry(2)"><i class="em-svg em-flag-hr"></i> <span>Croatia</span></button>
+          <button type="button" class="btn btn-light" onclick="selectCountry(3)"><i class="em-svg em-flag-eg"></i> <span>Egypt</span>  </button>
+          <button type="button" class="btn btn-light" onclick="selectCountry(4)"><i class="em-svg em-flag-fi"></i> <span>Finland</span></button>
+          <button type="button" class="btn btn-light" onclick="selectCountry(5)"><i class="em-svg em-de"></i> <span>Germany</span></button>
+          <button type="button" class="btn btn-light" onclick="selectCountry(6)"><i class="em-svg em-flag-gr"></i> <span>Greece</span></button>
+          <button type="button" class="btn btn-light" onclick="selectCountry(7)"><i class="em-svg em-flag-hu"></i> <span>Hungary</span></button>
+          <button type="button" class="btn btn-light" onclick="selectCountry(8)"><i class="em-svg em-flag-il"></i> <span>Israel</span></button>
+        </div><!--/.btn-group -->
+        <div class="btn-group mr-2 btn-group-lg" role="group" aria-label="Buttons for different countries">
+          <button type="button" class="btn btn-light" onclick="selectCountry(9)"><i class="em-svg em-it"></i> <span>Italy</span></button>
+          <button type="button" class="btn btn-light" onclick="selectCountry(10)"><i class="em-svg em-flag-pl"></i> <span>Poland</span></button>
+          <button type="button" class="btn btn-light" onclick="selectCountry(11)"><i class="em-svg em-flag-pt"></i> <span>Portugal</span></button>
+          <button type="button" class="btn btn-light" onclick="selectCountry(12)"><i class="em-svg em-flag-ro"></i> <span>Romania</span></button>
+          <button type="button" class="btn btn-light" onclick="selectCountry(13)"><i class="em-svg em-flag-sk"></i> <span>Slovakia</span></button>
+          <button type="button" class="btn btn-light" onclick="selectCountry(14)"><i class="em-svg em-es"></i> <span>Spain</span></button>
+          <button type="button" class="btn btn-light" onclick="selectCountry(15)"><i class="em-svg em-flag-tr"></i> <span>Turkey</span></button>
+          <button type="button" class="btn btn-light" onclick="selectCountry(16)"><i class="em-svg em-gb"></i> <span>UK</span></button>
+        </div><!--/.btn-group -->
+
+      </div><!--/.btn-toolbar -->
     <!-- Page Content -->
     <div class="container">
+
+
 
       <!-- Contributors Row -->
       <div id="profiles" class="row">
 
         <!-- Profiles with Photos -->
-        <div class="col-lg-4 col-sm-6 text-center mb-4">
+        <div id="in-gb" class="col-lg-4 col-sm-6 text-center mb-4">
           <a href="#" class="em-svg em-orange_heart rank" data-toggle="tooltip" data-placement="top" title="Project Founder"></a>
           <img width="200" class="rounded-circle img-fluid d-block mx-auto" src="img/nina_welch_profile.jpg" alt="Picture of Nina">
           <h3>Nina</h3>
@@ -99,7 +152,8 @@
             </a>
           </div><!-- btn-group -->
         </div><!-- col -->
-        <div class="col-lg-4 col-sm-6 text-center mb-4">
+
+        <div id="in-de" class="col-lg-4 col-sm-6 text-center mb-4">
           <a href="#" class="em-svg em-star rank" data-toggle="tooltip" data-placement="top"title="Star Countributor"></a>
           <img width="200" class="rounded-circle img-fluid d-block mx-auto" src="https://s26.postimg.org/wqpu7st6h/ajk.jpg" alt="Picture of AJK">
           <h3>Annika</h3>
@@ -126,8 +180,7 @@
           </div><!-- btn-group -->
         </div><!-- col -->
 
-
-        <div class="col-lg-4 col-sm-6 text-center mb-4">
+        <div id="in-fi" class="col-lg-4 col-sm-6 text-center mb-4">
           <a href="#" class="em-svg em-star rank" data-toggle="tooltip" data-placement="top"title="Star Countributor"></a>
           <img width="200" class="rounded-circle img-fluid d-block mx-auto" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1287422/profile/profile-512.jpg?1504442418" alt="Picture of Dita">
           <h3>Dita</h3>
@@ -154,7 +207,7 @@
           </div><!-- /.btn-group -->
         </div><!-- ./col -->
 
-        <div class="col-lg-4 col-sm-6 text-center mb-4">
+        <div id="in-ro" class="col-lg-4 col-sm-6 text-center mb-4">
           <a href="#" class="em-svg em-star rank" data-toggle="tooltip" data-placement="top"title="Star Countributor"></a>
           <img width="200" class="rounded-circle img-fluid d-block mx-auto" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1582706/profile/profile-512.jpg?1517854236" alt="Picture of Alex">
           <h3>Alex</h3>
@@ -169,7 +222,7 @@
           </div><!-- /.btn-group -->
         </div><!-- ./col -->
 
-        <div class="col-lg-4 col-sm-6 text-center mb-4">
+        <div id="in-hu" class="col-lg-4 col-sm-6 text-center mb-4">
           <a href="#" class="em-svg em-star rank" data-toggle="tooltip" data-placement="top"title="Star Countributor"></a>
           <img width="200" class="rounded-circle img-fluid d-block mx-auto" src="https://i.imgur.com/Ytg81J0.jpg" alt="Picture of Judit">
           <h3>Judit</h3>
@@ -196,7 +249,7 @@
           </div><!-- /.btn-group -->
         </div><!-- ./col -->
 
-        <div class="col-lg-4 col-sm-6 text-center mb-4">
+        <div id="in-ro" class="col-lg-4 col-sm-6 text-center mb-4">
           <img width="200" class="rounded-circle img-fluid d-block mx-auto" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/999028/profile/profile-512.jpg?1516086038" alt="Picture of Andra">
           <h3>Andra</h3>
           <h4>Bucharest, Romania <span class="em-svg em-flag-ro"></span></h4>
@@ -210,7 +263,7 @@
           </div><!-- btn-group -->
         </div><!-- col -->
 
-        <div class="col-lg-4 col-sm-6 text-center mb-4">
+        <div id="in-pl" class="col-lg-4 col-sm-6 text-center mb-4">
           <img width="200" class="rounded-circle img-fluid d-block mx-auto" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1576113/profile/profile-512.jpg?1510084181" alt="Picture of Magda">
           <h3>Magda</h3>
           <h4>Gdansk, Poland <span class="em-svg em-flag-pl"></span></h4>
@@ -224,7 +277,7 @@
           </div><!-- btn-group -->
         </div><!-- col -->
 
-        <div class="col-lg-4 col-sm-6 text-center mb-4">
+        <div id="in-gb" class="col-lg-4 col-sm-6 text-center mb-4">
           <img width="200" class="rounded-circle img-fluid d-block mx-auto" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1591165/profile/profile-512.jpg?1514829639" alt="Picture of Graig">
           <h3>Craig</h3>
           <h4>Essex, UK <span class="em-svg em-gb"></span></h4>
@@ -250,9 +303,8 @@
           </div><!-- btn-group -->
         </div><!-- col -->
 
-        <div class="col-lg-4 col-sm-6 text-center mb-4">
+        <div id="in-pl" class="col-lg-4 col-sm-6 text-center mb-4">
           <img width="200" class="rounded-circle img-fluid d-block mx-auto" src="https://media.licdn.com/media/AAEAAQAAAAAAAAxkAAAAJDA5NDg1MjUyLTkyYTUtNGMxZS1hMDdkLTIwMGFiZTNkMjMzYQ.jpg" alt="Picture of Magda">
-
           <h3>Magda</h3>
           <h4>Bydgoszcz, Poland <span class="em-svg em-flag-pl"></span></h4>
           <div class="btn-group" role="group" aria-label="">
@@ -277,7 +329,7 @@
           </div><!-- /.btn-group -->
         </div><!-- ./col -->
 
-        <div class="col-lg-4 col-sm-6 text-center mb-4">
+        <div id="in-pl" class="col-lg-4 col-sm-6 text-center mb-4">
         	<img width="200" class="rounded-circle img-fluid d-block mx-auto" src="https://gravatar.com/avatar/3aeeb5210f788b71a82979717c6e88a9?s=512&d=https://codepen.io/assets/avatars/user-avatar-512x512-6e240cf350d2f1cc07c2bed234c3a3bb5f1b237023c204c782622e80d6b212ba.png" alt="Picture of Adrianna">
           <h3>Adrianna</h3>
           <h4>Łódź, Poland <span class="em-svg em-flag-pl"></span></h4>
@@ -291,7 +343,7 @@
           </div><!-- /.btn-group -->
         </div><!-- ./col -->
 
-        <div class="col-lg-4 col-sm-6 text-center mb-4">
+        <div id="in-gr" class="col-lg-4 col-sm-6 text-center mb-4">
           <img width="200" class="rounded-circle img-fluid d-block mx-auto" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1583929/profile/profile-512.jpg?1510648852" alt="Picture of Virginia">
           <h3>Virginia</h3>
           <h4>Athens, Greece <span class="em-svg em-flag-gr"></span></h4>
@@ -305,7 +357,7 @@
           </div><!-- /.btn-group -->
         </div><!-- ./col -->
 
-        <div class="col-lg-4 col-sm-6 text-center mb-4">
+        <div id="in-pt" class="col-lg-4 col-sm-6 text-center mb-4">
          <img width="200" class="rounded-circle img-fluid d-block mx-auto" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1577474/profile/profile-512.jpg?1512389574" alt="Picture of Catarina">
           <h3>Catarina</h3>
           <h4>Lisbon, Portugal <span class="em-svg em-flag-pt"></span></h4>
@@ -319,7 +371,7 @@
           </div><!-- /.btn-group -->
         </div><!-- ./col -->
 
-        <div class="col-lg-4 col-sm-6 text-center mb-4">
+        <div id="in-eg" class="col-lg-4 col-sm-6 text-center mb-4">
           <img width="200" class="rounded-circle img-fluid d-block mx-auto" src="img/ahmed_yasser.jpg" alt="Picture of Ahmed">
           <h3>Ahmed</h3>
           <h4>Cairo, Egypt <span class="em-svg em-flag-eg"></span></h4>
@@ -333,7 +385,7 @@
           </div><!-- /.btn-group -->
         </div><!-- ./col -->
 
-        <div class="col-lg-4 col-sm-6 text-center mb-4">
+        <div id="in-de" class="col-lg-4 col-sm-6 text-center mb-4">
           <img width="200" class="rounded-circle img-fluid d-block mx-auto" src="https://pbs.twimg.com/profile_images/862937314758209537/eNmkW2gc_400x400.jpg" alt="Picture of Henning">
           <h3>Henning</h3>
           <h4>Hamburg, Germany <span class="em-svg em-de"></span></h4>
@@ -347,7 +399,7 @@
           </div><!-- /.btn-group -->
         </div><!-- ./col -->
 
-        <div class="col-lg-4 col-sm-6 text-center mb-4">
+        <div id="in-it" class="col-lg-4 col-sm-6 text-center mb-4">
           <img width="200" class="rounded-circle img-fluid d-block mx-auto" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1586589/profile/profile-512.jpg?1515634116" alt="Picture of Fabio">
           <h3>Fabio</h3>
           <h4>Rome, Italy <span class="em-svg em-it"></span></h4>
@@ -361,7 +413,7 @@
           </div><!-- /.btn-group -->
         </div><!-- ./col -->
 
-        <div class="col-lg-4 col-sm-6 text-center mb-4">
+        <div id="in-tr" class="col-lg-4 col-sm-6 text-center mb-4">
           <img width="200" class="rounded-circle img-fluid d-block mx-auto" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1633218/profile/profile-512.jpg?1512830400" alt="Picture of Gülşah">
           <h3>Gülşah</h3>
           <h4>Samsun, Turkey <span class="em-svg em-flag-tr"></span></h4>
@@ -375,7 +427,7 @@
           </div><!-- /.btn-group -->
         </div><!-- ./col -->
 
-        <div class="col-lg-4 col-sm-6 text-center mb-4">
+        <div id="in-gr" class="col-lg-4 col-sm-6 text-center mb-4">
           <img width="200" class="rounded-circle img-fluid d-block mx-auto" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1657798/profile/profile-512.jpg?1515958706" alt="Picture of Tonia">
           <h3>Tosia</h3>
           <h4>Heraklion, Greece <span class="em-svg em-flag-gr"</span></h4>
@@ -395,7 +447,7 @@
           </div><!-- /.btn-group -->
         </div><!-- ./col -->
 
-        <div class="col-lg-4 col-sm-6 text-center mb-4">
+        <div id="in-gb" class="col-lg-4 col-sm-6 text-center mb-4">
           <img width="200" class="rounded-circle img-fluid d-block mx-auto" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1582631/profile/profile-512.jpg?1510348984" alt="Picture of Rachael">
           <h3>Rachael</h3>
           <h4>Oxford, UK <span class="em-svg em-gb"></span></h4>
@@ -409,7 +461,7 @@
           </div><!-- /.btn-group -->
         </div><!-- ./col -->
 
-        <div class="col-lg-4 col-sm-6 text-center mb-4">
+        <div id="in-hu" class="col-lg-4 col-sm-6 text-center mb-4">
           <img width="200" class="rounded-circle img-fluid d-block mx-auto" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1618698/profile/profile-512.jpg?1512121602" alt="Picture of Sandor">
           <h3>Sandor</h3>
           <h4>Hungary <span class="em-svg em-flag-hu"></span></h4>
@@ -423,7 +475,7 @@
           </div><!-- /.btn-group -->
         </div><!-- ./col -->
 
-        <div class="col-lg-4 col-sm-6 text-center mb-4">
+        <div id="in-de" class="col-lg-4 col-sm-6 text-center mb-4">
           <img width="200" class="rounded-circle img-fluid d-block mx-auto" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1582783/profile/profile-512.jpg?1517766158" alt="Picture of Anna">
           <h3>Anna</h3>
           <h4>Berlin, Germany <span class="em-svg em-de"></span></h4>
@@ -437,7 +489,7 @@
           </div><!-- /.btn-group -->
         </div><!-- ./col -->
 
-        <div class="col-lg-4 col-sm-6 text-center mb-4">
+        <div id="in-hr" class="col-lg-4 col-sm-6 text-center mb-4">
           <img width="200" class="rounded-circle img-fluid d-block mx-auto" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/411875/profile/profile-512.jpg?1517347702" alt="Picture of Katarina">
           <h3>Katarina</h3>
           <h4>Dubrovnik, Croatia <span class="em-svg em-flag-hr"></span></h4>
@@ -451,7 +503,7 @@
           </div><!-- /.btn-group -->
         </div><!-- ./col -->
 
-        <div class="col-lg-4 col-sm-6 text-center mb-4">
+        <div id="in-gr" class="col-lg-4 col-sm-6 text-center mb-4">
           <img width="200" class="rounded-circle img-fluid d-block mx-auto" src="https://gravatar.com/avatar/fcbc4c3d6eda8b405797250540ea5e86?s=512&d=https://codepen.io/assets/avatars/user-avatar-512x512-6e240cf350d2f1cc07c2bed234c3a3bb5f1b237023c204c782622e80d6b212ba.png" alt="Picture of Dimitra">
           <h3>Dimitra</h3>
           <h4>Thessaloniki, Greece <span class="em-svg em-flag-gr"></span></h4>
@@ -477,7 +529,7 @@
           </div><!-- /.btn-group -->
         </div><!-- ./col -->
 
-        <div class="col-lg-4 col-sm-6 text-center mb-4">
+        <div id="in-gb" class="col-lg-4 col-sm-6 text-center mb-4">
           <img width="200" class="rounded-circle img-fluid d-block mx-auto" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/758380/profile/profile-512.jpg?1517407983" alt="Picture of Carol">
           <h3>Carol</h3>
           <h4>Yorkshire, UK <span class="em-svg em-gb"></span></h4>
@@ -491,7 +543,7 @@
           </div><!-- /.btn-group -->
         </div><!-- ./col -->
 
-        <div class="col-lg-4 col-sm-6 text-center mb-4">
+        <div id="in-hu" class="col-lg-4 col-sm-6 text-center mb-4">
           <img width="200" class="rounded-circle img-fluid d-block mx-auto" src="https://media.licdn.com/media/AAEAAQAAAAAAAAuaAAAAJGE2YjlhZGU1LWY2MWQtNDM3ZS1iMWMxLTU5ODYzYzhhYTg5Yw.jpg" alt="Picture of Lammel">
           <h3>Lammel</h3>
           <h4>Budapest, Hungary <span class="em-svg em-flag-hu"></span></h4>
@@ -511,7 +563,7 @@
           </div><!-- /.btn-group -->
         </div><!-- ./col -->
 
-        <div class="col-lg-4 col-sm-6 text-center mb-4">
+        <div id="in-gr" class="col-lg-4 col-sm-6 text-center mb-4">
           <img width="200" class="rounded-circle img-fluid d-block mx-auto" src="https://avatars0.githubusercontent.com/u/35877579?s=400&v=4" alt="Picture of Thomas">
           <h3>Thomas</h3>
           <h4>Thessaloniki, Greece <span class="em-svg em-flag-gr"></span></h4>
@@ -525,7 +577,7 @@
           </div><!-- /.btn-group -->
         </div><!-- ./col -->
 
-        <div class="col-lg-4 col-sm-6 text-center mb-4">
+        <div id="in-bg" class="col-lg-4 col-sm-6 text-center mb-4" id="in-bg">
           <img width="200" class="rounded-circle img-fluid d-block mx-auto" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1577045/profile/profile-512.jpg?1517306017" alt="Picture of Veselin">
           <h3>Veselin</h3>
           <h4>Plovdiv, Bulgaria <span class="em-svg em-flag-bg"></span></h4>
@@ -539,7 +591,7 @@
           </div><!-- /.btn-group -->
         </div><!-- ./col -->
 
-        <div class="col-lg-4 col-sm-6 text-center mb-4">
+        <div id="in-eg" class="col-lg-4 col-sm-6 text-center mb-4">
           <img width="200" class="rounded-circle img-fluid d-block mx-auto" src="https://media.licdn.com/media/AAMAAgDGAAwAAQAAAAAAABHIAAAAJDM2MjAzZDUyLWExMDgtNDE1OC04ZTY1LTNiMDc3YmFkMTU0NA.jpg" alt="Picture of Saoud">
           <h3>Saoud</h3>
           <h4>Cairo, Egypt <span class="em-svg em-flag-eg"></span></h4>
@@ -559,7 +611,7 @@
           </div><!-- /.btn-group -->
         </div><!-- ./col -->
 
-        <div class="col-lg-4 col-sm-6 text-center mb-4">
+        <div id="in-ro" class="col-lg-4 col-sm-6 text-center mb-4">
           <img width="200" class="rounded-circle img-fluid d-block mx-auto" src="https://gravatar.com/avatar/36ed553ab6b6c25811a71b014b8b9444?s=512&d=https://codepen.io/assets/avatars/user-avatar-512x512-6e240cf350d2f1cc07c2bed234c3a3bb5f1b237023c204c782622e80d6b212ba.png" alt="Picture of Calin">
           <h3>Calin</h3>
           <h4>Chișineu-Criș, Romania <span class="em-svg em-flag-ro"></span></h4>
@@ -573,7 +625,7 @@
           </div><!-- /.btn-group -->
         </div><!-- ./col -->
 
-        <div class="col-lg-4 col-sm-6 text-center mb-4">
+        <div id="in-ro" class="col-lg-4 col-sm-6 text-center mb-4">
           <img width="200" class="rounded-circle img-fluid d-block mx-auto" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/944920/profile/profile-512.jpg?1" alt="Picture of Elena">
           <h3>Elena</h3>
           <h4>Bucharest, Romania <span class="em-svg em-flag-ro"></span></h4>
@@ -587,7 +639,7 @@
           </div><!-- /.btn-group -->
         </div><!-- ./col -->
 
-        <div class="col-lg-4 col-sm-6 text-center mb-4">
+        <div id="in-gr" class="col-lg-4 col-sm-6 text-center mb-4">
           <img width="200" class="rounded-circle img-fluid d-block mx-auto" src="https://media.licdn.com/media/p/8/005/048/329/0f9c0a7.jpg" alt="Picture of Daniel">
           <h3>Daniel</h3>
           <h4>Athens, Greece <span class="em-svg em-flag-gr"></span></h4>
@@ -607,7 +659,7 @@
           </div><!-- /.btn-group -->
         </div><!-- ./col -->
 
-        <div class="col-lg-4 col-sm-6 text-center mb-4">
+        <div id="in-pl" class="col-lg-4 col-sm-6 text-center mb-4">
           <img width="200" class="rounded-circle img-fluid d-block mx-auto" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1575603/profile/profile-512.jpg?1517618803" alt="Picture of Gregor">
           <h3>Gregor</h3>
           <h4>Zakopane, Poland <span class="em-svg em-flag-pl"></span></h4>
@@ -621,7 +673,7 @@
           </div><!-- /.btn-group -->
         </div><!-- ./col -->
 
-        <div class="col-lg-4 col-sm-6 text-center mb-4">
+        <div id="in-eg" class="col-lg-4 col-sm-6 text-center mb-4">
           <img width="200" class="rounded-circle img-fluid d-block mx-auto" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1576371/profile/profile-512.jpg?1517686810" alt="Picture of Ahmed">
           <h3>Ahmed</h3>
           <h4>Alexandria, Egypt <span class="em-svg em-flag-eg"></span></h4>
@@ -635,7 +687,7 @@
           </div><!-- /.btn-group -->
         </div><!-- ./col -->
 
-        <div class="col-lg-4 col-sm-6 text-center mb-4">
+        <div id="in-es" class="col-lg-4 col-sm-6 text-center mb-4">
           <img width="200" class="rounded-circle img-fluid d-block mx-auto" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1593580/profile/profile-512.jpg?15179129900" alt="Picture of Lucia">
           <h3>Lucia</h3>
           <h4>Valencia, Spain <span class="em-svg em-es"></span></h4>
@@ -649,7 +701,7 @@
           </div><!-- /.btn-group -->
         </div><!-- ./col -->
 
-         <div class="col-lg-4 col-sm-6 text-center mb-4">
+         <div id="in-pt" class="col-lg-4 col-sm-6 text-center mb-4">
           <img width="200" class="rounded-circle img-fluid d-block mx-auto" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1741406/profile/profile-512.jpg?1517895191" alt="Picture of Rui">
           <h3>Rui</h3>
           <h4>Lisbon, Portugal <span class="em-svg em-flag-pt"></span></h4>
@@ -663,7 +715,7 @@
           </div><!-- /.btn-group -->
         </div><!-- ./col -->
 
-        <div class="col-lg-4 col-sm-6 text-center mb-4">
+        <div id="in-bg" class="col-lg-4 col-sm-6 text-center mb-4">
           <img width="200" class="rounded-circle img-fluid d-block mx-auto" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1587297/profile/profile-512.jpg?1515939910" alt="Picture of Radostina">
           <h3>Radostina</h3>
           <h4>Varna, Bulgaria <span class="em-svg em-flag-bg"></span></h4>
@@ -677,7 +729,7 @@
           </div><!-- /.btn-group -->
         </div><!-- ./col -->
 
-        <div class="col-lg-4 col-sm-6 text-center mb-4">
+        <div id="in-hu" class="col-lg-4 col-sm-6 text-center mb-4">
           <img width="200" class="rounded-circle img-fluid d-block mx-auto" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1735355/profile/profile-512.jpg?1517699555" alt="Picture of Nikolett">
           <h3>Nikolett</h3>
           <h4>Budapest, Hungary <span class="em-svg em-flag-hu"></span></h4>
@@ -691,7 +743,7 @@
           </div><!-- /.btn-group -->
         </div><!-- ./col -->
 
-        <div class="col-lg-4 col-sm-6 text-center mb-4">
+        <div id="in-tr" class="col-lg-4 col-sm-6 text-center mb-4">
           <img width="200" class="rounded-circle img-fluid d-block mx-auto" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1688997/profile/profile-512.jpg?1517752985" alt="Picture of Burcu">
           <h3>Burcu</h3>
           <h4>Ankara, Turkey <span class="em-svg em-flag-tr"></span></h4>
@@ -711,7 +763,7 @@
           </div><!-- /.btn-group -->
         </div><!-- ./col -->
 
-        <div class="col-lg-4 col-sm-6 text-center mb-4">
+        <div id="in-ro" class="col-lg-4 col-sm-6 text-center mb-4">
           <img width="200" class="rounded-circle img-fluid d-block mx-auto" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1648072/profile/profile-512.jpg?1513632256" alt="Picture of Stefan">
           <h3>Stefan</h3>
           <h4>Bucharest, Romania <span class="em-svg em-flag-ro"></span></h4>
@@ -726,7 +778,7 @@
         </div><!-- ./col -->
 
 
-        <div class="col-lg-4 col-sm-6 text-center mb-4">
+        <div id="in-pl" class="col-lg-4 col-sm-6 text-center mb-4">
           <img width="200" class="rounded-circle img-fluid d-block mx-auto" src="img/agata.jpg" alt="Picture of Agata">
           <h3>Agata</h3>
           <h4>Warsaw, Poland <span class="em-svg em-flag-pl"></span></h4>
@@ -746,7 +798,7 @@
           </div><!-- /.btn-group -->
         </div><!-- ./col -->
 
-        <div class="col-lg-4 col-sm-6 text-center mb-4">
+        <div id="in-gr" class="col-lg-4 col-sm-6 text-center mb-4">
           <img width="200" class="rounded-circle img-fluid d-block mx-auto" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1730070/profile/profile-512.jpg?1518095803" alt="Picture of Traianos">
           <h3>Traianos</h3>
           <h4>Xanthi, Greece <span class="em-svg em-flag-gr"></span></h4>
@@ -760,7 +812,7 @@
           </div><!-- /.btn-group -->
         </div><!-- ./col -->
 
-        <div class="col-lg-4 col-sm-6 text-center mb-4">
+        <div id="in-pl" class="col-lg-4 col-sm-6 text-center mb-4">
           <img width="200" class="rounded-circle img-fluid d-block mx-auto" src="https://media.licdn.com/media/AAIABADGAAAAAQAAAAAAAAyaAAAAJDliYzMyMWM5LWM5YzktNGRkYi1iNDYwLWRhYzM0Y2NiOGJlNw.jpg" alt="Picture of Lech">
           <h3>Lech</h3>
           <h4>Cracow, Poland <span class="em-svg em-flag-pl"></span></h4>
@@ -780,7 +832,7 @@
           </div><!-- /.btn-group -->
         </div><!-- ./col -->
 
-        <div class="col-lg-4 col-sm-6 text-center mb-4">
+        <div id="in-es" class="col-lg-4 col-sm-6 text-center mb-4">
           <img width="200" class="rounded-circle img-fluid d-block mx-auto" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1031005/profile/profile-512.jpg?1510080229" alt="Picture of Valeria">
           <h3>Valeria</h3>
           <h4>Madrid, Spain <span class="em-svg em-es"></span></h4>
@@ -800,7 +852,7 @@
           </div><!-- /.btn-group -->
         </div><!-- ./col -->
 
-        <div class="col-lg-4 col-sm-6 text-center mb-4">
+        <div id="in-ro" class="col-lg-4 col-sm-6 text-center mb-4">
           <img width="200" class="rounded-circle img-fluid d-block mx-auto" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1743120/profile/profile-512.jpg?1517951445" alt="Picture of Casina">
           <h3>Casina</h3>
           <h4>Cluj-Napoca, Romania <span class="em-svg em-flag-ro"></span></h4>
@@ -814,7 +866,7 @@
           </div><!-- /.btn-group -->
         </div><!-- ./col -->
 
-        <div class="col-lg-4 col-sm-6 text-center mb-4">
+        <div id="in-hu" class="col-lg-4 col-sm-6 text-center mb-4">
           <img width="200" class="rounded-circle img-fluid d-block mx-auto" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1736638/profile/profile-512.jpg?1517873127" alt="Picture of Réka">
           <h3>Réka</h3>
           <h4>Hungary <span class="em-svg em-flag-hu"></span></h4>
@@ -828,7 +880,7 @@
           </div><!-- /.btn-group -->
         </div><!-- ./col -->
 
-        <div class="col-lg-4 col-sm-6 text-center mb-4">
+        <div id="in-eg" class="col-lg-4 col-sm-6 text-center mb-4">
           <img width="200" class="rounded-circle img-fluid d-block mx-auto" src=https://s3-us-west-2.amazonaws.com/s.cdpn.io/1574816/profile/profile-512.jpg?1516861584" alt="Picture of Ramy">
           <h3>Ramy</h3>
           <h4>Alexandria, Egypt <span class="em-svg em-flag-eg"></span></h4>
@@ -842,7 +894,7 @@
           </div><!-- /.btn-group -->
         </div><!-- ./col -->
 
-        <div class="col-lg-4 col-sm-6 text-center mb-4">
+        <div id="in-pt" class="col-lg-4 col-sm-6 text-center mb-4">
           <img width="200" class="rounded-circle img-fluid d-block mx-auto" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1582145/profile/profile-512.jpg?1518258789" alt="Picture of Sofia">
           <h3>Sofia</h3>
           <h4>Portugal <span class="em-svg em-flag-pt"></span></h4>
@@ -856,7 +908,7 @@
           </div><!-- /.btn-group -->
         </div><!-- ./col -->
 
-        <div class="col-lg-4 col-sm-6 text-center mb-4">
+        <div id="in-es" class="col-lg-4 col-sm-6 text-center mb-4">
           <img width="200" class="rounded-circle img-fluid d-block mx-auto" src="https://media.licdn.com/media/AAEAAQAAAAAAAAfDAAAAJGVhYjA5NmVjLWRmNmYtNGNlYy05OTFhLTFkNTUxMGM5ZWMzZQ.jpg" alt="Picture of Esther">
           <h3>Esther</h3>
           <h4>Lloret de Mar, Spain <span class="em-svg em-es"></span></h4>
@@ -880,7 +932,7 @@
 
 
        <!-- Profiles without Photos -->
-        <div class="col-lg-4 col-sm-6 text-center mb-4">
+        <div id="in-pl" class="col-lg-4 col-sm-6 text-center mb-4">
           <svg width="200" class="rounded-circle img-fluid d-block mx-auto" aria-labelledby="simpleicons-github-icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title id="simpleicons-github-icon">Profile picture</title><path fill="#c3c3c3" d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
           <h3>Agnieszka</h3>
           <h4>Poznań, Poland <span class="em-svg em-flag-pl"></span></h4>
@@ -894,7 +946,7 @@
           </div><!-- /.btn-group -->
         </div><!-- ./col -->
 
-        <div class="col-lg-4 col-sm-6 text-center mb-4">
+        <div id="in-ro" class="col-lg-4 col-sm-6 text-center mb-4">
           <svg width="200" class="rounded-circle img-fluid d-block mx-auto" aria-labelledby="simpleicons-github-icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title id="simpleicons-github-icon">Profile picture</title><path fill="#c3c3c3" d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
           <h3>Nela</h3>
           <h4>Cluj-Napoca, Romania <span class="em-svg em-flag-ro"></span></h4>
@@ -914,7 +966,7 @@
           </div><!-- /.btn-group -->
         </div><!-- ./col -->
 
-        <div class="col-lg-4 col-sm-6 text-center mb-4">
+        <div id="in-it" class="col-lg-4 col-sm-6 text-center mb-4">
           <svg width="200" class="rounded-circle img-fluid d-block mx-auto" aria-labelledby="simpleicons-github-icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title id="simpleicons-github-icon">Profile picture</title><path fill="#c3c3c3" d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
           <h3>Pietro</h3>
           <h4>Italy <span class="em-svg em-it"></span></h4>
@@ -928,7 +980,7 @@
           </div><!-- /.btn-group -->
         </div><!-- ./col -->
 
-        <div class="col-lg-4 col-sm-6 text-center mb-4">
+        <div id="in-il" class="col-lg-4 col-sm-6 text-center mb-4">
           <svg width="200" class="rounded-circle img-fluid d-block mx-auto" aria-labelledby="simpleicons-github-icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title id="simpleicons-github-icon">Profile picture</title><path fill="#c3c3c3" d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
           <h3>Nataniel</h3>
           <h4>Israel <span class="em-svg em-flag-il"></span></h4>
@@ -942,7 +994,7 @@
           </div><!-- /.btn-group -->
         </div><!-- ./col -->
 
-        <div class="col-lg-4 col-sm-6 text-center mb-4">
+        <div id="in-country" class="col-lg-4 col-sm-6 text-center mb-4">
           <svg width="200" class="rounded-circle img-fluid d-block mx-auto" aria-labelledby="simpleicons-github-icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title id="simpleicons-github-icon">Profile picture</title><path fill="#c3c3c3" d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
           <h3>Shay</h3>
           <h4>Planet Earth <span class="em-svg em-earth_africa"></span></h4>
@@ -956,7 +1008,7 @@
           </div><!-- /.btn-group -->
         </div><!-- ./col -->
 
-        <div class="col-lg-4 col-sm-6 text-center mb-4">
+        <div id="in-country" class="col-lg-4 col-sm-6 text-center mb-4">
           <svg width="200" class="rounded-circle img-fluid d-block mx-auto" aria-labelledby="simpleicons-github-icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title id="simpleicons-github-icon">Profile picture</title><path fill="#c3c3c3" d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
           <h3>Katarina</h3>
           <h4>Planet Earth <span class="em-svg em-earth_africa"></span></h4>
@@ -970,7 +1022,7 @@
           </div><!-- /.btn-group -->
         </div><!-- ./col -->
 
-        <div class="col-lg-4 col-sm-6 text-center mb-4">
+        <div id="in-pl" class="col-lg-4 col-sm-6 text-center mb-4">
           <svg width="200" class="rounded-circle img-fluid d-block mx-auto" aria-labelledby="simpleicons-github-icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title id="simpleicons-github-icon">Profile picture</title><path fill="#c3c3c3" d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
           <h3>Justyna</h3>
           <h4>Warsaw, Poland <span class="em-svg em-flag-pl"></span></h4>
@@ -984,7 +1036,7 @@
           </div><!-- /.btn-group -->
         </div><!-- ./col -->
 
-        <div class="col-lg-4 col-sm-6 text-center mb-4">
+        <div id="in-eg" class="col-lg-4 col-sm-6 text-center mb-4">
           <svg width="200" class="rounded-circle img-fluid d-block mx-auto" aria-labelledby="simpleicons-github-icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title id="simpleicons-github-icon">Profile picture</title><path fill="#c3c3c3" d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
           <h3>Enas</h3>
           <h4>Egypt <span class="em-svg em-flag-eg"></span></h4>
@@ -998,7 +1050,7 @@
           </div><!-- /.btn-group -->
         </div><!-- ./col -->
 
-        <div class="col-lg-4 col-sm-6 text-center mb-4">
+        <div id="in-gb" class="col-lg-4 col-sm-6 text-center mb-4">
           <svg width="200" class="rounded-circle img-fluid d-block mx-auto" aria-labelledby="simpleicons-github-icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title id="simpleicons-github-icon">Profile picture</title><path fill="#c3c3c3" d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
           <h3>Sara</h3>
           <h4>London, UK <span class="em-svg em-gb"></span></h4>
@@ -1012,7 +1064,7 @@
           </div><!-- /.btn-group -->
         </div><!-- ./col -->
 
-        <div class="col-lg-4 col-sm-6 text-center mb-4">
+        <div id="in-eg" class="col-lg-4 col-sm-6 text-center mb-4">
           <svg width="200" class="rounded-circle img-fluid d-block mx-auto" aria-labelledby="simpleicons-github-icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title id="simpleicons-github-icon">Profile picture</title><path fill="#c3c3c3" d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
           <h3>Ahmed</h3>
           <h4>Cairo, Egypt <span class="em-svg em-flag-eg"></span></h4>
@@ -1032,7 +1084,7 @@
           </div><!-- /.btn-group -->
         </div><!-- ./col -->
 
-        <div class="col-lg-4 col-sm-6 text-center mb-4">
+        <div id="in-it" class="col-lg-4 col-sm-6 text-center mb-4">
           <svg width="200" class="rounded-circle img-fluid d-block mx-auto" aria-labelledby="simpleicons-github-icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title id="simpleicons-github-icon">Profile picture</title><path fill="#c3c3c3" d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
           <h3>Antonella</h3>
           <h4>Italy <span class="em-svg em-it"></span></h4>
@@ -1046,7 +1098,7 @@
           </div><!-- /.btn-group -->
         </div><!-- ./col -->
 
-        <div class="col-lg-4 col-sm-6 text-center mb-4">
+        <div id="in-it" class="col-lg-4 col-sm-6 text-center mb-4">
           <svg width="200" class="rounded-circle img-fluid d-block mx-auto" aria-labelledby="simpleicons-github-icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title id="simpleicons-github-icon">Profile picture</title><path fill="#c3c3c3" d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
           <h3>Alberto</h3>
           <h4>Torino, Italy <span class="em-svg em-it"></span></h4>
@@ -1060,9 +1112,9 @@
           </div><!-- /.btn-group -->
         </div><!-- ./col -->
 
-        <div class="col-lg-4 col-sm-6 text-center mb-4">
+        <div id="in-gr" class="col-lg-4 col-sm-6 text-center mb-4">
           <svg width="200" class="rounded-circle img-fluid d-block mx-auto" aria-labelledby="simpleicons-github-icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title id="simpleicons-github-icon">Profile picture</title><path fill="#c3c3c3" d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
-          <h3>Tsarvouli</h3>
+          <h3>Kostantina</h3>
           <h4>Kariani, Greece <span class="em-svg em-flag-gr"></span></h4>
           <div class="btn-group" role="group" aria-label="">
             <a href="https://codepen.io/endgament/pen/MQaOPP?editors=0110" target="_blank">
@@ -1074,7 +1126,7 @@
           </div><!-- /.btn-group -->
         </div><!-- ./col -->
 
-        <div class="col-lg-4 col-sm-6 text-center mb-4">
+        <div id="in-sk" class="col-lg-4 col-sm-6 text-center mb-4">
           <svg width="200" class="rounded-circle img-fluid d-block mx-auto" aria-labelledby="simpleicons-github-icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title id="simpleicons-github-icon">Profile picture</title><path fill="#c3c3c3" d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
           <h3>Ladislav</h3>
           <h4>Slovakia <span class="em-svg em-flag-sk"></span></h4>
@@ -1088,7 +1140,7 @@
           </div><!-- /.btn-group -->
         </div><!-- ./col -->
 
-        <div class="col-lg-4 col-sm-6 text-center mb-4">
+        <div id="in-it" class="col-lg-4 col-sm-6 text-center mb-4">
           <svg width="200" class="rounded-circle img-fluid d-block mx-auto" aria-labelledby="simpleicons-github-icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title id="simpleicons-github-icon">Profile picture</title><path fill="#c3c3c3" d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
           <h3>Elena</h3>
           <h4>Venice, Italy <span class="em-svg em-it"></span></h4>
@@ -1105,7 +1157,7 @@
 
 
 
-        <div class="col-lg-4 col-sm-6 text-center mb-4">
+        <div id="in-country" class="col-lg-4 col-sm-6 text-center mb-4">
           <svg width="200" class="rounded-circle img-fluid d-block mx-auto" aria-labelledby="simpleicons-github-icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title id="simpleicons-github-icon">Profile picture</title><path fill="#c3c3c3" d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
           <h3>Your Name</h3>
           <h4>City, Country <span class="em-svg em-earth_africa"></span></h4>
@@ -1135,16 +1187,14 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/tether/1.4.3/js/tether.min.js"></script>
+    <script src="contributors.js"></script>
     <script type="text/javascript">
-      $(document).ready(function(){
-          $('[data-toggle="tooltip"]').tooltip();
-
-      });
-      new Tether({
-
-  attachment: 'top right',
-
-});
+        $(document).ready(function() {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+        new Tether ({
+            attachment: 'top right',
+        });
     </script>
   </body>
 
