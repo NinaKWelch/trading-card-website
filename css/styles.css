@@ -106,6 +106,7 @@ ul {
     -moz-column-gap: 2rem;
     column-gap: 2rem;
 }
+
 @media (min-width: 576px) {
     .card-columns {
         -webkit-column-count: 1;
@@ -130,7 +131,6 @@ ul {
     }
 }
 
-
 @media (min-width: 1500px) {
     .container {
       max-width: 1400px;
@@ -141,7 +141,6 @@ ul {
         column-count: 4;
     }
 }
-
 
 
 /* Styling for emojis  */
@@ -219,6 +218,7 @@ ul {
   color: #90b4d6;
   font-weight: normal;
 }
+
 #profiles h4 {
   font-size: 1.2em;
   color: #303030;
@@ -243,6 +243,7 @@ ul {
 .social {
   width: 2.2em;
 }
+
 .social path {
   fill: #90b4d6;
 }
@@ -296,7 +297,7 @@ ul {
 
 #matched h3,
 #kindered h3 {
-  margin-bottom: 1.3em;
+  margin: 1.3em 0 1.5em;
 }
 
 @media (min-width: 768px) {
@@ -309,6 +310,7 @@ ul {
     margin-left: 1%;
   }
 }
+
 @media (max-width: 575.98px) {
   #matched.col-sm-12,
   #kindered.col-sm-12 {
