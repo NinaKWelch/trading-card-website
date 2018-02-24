@@ -88,4 +88,8 @@ $(document).ready(function() {
         bg.removeClass();
         bg.addClass('style59-bg');
     });
+    $('#card-65').click(function () {
+        bg.removeClass();
+        bg.addClass('style65-bg');
+    });
 });
