@@ -3406,7 +3406,7 @@ use this class */
 
 .style44 .card-title {
   font-size: 2em;
-  line-height: 2.25em;
+  padding: 1em 0;
   margin: 0px;
   font-family: Open Sans, sans-serif;
   font-weight: 600;
