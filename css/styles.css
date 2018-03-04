@@ -377,8 +377,13 @@ ul {
   background-size: cover;
   background-position: center;
 }
+
 .style65-bg {
   background-color: #ccc;
+}
+
+.style67-bg {
+  background-color: lightgray;
 }
 
 /* Styling for individual cards  */
@@ -1634,7 +1639,7 @@ ul {
   display: inline-block;
   padding: 16px 22px 22px 22px;
   background-color: rgb(241, 241, 241);
-  background-image: url("http://u.hgtm.de/gfewd-pj2-animal-trading-card/underwater.png");
+  background-image: url(http://u.hgtm.de/animal-trading-card/underwater.png);
   background-size: cover;
   border: 2px solid rgb(39, 46, 44);
   border-radius: 22px;
@@ -5005,6 +5010,91 @@ use this class */
 .style66 .card-block {
   display: none;
 }
+
+
+/* Card no 67 */
+.style67 {
+  font-family: serif;
+  border-style: solid;
+  border-color: gray;
+  background: #9292b9;
+  border-radius: 5%;
+  padding: 15px;
+  box-shadow: 5px 5px #b3b3cc;
+  font-size: 18px;
+}
+
+.style67 .card-title {
+  padding: 15px 0;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.style67 .card-title sup {
+  font-size: .3em;
+  vertical-align: top;
+  line-height: 15px;
+}
+
+.style67 .second-title {
+}
+
+.style67 img.card-img {
+  border: 1px solid #999;
+  background-color: #fcfcfc;
+  padding: 3px;
+  border-radius: 5%;
+  margin-bottom: 20px;
+}
+
+.style67 .card-body {
+  line-height: 1.1em;
+  border-style: solid;
+  border-color: #fcfcfc;
+  background: #e0e0eb;
+  padding: 35px 15px;
+  border-radius: 10%;
+  margin-bottom: 20px;
+}
+
+.style67 .card-subtitle {
+  font-size: 1em;
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.style67 .card-list-group {
+  padding: 20px 25px 20px 48px;
+  border-top: 1px inset lightgray;
+  border-bottom: 1px outset lightgray;
+  list-style-type: none;
+}
+
+.style67 .card-list-group h4 {
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.style67 .card-list-group span {
+  font-weight: bold;
+}
+
+.style67 .card-text {
+   margin-top: 20px;
+}
+
+.style67 .card-link {
+   display: none;
+}
+
+.style67 .card-block {
+  display: none;
+}
+
 
 /* Making any card linkable without changing the styling */
 

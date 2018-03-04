@@ -92,4 +92,8 @@ $(document).ready(function() {
         bg.removeClass();
         bg.addClass('style65-bg');
     });
+    $('#card-67').click(function () {
+        bg.removeClass();
+        bg.addClass('style67-bg');
+    });
 });
