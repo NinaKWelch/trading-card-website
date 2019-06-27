@@ -1,81 +1,1311 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-    <title>Bare - Start Bootstrap Template</title>
+  <title>Animal Trading Cards</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
 
-    <!-- Custom styles for this template -->
-    <style>
-      body {
-        padding-top: 54px;
-      }
-      @media (min-width: 992px) {
-        body {
-          padding-top: 56px;
-        }
-      }
+  <!-- Custom styles for this template -->
+  <link href="css/styles.css" rel="stylesheet">
+  <style>
+  body {
+    padding-top: 54px;
+  }
+  @media (min-width: 992px) {
+    body {
+      padding-top: 56px;
+    }
+  }
 
-    </style>
+</style>
 
-  </head>
+</head>
 
-  <body>
+<body>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="#">Start Bootstrap</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
-    <!-- Page Content -->
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h1 class="mt-5">A Bootstrap 4 Starter Template</h1>
-          <p class="lead">Complete with pre-defined file paths and responsive navigation!</p>
-          <ul class="list-unstyled">
-            <li>Bootstrap 4.0.0-beta</li>
-            <li>jQuery 3.2.1</li>
-          </ul>
-        </div>
+      <a class="navbar-brand" href="index.html">Animal Trading Cards</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contributors.html">Co-creators</a>
+          </li>
+        </ul>
       </div>
     </div>
+  </nav>
+
+  <!-- Page Heading -->
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container text-center">
+      <h1 class="display-4">Let's add some cool cards & features!</h1>
+      <p class="lead">Try this - click or tap on any card and see what happens...</p>
+      <button type="button" class="btn btn-large btn-light" onclick="reset()">RESET CARD STYLES</button>
+    </div>
+  </div>
+
+  <button class="btn btn-light scroll-container" title="Scroll up"><img class="scrollUp-icon" src="img/arrowUp.png"></button>
+
+  <!-- Page Content -->
+  <div class="container">
+
+    <!-- Cards -->
+    <div class="card-columns">
+
+      <div id="card-1" class="card mb-4 style1">
+        <a class="card-switch" href="#" onclick="applyStyleToAll(1)">
+          <h2 class="card-title">Sea Otter</h2>
+          <img class="card-img" src="http://res.cloudinary.com/ninaw/image/upload/v1511278408/Sea_Otter_hrsztz.jpg" alt="Otter spalshing around in water">
+          <div class="card-body">
+            <h3 class="card-subtitle">Otter grooming includes cheek rubbing and teeth cleaning</h3>
+            <ul class="card-list-group">
+              <li><span class="card-list-group-item">Scientific Name:</span> Enhydra lutris</li>
+              <li><span class="card-list-group-item">Average Lenght:</span> 125 cm</li>
+              <li><span class="card-list-group-item">Average Lifespan:</span> 15 years</li>
+              <li><span class="card-list-group-item">Habitat:</span> North Pacific coast</li>
+            </ul>
+            <p class="card-text">Sea Otters are exellent swimmers and spend their days catching fish and teaching their pups handy tricks, like how to use stones to break open shellfish.</p>
+          </div><!-- /.card-body -->
+        </a><!-- /.card-switch -->
+      </div><!-- /.card -->
+
+      <div id="card-2" class="card mb-4 style2">
+        <a class="card-switch" href="#" onclick="applyStyleToAll(2)">
+          <h2 class="card-title">Canadian Sphynx</h2>
+          <img class="card-img" src="https://s1.postimg.org/6a2eo5ltb3/sphynx_main.jpg" alt="A bicolor Sphynx cat looking straight into the camera" alt="Card image cap">
+          <div class="card-body">
+            <h3 class="card-subtitle">Sphynxes are known for their extroverted behavior.</h3>
+            <ul class="card-list-group">
+              <li><span class="card-list-group-item">Scientific Name:</span> Felis catus</li>
+              <li><span class="card-list-group-item">Average Lenght:</span> 6-12 lbs</li>
+              <li><span class="card-list-group-item">Average Lifespan:</span> 8-14 years</li>
+              <li><span class="card-list-group-item">Habitat:</span> The human heart</li>
+            </ul>
+            <p class="card-text">The largely hairless Sphynx is very people-oriented and affectionate. They are highly intelligent,
+              playful, cuddly, often described as being "part dog, part child, part monkey,
+              and part cat". They display a high level of energy, intelligence, curiosity, and
+            affection for their owners</p>
+          </div><!-- /.card-body -->
+        </a><!-- /.card-switch -->
+      </div><!-- /.card -->
+
+      <div id="card-3" class="card mb-4 style3">
+        <a class="card-switch" href="#" onclick="applyStyleToAll(3)">
+          <h2 class="card-title">Pikachu</h2>
+          <img class="card-img" src="img/pikachu.png" alt="Pikachu">
+          <div class="card-body">
+            <h3 class="card-subtitle">Pikachu is a short, chubby rodent Pokémon. It is covered in yellow fur with two horizontal brown stripes on its back.</h3>
+            <ul class="card-list-group">
+              <li><span class="card-list-group-item">Name:</span> Pikachu</li>
+              <li><span class="card-list-group-item">Weight:</span> 6.0kg</li>
+              <li><span class="card-list-group-item">Height:</span> 0.4m</li>
+              <li><span class="card-list-group-item">Type:</span> Electric</li>
+            </ul>
+            <p class="card-text">The anime has shown that Pikachu sometimes travel in groups. It raises its tail to check its surroundings, and is occasionally struck by lightning in this position.</p>
+          </div><!-- /.card-body -->
+        </a><!-- /.card-switch -->
+      </div><!-- /.card -->
+
+      <div id="card-4" class="card mb-4 style4">
+        <a class="card-switch" href="#" onclick="applyStyleToAll(4)">
+          <h2 class="card-title">Owl</h2>
+          <img class="card-img" src="http://static.boredpanda.com/blog/wp-content/uploads/2014/12/owl-photography-2__880.jpg" alt="Owl">
+          <div class="card-body">
+            <h3 class="card-subtitle">Most owls share an innate ability to fly almost silently and also more slowly in comparison to other birds of prey.</h3>
+            <ul class="card-list-group">
+              <li><span class="card-list-group-item">Favoutire food:</span> Insects</li>
+              <li><span class="card-list-group-item">Average weight:</span> 4.2 kg</li>
+              <li><span class="card-list-group-item">Oldest Owl:</span> 15 years old</li>
+              <li><span class="card-list-group-item">Wingspan averages:</span> 140 cm</li>
+            </ul>
+            <p class="card-text">Owls are enigmatic birds, by turns mysterious, lovable, or spooky, depending on who you ask. With over 200 species living on every continent except Antarctica, owls have super-tuned senses that help them hunt prey all over the world.</p>
+          </div><!-- /.card-body -->
+        </a><!-- /.card-switch -->
+      </div><!-- /.card -->
+
+      <div id="card-5" class="card mb-4 style5">
+        <a class="card-switch" href="#" onclick="applyStyleToAll(5)">
+          <h2 class="card-title">Grizzly Bear</h2>
+          <img class="card-img" src="https://img.huffingtonpost.com/asset/57f23fd81b00007f08ef3fad.jpeg?cache=xrgktdi5wj&ops=scalefit_720_noupscale" alt="grizzly bear">
+          <div class="card-body">
+            <h3 class="card-subtitle">Grizzly bears are omnivores and they eat berries, roots, fungi, deer, elk, and fish.</h3>
+            <ul class="card-list-group">
+              <li><span class="card-list-group-item">Scientific Name:</span> Ursus Arctos Horribilis</li>
+              <li><span class="card-list-group-item">Average Weight:</span> Up to 360 kg</li>
+              <li><span class="card-list-group-item">Diet:</span> Large mammals, salmon, plants</li>
+              <li><span class="card-list-group-item">Habitat:</span> Canada and Northwestern US</li>
+            </ul>
+            <p class="card-text">The grizzly bear is a large subspecies of brown bear inhabiting North America. Scientists generally do not use the name grizzly bear but call it the North American brown bear.</p>
+          </div><!-- /.card-body -->
+        </a><!-- /.card-switch -->
+      </div><!-- /.card -->
+
+      <div id="card-6" class="card mb-4 style6">
+        <a class="card-switch" href="#" onclick="applyStyleToAll(6)">
+          <h2 class="card-title">Whippet Dog Breed</h2>
+          <img class="card-img" src="https://s5.postimg.org/kaw0hsz0n/IMG_5181.jpg" alt="whippet">
+          <div class="card-body">
+            <h3 class="card-subtitle">Whippets are the fastest domesticated animals of their weight. They can get up to breakneck speeds of 35 mph.</h3>
+            <ul class="card-list-group">
+              <li><span class="card-list-group-item">Bred For:</span> Coursing, racing</li>
+              <li><span class="card-list-group-item">Features:</span> Dolichocephalic (long face)</li>
+              <li><span class="card-list-group-item">Weight Range:</span> Male 25-40 lbs / Female 20-35 lbs</li>
+              <li><span class="card-list-group-item">Coat:</span> Short</li>
+            </ul>
+            <p class="card-text">After seeing a Whippet run at full speed on the course or in the field, it’s hard to believe this is the very same dog that curls up on the sofa and binge-watches six hours of TV with you.<br>This medium-size, graceful sighthound is a laser-focused sprinter when racing or lure coursing and a quiet, gentle companion in the house. It’s almost like getting two dogs in one!</p>
+          </div><!-- /.card-body -->
+        </a><!-- /.card-switch -->
+      </div><!-- /.card -->
+
+      <div id="card-7" class="card mb-4 style7">
+        <a class="card-switch" href="#" onclick="applyStyleToAll(7)">
+          <h2 class="card-title">Common leopard gecko<br><small class="second-title">(spotted fat-tailed gecko)</small></h2>
+          <img class="card-img" src="https://www.desktopbackground.org/t/2015/12/21/1060821_green-leopard-gecko_996x664_h.jpg" alt="leopard gecko">
+          <div class="card-body">
+            <h3 class="card-subtitle">The cutest cricket-eater on Earth!</h3>
+            <ul class="card-list-group">
+              <li><span class="card-list-group-item">Scientific Name:</span> Eublepharis macularius</li>
+              <li><span class="card-list-group-item">Average Lenght:</span> 18-28 centimeters</li>
+              <li><span class="card-list-group-item">Average Lifespan:</span> 20 years</li>
+              <li><span class="card-list-group-item">Habitat:</span> Highlands</li>
+            </ul>
+            <p class="card-text">The spotted fat-tailed gecko is a cathemeral, ground-dwelling lizard, naturally found in the highlands of Asia. Leopard geckos make great pet for both the beginner and seasoned reptile caretaker. Extremely cute!</p>
+          </div><!-- /.card-body -->
+        </a><!-- /.card-switch -->
+      </div><!-- /.card -->
+
+      <div id="card-8" class="card mb-4 style8">
+        <a class="card-switch" href="#" onclick="applyStyleToAll(8)">
+          <h2 class="card-title">Rico</h2>
+          <img class="card-img" src="https://lafeber.com/pet-birds/wp-content/uploads/Cockatiel-300x300.jpg" alt="Cockatiel">
+          <div class="card-body">
+            <h3 class="card-subtitle">Rico loves to eat and speaks Greek fluently!</h3>
+            <ul class="card-list-group">
+              <li><span class="card-list-group-item">Age:</span> 8 months and 11 days</li>
+              <li><span class="card-list-group-item">Language:</span>  Greek</li>
+              <li><span class="card-list-group-item">Favorite activity:</span> Singing</li>
+              <li><span class="card-list-group-item">Habitat:</span> Temporibus necessitatibus</li>
+            </ul>
+            <p class="card-text">The cockatiel (<i>Nymphicus hollandicus</i>), also known as the <strong>quarrion</strong> and the <strong>weiro</strong>, is a bird that is a member of the cockatoo family endemic to Australia.</p>
+          </div><!-- /.card-body -->
+        </a><!-- /.card-switch -->
+      </div><!-- /.card -->
+
+      <div id="card-9" class="card mb-4 style9">
+        <a class="card-switch" href="#" onclick="applyStyleToAll(9)">
+          <h2 class="card-title">Ozzie(my dog)</h2>
+          <img class="card-img" src="https://preview.ibb.co/cwKWUm/Poza.jpg" alt="Ozzie">
+          <div class="card-body">
+            <h3 class="card-subtitle">During this summer a wire from my electric box started smelling awkward but I did not notice till Ozzie managed to make me know that there was something wrong. If it was not for his help during that day my house would have burned down. Is strange to see how a dog so small can save your life in a hard situation.</h3>
+            <ul class="card-list-group">
+              <li><span class="card-list-group-item">Diet:</span> He eats all sort of things from Ice cream to Beef</li>
+              <li><span class="card-list-group-item">Attitude:</span> He loves everyone</li>
+              <li><span class="card-list-group-item">Toys:</span> Balls mostly but also he has a little Teddy bear</li>
+              <li><span class="card-list-group-item">Friends:</span> All the possible dogs but also all the friendly humans</li>
+            </ul>
+            <p class="card-text">The Bichon Frise (pronounced BEE-shawn FREE-say; the plural is Bichons Frises) is a cheerful, small dog breed with a love of mischief and a lot of love to give. With his black eyes and fluffy white coat, the Bichon looks almost like a child’s toy. And it doesn’t take long to realize that the Bichon can be your happiest and most enthusiastic companion.</p>
+          </div><!-- /.card-body -->
+        </a><!-- /.card-switch -->
+      </div><!-- /.card -->
+
+      <div id="card-10" class="card mb-4 style10">
+        <a class="card-switch" href="#" onclick="applyStyleToAll(10)">
+          <h2 class="card-title">Iberian Lynx</h2>
+          <img class="card-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Iberian_Lynx_cub_12.jpg/442px-Iberian_Lynx_cub_12.jpg" alt="Iberian Lynx">
+          <div class="card-body">
+            <h3 class="card-subtitle">By the turn of the 21<sup>st</sup> century, the Iberian Lynx was on the verge of extinction, as only about 100 individuals survived in two isolated subpopulations in Andalusia.</h3>
+            <ul class="card-list-group">
+              <li><span class="card-list-group-item">Scientific Name:</span> Lynx Pardinus</li>
+              <li><span class="card-list-group-item">Average Lenght:</span> 85-110 cm</li>
+              <li><span class="card-list-group-item">Average Lifespan:</span> 13 years</li>
+              <li><span class="card-list-group-item">Habitat:</span> Dense scrub and open pasture</li>
+            </ul>
+            <p class="card-text">The Iberian Lynx, is a wild cat species native to the Iberian Peninsula in southwestern Europe, that is listed as Endangered on the IUCN Red List. It preys almost exclusively on the European rabbit. In the 20th century, the Iberian Lynx population declined because of sharp declines in rabbit populations, caused by myxomatosis, rabbit haemorrhagic disease and overhunting, fragmentation of grassland and forest habitats and poaching.</p>
+          </div><!-- /.card-body -->
+        </a><!-- /.card-switch -->
+      </div><!-- /.card -->
+
+      <div id="card-11" class="card mb-4 style11">
+        <a class="card-switch" href="#" onclick="applyStyleToAll(11)">
+          <h2 class="card-title">Scottish Fold</h2>
+          <img class="card-img" src="http://cdn1-www.cattime.com/assets/uploads/gallery/scottish-fold/scottish-fold-1.jpg" alt="Cat">
+          <div class="card-body">
+            <h3 class="card-subtitle">Folds are known for sitting with their legs stretched out and their paws on their belly. This is called the "Buddha Position"</h3>
+            <ul class="card-list-group">
+              <li><span class="card-list-group-item">Scientific Name:</span> Felis catus</li>
+              <li><span class="card-list-group-item">Origin:</span> Scotland</li>
+              <li><span class="card-list-group-item">Average Lifespan:</span> 11-14 years</li>
+              <li><span class="card-list-group-item">Body:</span> 3-6kg</li>
+            </ul>
+            <p class="card-text">The Scottish Fold is a breed of domestic cat with a natural dominant-gene mutation, causing the ears to "fold,” bending forward and down towards the front of the head.They may have nearly any coat color or combination of colours.Short hair Scottish Folds have thick and soft fur, with long hair Folds having longer and exceptionally dense fur around their upper thighs, toes, ears, and tail. It is known to be quiet.</p>
+          </div><!-- /.card-body -->
+        </a><!-- /.card-switch -->
+      </div><!-- /.card -->
+
+      <div id="card-12" class="card mb-4 style12">
+        <a class="card-switch" href="#" onclick="applyStyleToAll(12)">
+          <h2 class="card-title">Fox</h2>
+          <img class="card-img" src="https://dobresklepymotocyklowe.pl/images/A-MAILINGI/fox.jpg" alt="fox">
+          <div class="card-body">
+            <h3 class="card-subtitle">Foxes have excellent hearing. They can hear low-frequency sounds and rodents digging underground.</h3>
+            <ul class="card-list-group">
+              <li><span class="card-list-group-item">Kingdom:</span> Animalia</li>
+              <li><span class="card-list-group-item">Phylum:</span> Chordata</li>
+              <li><span class="card-list-group-item">Class:</span> Mammalia</li>
+              <li><span class="card-list-group-item">Family:</span> Canidae</li>
+            </ul>
+            <p class="card-text">Foxes are swift and agile runners which live in family groups. A female fox is called a vixen, and the male is called a dog. Foxes' tails are multi-purpose organs. Their bushy tail helps them keep warm while they are sleeping in cold weather.</p>
+          </div><!-- /.card-body -->
+        </a><!-- /.card-switch -->
+      </div><!-- /.card -->
+
+      <div id="card-13" class="card mb-4 style13">
+        <a class="card-switch" href="#" onclick="applyStyleToAll(13)">
+          <h2 class="card-title">Burrowing Owl</h2>
+          <img class="card-img" src="http://sagerealtor.com//wp-content/uploads/2015/03/owl1.jpg" alt="borrowing owl agains blurred nature background">
+          <div class="card-body">
+            <h3 class="card-subtitle">They are called burrowing owls as they are the only owls in the world that lives in underground burrows.</h3>
+            <ul class="card-list-group">
+              <li><span class="card-list-group-item">Scientific Name:</span> Athene cunicularia</li>
+              <li><span class="card-list-group-item">Average Lenght:</span> 10 year</li>
+              <li><span class="card-list-group-item">Average Weight:</span> 5.7 oz</li>
+              <li><span class="card-list-group-item">Wingspan:</span> 20 - 24 in.</li>
+            </ul>
+            <p class="card-text">What they look like: Burrowing Owls are small brown long-legged owls that nest in burrows. They have short tails and no ear tufts. The eyes and bill are yellow.They are a diurnal bird - active both day and night. This is unlike others owls that are mainly active at night.Burrowing Owls often live in loose colonies. The adults take turns standing guard near the nest burrows. They are active both day and night, especially during the breeding season.</p>
+          </div><!-- /.card-body -->
+        </a><!-- /.card-switch -->
+      </div><!-- /.card -->
+
+
+      <div id="card-14" class="card mb-4 style14">
+        <a class="card-switch" href="#" onclick="applyStyleToAll(14)">
+          <h2 class="card-title">Occamy</h2>
+          <img class="card-img" src="https://cdnb.artstation.com/p/assets/images/images/004/478/751/large/stephen-molyneaux-occamy1200.jpg?1484004795" alt="harry potter stephen-molyneaux-occamy1200">
+          <div class="card-body">
+            <h3 class="card-subtitle">The Occamy was known to be choranaptyxic, meaning it grew or shrank in order to fit available space.</h3>
+            <ul class="card-list-group">
+              <li><span class="card-list-group-item">Appearence:</span> Plumed, two-legged winged creature with a serpentine body</li>
+              <li><span class="card-list-group-item">Magic Abilities:</span> Plumed, two-legged winged creature with a serpentine body</li>
+              <li><span class="card-list-group-item">Dangers:</span> Aggressive to all who approach it, especially defensive of its eggs</li>
+              <li><span class="card-list-group-item">Habitats:</span> Far East and India</li>
+            </ul>
+            <p class="card-text">It was a plumed, two-legged serpentine-bodied creature with wings that reached up to fifteen feet in height. The Occamy was extremely aggressive to anyone who approached it, and lived off of insects, rats, birds, and occasionally monkeys. It was extremely protective of its eggs, which were made of the most pure and soft silver.</p>
+          </div><!-- /.card-body -->
+        </a><!-- /.card-switch -->
+      </div><!-- /.card -->
+
+      <div id="card-15" class="card mb-4 style15">
+        <a class="card-switch" href="#" onclick="applyStyleToAll(15)">
+          <h2 class="card-title">White Tiger</h2>
+          <img class="card-img" src="https://www.walldevil.com/wallpapers/a42/wallpaper-tiger-serbian-white-background-cute.jpg" alt="white-tiger">
+          <div class="card-body">
+            <h3 class="card-subtitle">Such a tiger has the black stripes typical of the Bengal tiger, but carries a white or near-white coat.</h3>
+            <ul class="card-list-group">
+              <li><span class="card-list-group-item">Weight:</span> 230-230 kg</li>
+              <li><span class="card-list-group-item">Fur color:</span> White</li>
+              <li><span class="card-list-group-item">Rarity:</span> One every 10,000 years of births</li>
+            </ul>
+            <p class="card-text">The white tiger or bleached tiger is a pigmentation variant of the Bengal tiger, which is reported in the wild from time to time in the Indian states of Assam, West Bengal and Bihar in the Sunderbans region and especially in the former State of Rewa.</p>
+          </div><!-- /.card-body -->
+        </a><!-- /.card-switch -->
+      </div><!-- /.card -->
+
+      <div id="card-16" class="card mb-4 style16">
+        <a class="card-switch" href="#" onclick="applyStyleToAll(16)">
+          <h2 class="card-title">Dog</h2>
+          <img class="card-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9Fc_5s_a4ei3UEXTJaI7WAplKo6VNLlR8WnV9qM69mqyYLAZJ" alt="Dog">
+          <div class="card-body">
+            <h3 class="card-subtitle">Dogs often dream. In fact, they experience similar stages of dreaming to humans - including rapid eye movement (REM), (the stage of dreaming we tend to remember). Twitches and paw movements are just some of the ways you can spot a dreaming dog. Even more amazing? Harvard experts suggest that your dog is quite likely to be dreaming about… you.</h3>
+            <ul class="card-list-group">
+              <li><span class="card-list-group-item">Scientific Name:</span> Canis lupus familiaris</li>
+              <li><span class="card-list-group-item">Average Lenght:</span> 6.3 – 110 cm</li>
+              <li><span class="card-list-group-item">Average Lifespan:</span> 10 – 13 </li>
+              <li><span class="card-list-group-item">Habitat:</span> Mostly wtih humans</li>
+            </ul>
+            <p class="card-text">Dogs are loyal and really fun to play with.</p>
+          </div><!-- /.card-body -->
+        </a><!-- /.card-switch -->
+      </div><!-- /.card -->
+
+      <div id="card-17" class="card mb-4 style17">
+        <a class="card-switch" href="#" onclick="applyStyleToAll(17)">
+          <h2 class="card-title">Deer</h2>
+          <img class="card-img" src="https://upload.wikimedia.org/wikipedia/commons/4/42/Key_Deer_JCB.jpg" class="pictureborder" alt="Deer">
+          <div class="card-body">
+            <h3 class="card-subtitle">Deer live in forest preserves next to my house</h3>
+            <ul class="card-list-group">
+              <li><span class="card-list-group-item">Scientific Name:</span> Cervidae</li>
+              <li><span class="card-list-group-item">Average Lenght:</span> 95cm-220cm</li>
+              <li><span class="card-list-group-item">Average Lifespan:</span> 10years-13years</li>
+              <li><span class="card-list-group-item">Habitat:</span> Forest</li>
+            </ul>
+            <p class="card-text">Deer have brownish fur and antlers borne by the males of nearly all and by the females of a few forms.  Deer are the ruminant mammals forming the family Cervidae. The two main groups are the Cervinae and the Capreolinae.  Elk, Reindeer (caribou)and the moose are also considered deer.</p>
+          </div><!-- /.card-body -->
+        </a><!-- /.card-switch -->
+      </div><!-- /.card -->
+
+      <div id="card-18" class="card mb-4 style18">
+        <a class="card-switch" href="#" onclick="applyStyleToAll(18)">
+          <h2 class="card-title">Labrador Retriever</h2>
+          <img class="card-img" src="https://vetstreet.brightspotcdn.com/dims4/default/4b20efe/2147483647/crop/0x0%2B0%2B0/resize/645x380/quality/90/?url=https%3A%2F%2Fvetstreet-brightspot.s3.amazonaws.com%2Ff8%2F7a54f0a10511e087a80050568d634f%2Ffile%2FLabrador-1-645mk062111.jpg" alt="Labrador Retriever">
+          <div class="card-body">
+            <h3 class="card-subtitle">Good-looking, smart and fun-loving, the Lab has a a lot going for him. He’s large, but not too large, he’s calm and easygoing when he’s not exuberantly fetching a tennis ball or a bird. He’s a do-it-all kind of dog.</h3>
+            <ul class="card-list-group">
+              <li><span class="card-list-group-item">Breed Group:</span> Sporting</li>
+              <li><span class="card-list-group-item">Height:</span> 21.5 to 24.5 inches at shoulder</li>
+              <li><span class="card-list-group-item">Weight:</span> 55 to 80 pounds</li>
+              <li><span class="card-list-group-item">Life Span:</span> 10 to 13</li>
+            </ul>
+            <p class="card-text">The Labrador Retriever has consistently ranked as the most popular purebred dog in the United States for more than 10 years, according to the American Kennel Club. The AKC registers more than a hundred thousand new Labrador Retrievers each year, but when you take into account all the Labs never registered at all, or registered with another organization such as the United Kennel Club, the popularity of this stable, family-friendly dog is truly staggering.</p>
+          </div><!-- /.card-body -->
+        </a><!-- /.card-switch -->
+      </div><!-- /.card -->
+
+      <!-- <div id="card-19" class="card mb-4 style19">
+        <a class="card-switch" href="#" onclick="applyStyleToAll(19)">
+          <h2 class="card-title">Northern Pike</h2>
+          <img class="card-img" src="http://u.hgtm.de/animal-trading-card/pike.png" alt="Northern Pike">
+          <div class="card-body">
+            <h3 class="card-subtitle">Individual pike marking patterns are unique, like fingerprints.</h3>
+            <ul class="card-list-group">
+              <li><span class="card-list-group-item">Scientific Name:</span> Esox lucius</li>
+              <li><span class="card-list-group-item">Average Lifespan:</span> 7 years</li>
+              <li><span class="card-list-group-item">Weight:</span> up to 32 kg</li>
+              <li><span class="card-list-group-item">Average Length:</span> 40 - 100 cm</li>
+              <li><span class="card-list-group-item">Maximum length:</span> 130 - 150 cm</li>
+            </ul>
+            <p class="card-text">The northern pike is a popular sporting and food fish that inhabits freshwaters around the northern hemisphere.</p>
+          </div>
+        </a>
+      </div>-->
+
+      <div id="card-20" class="card mb-4 style20">
+        <a class="card-switch" href="#" onclick="applyStyleToAll(20)">
+          <h2 class="card-title">Common Raven<small class="second-title"></small><!----></h2>
+          <img class="card-img" src="img/raven.jpg" alt="Common Raven">
+          <div class="card-body">
+            <h3 class="card-subtitle">Some notable feats of problem-solving provide evidence that the Common Raven is unusually intelligent.</h3>
+            <ul class="card-list-group">
+              <li><span class="card-list-group-item">Scientific Name:</span> Corvus Corax</li>
+              <li><span class="card-list-group-item">Average Lenght:</span> 62 centimeters</li>
+              <li><span class="card-list-group-item">Average Lifespan:</span> 13 years</li>
+              <li><span class="card-list-group-item">Habitat:</span> Prefers heavily contoured landscapes</li>
+            </ul>
+            <p class="card-text">Also known as the <strong>Northern Raven</strong>, is one of the largest corvids. Over the centuries, <strong>it has been the subject of mythology, folklore and arts</strong>. In many cultures, including the indigenous ones of Scandinavia, northwest America and northeast Asia, the Common Raven has been revered as a <strong>spiritual figure or god</strong>.</p>
+          </div><!-- /.card-body -->
+        </a><!-- /.card-switch -->
+      </div><!-- /.card -->
+
+      <div id="card-21" class="card mb-4 style21">
+        <a class="card-switch" href="#" onclick="applyStyleToAll(21)">
+          <h2 class="card-title">Firefly</h2>
+          <img class="card-img" src="https://assets.rbl.ms/6641961/980x.jpg" alt="firefly">
+          <div class="card-body">
+            <h3 class="card-subtitle">Firefly's light is the most efficient light in the world - almost 100 percent of the energy in the chemical reaction is emitted as light. (Photo: GeoEric/geocaching.com)</h3>
+            <ul class="card-list-group">
+              <li><span class="card-list-group-item">Scientific Name</span>: Lampyridae</li>
+              <li><span class="card-list-group-item">Average Lenght</span>: 5-25 mm</li>
+              <li><span class="card-list-group-item">Average Lifespan</span>: 2 months</li>
+              <li><span class="card-list-group-item">Habitat</span>: Tropical and temperate regions</li>
+            </ul>
+            <p class="card-text">Firefly or lightning bug is a beetle of the family Lampyridae that has special light-producing organ on the underside of the abdomen. There are about 2,000 firefly species, most of which are nocturnal. They use their light to find their mates, but it also serves them as a defense mechanism.</p>
+          </div><!-- /.card-body -->
+        </a><!-- /.card-switch -->
+      </div><!-- /.card -->
+
+      <div id="card-22" class="card mb-4 style22">
+        <a class="card-switch" href="#" onclick="applyStyleToAll(22)">
+          <h2 class="card-title">Emperor Penguin</h2>
+          <img class="card-img" src="http://www.oocities.org/rainforest/canopy/7897/emperor_penguin5.jpg" alt="emperor penguin image">
+          <div class="card-body">
+            <h3 class="card-subtitle">They mate with one couple for a season, but the next year they will probably mate with another penguin.</h3>
+            <ul class="card-list-group">
+              <li><span class="card-list-group-item">Scientific Name:</span> Aptenodytes forsteri</li>
+              <li><span class="card-list-group-item">Average Lenght:</span> 1.2 meters</li>
+              <li><span class="card-list-group-item">Average Lifespan:</span> 20 years</li>
+              <li><span class="card-list-group-item">Habitat:</span> Antarctic Continent</li>
+            </ul>
+            <p class="card-text">Emperors are the largest of all penguins. These flightless animals live on the Antarctic ice and in the frigid surrounding waters. They are mostly known for their parenting. While the male penguin protects the egg, the female penguin goes to find food and returns  with a full belly.</p>
+          </div><!-- /.card-body -->
+        </a><!-- /.card-switch -->
+      </div><!-- /.card -->
+
+      <div id="card-23" class="card mb-4 style23">
+        <a class="card-switch" href="#" onclick="applyStyleToAll(23)">
+          <h2 class="card-title">Hummingbird</h2>
+          <img class="card-img" src="http://i67.tinypic.com/2468faw.jpg" border="0" alt="Image and video hosting by TinyPic">
+          <div class="card-body">
+            <h3 class="card-subtitle">Hummingbirds are small, colorful birds with iridescent feathers. Their name comes from the fact that they flap their wings so fast (about 80 times per second) that they make a humming noise.</h3>
+            <ul class="card-list-group">
+              <li><span class="card-list-group-item">Scientific Name:</span> Trochilidae</li>
+              <li><span class="card-list-group-item">Lifespan:</span> 3 – 5 years</li>
+              <li><span class="card-list-group-item">Mass:</span> Vero vel quam</li>
+            </ul>
+            <p class="card-text">An average hummingbird’s heart rate is more than 1,200 beats per minute. In comparison, a human's average heart rate is only 60-100 beats per minute at rest.</p>
+          </div><!-- /.card-body -->
+        </a><!-- /.card-switch -->
+      </div><!-- /.card -->
+
+      <div id="card-24" class="card mb-4 style24">
+        <a class="card-switch" href="#" onclick="applyStyleToAll(24)">
+          <h2 class="card-title">Labrador Retriever</h2>
+          <img class="card-img" src="https://www.askideas.com/media/15/Black-Blonde-And-Brown-Labrador-Retriever-Dogs.jpg" alt="Labrador Retriever">
+          <div class="card-body">
+            <h3 class="card-subtitle">The Labrador is one of the most popular breeds of dog in Canada, the United Kingdom and the United States.</h3>
+            <ul class="card-list-group">
+              <li><span class="card-list-group-item">Origin:</span> United Kingdom & Canada</li>
+              <li><span class="card-list-group-item">Weight:</span> Male  65–80 lb (29–36 kg), Female 55–70 lb (25–32 kg)</li>
+              <li><span class="card-list-group-item">Coat:</span> Smooth, short, dense and straight</li>
+              <li><span class="card-list-group-item">Color:</span> Black, chocolate, or yellow</li>
+            </ul>
+            <p class="card-text">A favourite disability assistance breed in many countries, Labradors are frequently trained to aid the blind, those who have autism, to act as a therapy dog or to perform screening and detection work for law enforcement and other official agencies. They are prized as sporting and hunting dog.</p>
+          </div><!-- /.card-body -->
+        </a><!-- /.card-switch -->
+      </div><!-- /.card -->
+
+      <div id="card-25" class="card mb-4 style25">
+        <a class="card-switch" href="#" onclick="applyStyleToAll(25)">
+          <h2 class="card-title">Orangutan</h2>
+          <img class="card-img" src="http://www.wwf.org.au/Images/UserUploadedImages/416/img-orangutan-baby-borneo-1000px.jpg" alt="baby orangutan. Source: WWF Australia">
+          <div class="card-body">
+            <h3 class="card-subtitle">Orangutan means 'person of the forest' in Malay.</h3>
+            <ul class="card-list-group">
+              <li><span class="card-list-group-item">Scientific Name:</span> Pongo</li>
+              <li><span class="card-list-group-item">Height:</span> 1.2 - 1.5 metres</li>
+              <li><span class="card-list-group-item">Lifespan:</span> 30 - 40 years in the wild</li>
+              <li><span class="card-list-group-item">Countries of origin:</span> Sumatra, Borneo</li>
+            </ul>
+            <p class="card-text">All three species of orangutan - Bornean, Sumatran and Tapanuli - are endangered owing to deforestation of their habitat and illegal hunting. Orangutans are the only great apes of Asia and are the largest tree-dwelling mammals on earth. Gentle and highly intelligent, we must do all we can to save these beautiful creatures who share 97% of our DNA.</p>
+          </div><!-- /.card-body -->
+        </a><!-- /.card-switch -->
+      </div><!-- /.card -->
+
+      <div id="card-26" class="card mb-4 style26">
+        <a class="card-switch" href="#" onclick="applyStyleToAll(26)">
+          <h2 class="card-title">Cougar</h2>
+          <img class="card-img" src="https://www.ourbreathingplanet.com/wp-content/uploads/2014/03/Cougar-2-true-wildlife.blogspot.com_.png" alt="Cougar">
+          <div class="card-body">
+            <h3 class="card-subtitle">The cougar is more closely related to smaller felines, including the domestic cat than to any subspecies of lion.</h3>
+            <ul class="card-list-group">
+              <li><span class="card-list-group-item">Average Lenght:</span> 2.2 m</li>
+              <li><span class="card-list-group-item">Tail Lenght:</span> 63-95 cm</li>
+              <li><span class="card-list-group-item">Weight:</span> 53-100 k</li>
+              <li><span class="card-list-group-item">Top running speed:</span> 64-80 kph</li>
+            </ul>
+            <p class="card-text">The cougar is an ambush predator and pursues a wide variety of prey. Primary food sources are ungulates, particularly deer, but also livestock. It also hunts species as small as insects and rodents. This cat prefers habitats with dense underbrush
+        and rocky areas for stalking, but can also live in open areas.</p>
+          </div><!-- /.card-body -->
+        </a><!-- /.card-switch -->
+      </div><!-- /.card -->
+
+      <div id="card-27" class="card mb-4 style27">
+        <a class="card-switch" href="#" onclick="applyStyleToAll(27)">
+          <h2 class="card-title">Monkey</h2>
+          <img class="card-img" src="data:image/jpeg;base64,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" alt="monkey">
+          <div class="card-body">
+            <h3 class="card-subtitle">Examining monkeys, we can learn many good examples:</h3>
+            <ul class="card-list-group">
+              <li><span class="card-list-group-item">No.1</span> They move regularly</li>
+              <li><span class="card-list-group-item">No.2</span> They eat healthy</li>
+              <li><span class="card-list-group-item">No.3</span> They nurture their relationships</li>
+              <li><span class="card-list-group-item">No.4</span> They resting in the daytime</li>
+            </ul>
+            <p class="card-text">Monkeys are playful and smart animals. Scientist found that chimpanzees are able to plan the future.</p>
+            <div class="card-block">
+            <button type="button" name="button" id="magic">I want to be a monkey too!</button>
+            </div>
+          </div><!-- /.card-body -->
+        </a><!-- /.card-switch -->
+      </div><!-- /.card -->
+
+
+      <div id="card-28" class="card mb-4 style28">
+        <a class="card-switch" href="#" onclick="applyStyleToAll(28)">
+          <h2 class="card-title">Siamese cat</h2>
+          <img class="card-img" src="https://image.ibb.co/etOUDG/placeholder_1.png" alt="Siamese cat">
+          <div class="card-body">
+            <h3 class="card-subtitle">One of the loudest cat on Earth. No one knows what the hell they are saying.</h3>
+            <ul class="card-list-group">
+              <li><span class="card-list-group-item">Scientific Name:</span> Inprobum pro cattus in terris</li>
+              <li><span class="card-list-group-item">Origin:</span> Thailand (Siam)</li>
+              <li><span class="card-list-group-item">Average Lifespan:</span> 12.5 years</li>
+              <li><span class="card-list-group-item">Cuteness level:</span> Highest rate</li>
+            </ul>
+            <p class="card-text">Usually very affectionate and intelligent cats, renowned for their social nature. Many enjoy being with people and are sometimes described as extroverts, but as the one of the picture above, sometimes very introverts. Often they bond strongly to a single person. Some Siamese are extremely vocal, with a loud, low-pitched voice. These cats are typically active and playful, even as adults, and are often described as more dog-like in behavior than other cats (like following their human). Siamese cats, due to their desire to be near people or other cats, occasionally suffer from depression if left alone for long periods of time. Siamese Scooter holds the record as the world's oldest male cat, dying at the age of 30.</p>
+          </div><!-- /.card-body -->
+        </a><!-- /.card-switch -->
+      </div><!-- /.card -->
+
+
+      <div id="card-29" class="card mb-4 style29">
+        <a class="card-switch" href="#" onclick="applyStyleToAll(29)">
+          <h2 class="card-title">North African Hedgehog</h2>
+          <img class="card-img" src="http://viralpirate.com/wp-content/uploads/2016/06/d7863b7e4f6a96f9f9d47d42d83e565a-1050x700.jpg" alt="North African Hedgehog">
+          <div class="card-body">
+            <h3 class="card-subtitle">Hedgehogs have about 5000 spines. Each spine lasts about a year then drops out and a replacement grows.</h3>
+            <ul class="card-list-group">
+              <li><span class="card-list-group-item">Scientific Name:</span> Atelerix algirus</li>
+              <li><span class="card-list-group-item">Diet:</span> Omnivore</li>
+              <li><span class="card-list-group-item">Size:</span> 200 to 250 mm</li>
+              <li><span class="card-list-group-item">Lifespan:</span> between 3 and 7 years in the wild and 8 to 10 years in captivity</li>
+            </ul>
+            <p class="card-text">The North African hedgehog is the species of miniature hedgehog most commonly kept as a pet. They are nocturnal creatures that sleep during the day. They come out at night in search of an assortment of foods including frogs, worms, eggs, fallen fruit and other vegetation.</p>
+          </div><!-- /.card-body -->
+        </a><!-- /.card-switch -->
+      </div><!-- /.card -->
+
+      <div id="card-30" class="card mb-4 style30">
+        <a class="card-switch" href="#" onclick="applyStyleToAll(30)">
+          <h2 class="card-title">Rescue Dog Skittles</h2>
+          <img class="card-img" src="https://www.rspca.org.uk/GenericImage/CallGenericImage?source=petSearch&size=large&imageId=136673" alt="Picture of Skittles">
+          <div class="card-body">
+            <h3 class="card-subtitle">A rescue dog is so rewarding, they are often overlooked as new owners want puppies.</h3>
+            <ul class="card-list-group">
+              <li><span class="card-list-group-item">Scientific Name:</span> Canine</li>
+              <li><span class="card-list-group-item">Average Height:</span> 30cm</li>
+              <li><span class="card-list-group-item">Average Lifespan:</span> 10 - 15 years</li>
+              <li><span class="card-list-group-item">Habitat:</span> Houses and Kennels</li>
+            </ul>
+            <p class="card-text">Skittles is a wonderful dog looking for new home. He has a few issues being selfish with his toys and doesn't like big dogs as they scare him. Barks a lot when left on his own. But with a little training, love and patience he would make a great pet.</p>
+          </div><!-- /.card-body -->
+        </a><!-- /.card-switch -->
+      </div><!-- /.card -->
+
+
+      <div id="card-31" class="card mb-4 style31">
+        <a class="card-switch" href="#" onclick="applyStyleToAll(31)">
+          <h2 class="card-title">White Donkey</h2>
+          <img class="card-img" src="http://www.ilportaledelcavallo.it/_public/img/300x/asini-bianchi2.jpg" alt="donkey">
+          <div class="card-body">
+            <h3 class="card-subtitle">Did you know that the white donkey is at risk of extinction? There are about 90 individuals on the island of Asinara and in the state forest of Porto Conte (Sardinia).</h3>
+            <ul class="card-list-group">
+              <li><span class="card-list-group-item">Scientific Name:</span> Equus asinus var. albina</li>
+              <li><span class="card-list-group-item">Average Height:</span> 90 cm</li>
+              <li><span class="card-list-group-item">Average Lifespan:</span> 25-30 years</li>
+              <li><span class="card-list-group-item">Habitat:</span> Island of Asinara and forest of Porto Conte (Sardinia)</li>
+            </ul>
+            <p class="card-text">The white donkey has a height of about 90 cm (a form of insular nanism), heavy head and short neck, thin and robust limbs. The skin is rosy while the iris is pale blue. The albinism is responsible for photophobia.</p>
+          </div><!-- /.card-body -->
+        </a><!-- /.card-switch -->
+      </div><!-- /.card -->
+
+
+      <div id="card-32" class="card mb-4 style32">
+        <a class="card-switch" href="#" onclick="applyStyleToAll(32)">
+          <h2 class="card-title">Samoyed</h2>
+          <img class="card-img" src="https://thumbs.dreamstime.com/b/samoyed-puppy-13486202.jpg" alt="Samoyed">
+          <div class="card-body">
+            <h3 class="card-subtitle">Samoyed has a friendly, good-natured disposition and is especially fond of children.</h3>
+            <ul class="card-list-group">
+              <li><span class="card-list-group-item">Weight:</span> 50 to 60 pounds</li>
+              <li><span class="card-list-group-item">Average Lifespan:</span> 12-15 years</li>
+              <li><span class="card-list-group-item">Amazing fact:</span> The Samoyed breed is one of 14 ancient dog breeds with genetic footprints closest to wolves.</li>
+              <li><span class="card-list-group-item">Energy Level:</span> High Exercise Needs / High Potential for Playfulness</li>
+            </ul>
+            <p class="card-text">The hardy and sweet-tempered Samoyed was originally used to hunt, herd reindeer, and haul sledges for the Siberian Samoyede people. His white, fluffy coat is beautiful, but requires rigorous grooming. His reputation as an intelligent family dog is well deserved. He is happiest when he is part of family life, and needs to be with people.</p>
+          </div><!-- /.card-body -->
+        </a><!-- /.card-switch -->
+      </div><!-- /.card -->
+
+      <div id="card-33" class="card mb-4 style33">
+        <a class="card-switch" href="#" onclick="applyStyleToAll(33)">
+          <h2 class="card-title">Red Fox</h2>
+          <img class="card-img" src="https://source.unsplash.com/7TGVEgcTKlY/1600x900)" alt="image of red fox">
+          <div class="card-body">
+            <h3 class="card-subtitle">Red foxes have binocular vision, but their sight reacts mainly to movement.  They are capable of locating sounds to within one degree at 700–3,000 Hz.</h3>
+            <ul class="card-list-group">
+              <li><span class="card-list-group-item">Scientific Name:</span> Vulpes vulpes</li>
+              <li><span class="card-list-group-item">Average Lifespan:</span> 18 months to 2 years</li>
+              <li><span class="card-list-group-item">Weight:</span> Dogs 5.9kg, Vixens 5.2kg</li>
+              <li><span class="card-list-group-item">Diet:</span> Omnivores</li>
+            </ul>
+            <p class="card-text">Beautiful Red Foxes have elongated bodies and relatively short limbs, there fluffy bushy tails are longer than half of the length of their body.  Red foxes are usually together in pairs or small groups consisting of families.  The males are called dogs, the females are vixens and the cubs are known as kits  The red fox is distinguished from other fox species by its ability to adapt quickly to new environments and out of all the species of foxes, the red species is more likely to become urbanised.</p>
+          </div><!-- /.card-body -->
+        </a><!-- /.card-switch -->
+      </div><!-- /.card -->
+
+      <div id="card-34" class="card mb-4 style34">
+        <a class="card-switch" href="#" onclick="applyStyleToAll(34)">
+          <h2 class="card-title">My Cat</h2>
+          <img class="card-img" src="https://drscdn.500px.org/photo/207985453/m%3D900/v2?user_id=9605409&webp=true&sig=d2d49a52ed7fda731ed4cd2336a73c8970b05857e9e73c34deb3b0d2de9ff88a" alt="Like a boss by Miklos Lammel on 500px.com">
+          <div class="card-body">
+            <h3 class="card-subtitle">A genetic study in 2007 concluded that all domestic cats are descended from Near Eastern wildcats, having diverged around 8,000 BC in the Middle East.</h3>
+            <ul class="card-list-group">
+              <li><span class="card-list-group-item">Weight:</span> generally between 4 and 5 kg</li>
+              <li><span class="card-list-group-item">Height:</span> about 23–25 cm</li>
+              <li><span class="card-list-group-item">Length:</span> average 46 cm in head/body length</li>
+              <li><span class="card-list-group-item">Habitat:</span> on my couch :)</li>
+            </ul>
+            <p class="card-text">Cats, like dogs, are digitigrades. They walk directly on their toes, with the bones of their feet making up the lower part of the visible leg. Cats are capable of walking very precisely because, like all felines, they directly register; that is, they place each hind paw (almost) directly in the print of the corresponding fore paw, minimizing noise and visible tracks.</p>
+          </div><!-- /.card-body -->
+        </a><!-- /.card-switch -->
+      </div><!-- /.card -->
+
+
+      <div id="card-35" class="card mb-4 style35">
+        <a class="card-switch" href="#" onclick="applyStyleToAll(35)">
+          <h2 class="card-title">Chartreux<br><small class="second-title"></small><!----></h2>
+          <img class="card-img" src="img/Chartreux.png" alt="cat_chartreux">
+          <div class="card-body">
+            <h3 class="card-subtitle">On the friendliness scale, Chartreux are right at the top!</h3>
+            <ul class="card-list-group">
+            <li><span class="card-list-group-item">Scientific Name:</span> Felis catus</li>
+            <li><span class="card-list-group-item">Average Lenght:</span> 12–16 pounds</li>
+            <li><span class="card-list-group-item">Average Lifespan:</span> 13-16 years</li>
+            <li><span class="card-list-group-item">Habitat:</span> Household</li>
+            </ul>
+            <p class="card-text"> They enjoy the company of children, dogs and other cats. They are adaptable, easy to travel with and are quieter cats who are said to "chirp instead of meow".</p>
+          </div><!-- /.card-body -->
+        </a><!-- /.card-switch -->
+      </div><!-- /.card -->
+
+
+      <div id="card-36" class="card mb-4 style36">
+        <a class="card-switch" href="#" onclick="applyStyleToAll(36)">
+          <h2 class="card-title">African Lion</h2>
+          <img class="card-img" src="http://tanzaniaexplorer.com/wp-content/uploads/IMG_1378-700x500.jpg" alt="African Lion">
+          <div class="card-body">
+            <h3 class="card-subtitle"></h3>
+            <ul class="card-list-group">
+              <li><span class="card-list-group-item">Origin:</span> Africa</li>
+              <li><span class="card-list-group-item">Average Weight:</span> 189.6 kg</li>
+              <li><span class="card-list-group-item">Average Lifespan:</span> 10 - 14 years</li>
+              <li><span class="card-list-group-item">Speed:</span> 80km/h</li>
+            </ul>
+            <p class="card-text">Even though the lion is sometimes referred to as the “king of the jungle,” it actually only lives in grasslands and plains. The expression may have come from an incorrect association between Africa and jungles or may refer to a less literal meaning of the word jungle.</p>
+          </div><!-- /.card-body -->
+        </a><!-- /.card-switch -->
+      </div><!-- /.card -->
+
+      <div id="card-37" class="card mb-4 style37">
+        <a class="card-switch" href="#" onclick="applyStyleToAll(37)">
+          <h2 class="card-title">British Cats</h2>
+          <img class="card-img" src="https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/3304991/300/200/m1/fpc/wm0/g0k1nvijg80qyr1xgvfqurilnscocmbpktuyzlfnuwbkxkks6lix0pxbrlunwwrm-.jpg?1506338934&s=f42437156e1f839be8ca594eea85e430" alt="British cat">
+          <div class="card-body">
+            <h3 class="card-subtitle">British Shorthair is not a noisy cat, in fact, the breed is known for hardly meowing at all.</h3>
+            <ul class="card-list-group">
+              <li><span class="card-list-group-item">Scientific Name:</span> Felis catus</li>
+              <li><span class="card-list-group-item">Health:</span> British Shorthairs lived to 10 years or more and 54% lived to 12.5 years</li>
+              <li><span class="card-list-group-item">Color:</span> Black, blue, white, red and most recently cinnamon</li>
+              <li><span class="card-list-group-item">Habitat:</span> British Homes</li>
+            </ul>
+            <p class="card-text">The British Shorthair is solid and muscular with an easygoing personality. As befits his British heritage, he is slightly reserved, but once he gets to know someone he’s quite affectionate.</p>
+          </div><!-- /.card-body -->
+        </a><!-- /.card-switch -->
+      </div><!-- /.card -->
+
+      <div id="card-38" class="card mb-4 style38">
+        <a class="card-switch" href="#" onclick="applyStyleToAll(38)">
+          <h2 class="card-title">Secretarybird</h2>
+          <img class="card-img" src="https://image.ibb.co/gqnLcm/secretarybird.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h3 class="card-subtitle">The secretary bird has traditionally been admired in Africa for its striking appearance and ability to deal with pests and snakes. Africans sometimes call it the Devil's Horse</h3>
+            <ul class="card-list-group">
+              <li><span class="card-list-group-item">Scientific Name:</span> Sagittarius Serpentarius</li>
+              <li><span class="card-list-group-item">Diet:</span> Insects, small mammals, lizards, tortoises, snakes, bird eggs.</li>
+              <li><span class="card-list-group-item">Conservation status:</span> Vulnerable</li>
+              <li><span class="card-list-group-item">Lifespan:</span> Up to 18 years (in captivity)</li>
+            </ul>
+            <p class="card-text">The secretarybird is a very large, mostly terrestrial bird of prey. Endemic to Africa, it is usually found in the open grasslands and savannah of the sub-Saharan region. They have a body length between 1.3-1.5m and a wingspan between 1.2-1.35m</p>
+          </div><!-- /.card-body -->
+        </a><!-- /.card-switch -->
+      </div><!-- /.card -->
+
+
+      <div id="card-39" class="card mb-4 style39">
+        <a class="card-switch" href="#" onclick="applyStyleToAll(39)">
+          <h2 class="card-title">Where is my home?</h2>
+          <img class="card-img" src="https://images.unsplash.com/photo-1507146426996-ef05306b995a?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=8f37819758fae3fecda8434f24eaaea0" alt="Image of a Stray Dog">
+          <div class="card-body">
+            <h3 class="card-subtitle">In the last 5 years, at the least 51,200 stray dogs were captured in Romania, with more than half of them being <span style="color: red;">euthanized</span>.<small><sup>1</sup></small></h3>
+            <ul class="card-list-group">
+              <li><span class="card-list-group-item">Who we are:</span> www.facebook.com/asociatiapentruprotectiaanimalelorineu</li>
+              <li><span class="card-list-group-item">Woof:</span> Association for Animal Protection Ineu</li>
+              <li><span class="card-list-group-item">Where we are:</span> Ineu, Arad county, Romania</li>
+              <li><span class="card-list-group-item">Number of souls:</span> 150 dogs</li>
+            </ul>
+              <h3><small class="second-title" style="padding-top: 20px;">Dear Animal Friends!</small></h3>
+              <p class="card-text"><span style="font-weight: bold;">We are AAPI, a small group of animal rights activists in Ineu (Arad county) in the western part of Romania.</span> Our mission is to help the offended dogs in our area by taking them to our small animal shelter, feed them, give them water, as well as veterinary care. Then we look for love families to adopt our proteges and offer them a home where they are loved.</p>
+              <p class="card-text"><span style="font-weight: bold;">We come to our borders every day. It lacks, as everywhere, money for food and veterinary costs.</span> Since we do not receive financial support from the state, we are dependent on donations from animal friends to ensure the supply of the dogs at our shelter. Our kennel accommodate 150 dogs and we need approx. 70 kg of dry food per day. Every dog has to be vaccinated, dewormed, escaped and castrated, and of course it costs. Puppies are not yet castrated.</p>
+              <p class="card-text"><span style="font-weight: bold;">We would like to invite everyone who is able to donate $1.00 for the dogs of the animal house Ineu.</span> Many people together can have a big impact. <span class="card-text-emphasis card-text-extra-emphasis">The funds are used 100% for the dogs</span>, as we help the animals voluntarily and free of charge beside our job. If you are interested and would like to help our dogs, you can donate via PayPal to <span style="font-weight: bold;">asociatiaapai@yahoo.com</span>.<sup>2</sup></p>
+              <p class="card-text"><span style="font-weight: bold;">We would like to sincerely thank all donors!<br>Woof-woof!</span> 🐶</p>
+              <div class="card-block" style="padding-top: 3px; text-align: left;">
+              <h3><small class="second-title" style="padding-top: 20px;">The team of AAPI</small></h3>
+              <hr>
+                <p style="font-size: 0.8em; line-height: 1.3em; margin: 3px;"><small><sup>1</sup></small><a href="https://en.wikipedia.org/wiki/Street_dog#Romania" target="_blank" class="card-link"> Free-ranging urban dogs by country</a></p>
+                <p style="font-size: 0.8em; line-height: 1.3em; margin: 3px;"><small><sup>2</sup></small><a href="https://www.facebook.com/asociatiapentruprotectiaanimalelorineu/videos/493420587670387/" target="_blank" class="card-link"> APAI (Asociatia pentru Protectia Animalelor Ineu)</a> is the original association name, in romanian language, this is why this is the right email format</a></p>
+                <p style="margin: 25px 0 15px 0; font-size: 0.8em; font-weight: bold; border: 1px solid rgba(0,0,0,.1); border-radius: .25rem; padding: 5px; background-color: pink;">⚠ DISCLAIMER: I am not affiliated with, endorsed by, or sponsored by AAPI (Association for Animal Protection Ineu) or any of their affiliates or subsidiaries.</p>
+              </div>
+          </div><!-- /.card-body -->
+        </a><!-- /.card-switch -->
+      </div><!-- /.card -->
+
+
+      <div id="card-40" class="card mb-4 style40">
+        <a class="card-switch" href="#" onclick="applyStyleToAll(40)">
+          <h2 class="card-title">Pure-Sloth</h2>
+          <img class="card-img" src="https://render.fineartamerica.com/images/rendered/search/print/images-medium-5/sloth-dominic-piperata.jpg" alt="Pure-Sloth">
+          <div class="card-body">
+            <h3 class="card-subtitle">Sloths are not lazy</h3>
+            <ul class="card-list-group">
+            <li><span class="card-list-group-item">Scientific Name:</span> Bradypus variegatus</li>
+            <li><span class="card-list-group-item">Habitat:</span> Tropical rainforests</li>
+            <li><span class="card-list-group-item">Diet:</span> Leaves of Cecropia</li>
+            <li><span class="card-list-group-item">Average Lifespan:</span> 25 years</li>
+            </ul>
+            <p class="card-text">Although Sloths are very slow they can be fast if they want, this seemingly lazy animal is actually really smart and they don't sleep as much as we perceive it.</p>
+          </div><!-- /.card-body -->
+        </a><!-- /.card-switch -->
+      </div><!-- /.card -->
+
+
+      <div id="card-41" class="card mb-4 style41">
+        <a class="card-switch" href="#" onclick="applyStyleToAll(41)">
+          <h2 class="card-title">African Wild Cat</h2>
+          <img class="card-img" src="http://www.gregorysweeney.photography/wp-content/uploads/2015/01/african-wild-cat-3.jpg" alt="Wild Cat">
+          <div class="card-body">
+            <h3 class="card-subtitle">Although the Wild Cat looks similar to your regular house cat in size and appearance, it is considered a completely different subspecies altogether. They are roughly 1.5 times larger than the domesticated cats.</h3>
+            <ul class="card-list-group">
+              <li><span class="card-list-group-item">Scientific Name:</span> Felis Silvestris</li>
+              <li><span class="card-list-group-item">Average Height:</span> 35 CM</li>
+              <li><span class="card-list-group-item">Average Weight:</span> 4,9 KG</li>
+              <li><span class="card-list-group-item">Average lifespan:</span> 14 years</li>
+            </ul>
+            <p class="card-text">The Wild Cat is a shy, solitary animal, marking its territory away from humans. The Cat is found in almost any habitat - grasslands, bush lands and forests. They are not often seen as they hunt at night, preying on fairly small animals such as birds, frogs, reptiles (lizards, etc), other invertebrates and eggs. By day, they hide in sheltered crevices, hollow logs, old burrows and tunnels, or in thick masses of shaded vegetation.</p>
+          </div><!-- /.card-body -->
+        </a><!-- /.card-switch -->
+      </div><!-- /.card -->
+
+
+      <div id="card-42" class="card mb-4 style42">
+        <a class="card-switch" href="#" onclick="applyStyleToAll(42)">
+          <h2 class="card-title">Clownfish</h2>
+          <img class="card-img" src="https://i.imgur.com/ull1eHU.png" alt="clownfish">
+          <div class="card-body">
+            <h3 class="card-subtitle">A layer of mucus on the clownfish's skin makes it immune to the fish-eating anemone's lethal sting.</h3>
+            <ul class="card-list-group">
+              <li><span class="card-list-group-item">Scientific Name:</span> Amphiprioninae</li>
+              <li><span class="card-list-group-item">Average Lenght:</span> 11 centimeters</li>
+              <li><span class="card-list-group-item">Average Lifespan:</span> 7 years</li>
+              <li><span class="card-list-group-item">Habitat:</span> Tropical coral reefs</li>
+            </ul>
+            <p class="card-text">Bright orange with three distinctive white bars, clown anemonefish are among the most recognizable of all reef-dwellers. They reach about 11 centimeters in length, and are named for the multicolored sea anemone in which they make their homes.</p>
+          </div><!-- /.card-body -->
+        </a><!-- /.card-switch -->
+      </div><!-- /.card -->
+
+
+      <div id="card-43" class="card mb-4 style43">
+        <a class="card-switch" href="#" onclick="applyStyleToAll(43)">
+          <h2 class="card-title">Forest Wolf</h2>
+          <img class="card-img" src="https://i.pinimg.com/736x/61/c3/97/61c397e988be96351d36e191a2477ace--logo-simple-dog-logo.jpg" alt="wolf head silhouette with trees inside">
+          <div class="card-body">
+            <h3 class="card-subtitle">The howl of the Eurasian wolf is much more protracted and melodious than that of North American grey wolf subspecies.</h3>
+            <ul class="card-list-group">
+              <li><span class="card-list-group-item">Order:</span> Carnivora</li>
+              <li><span class="card-list-group-item">Suborder:</span> Caniformia</li>
+              <li><span class="card-list-group-item">Family:</span> Canidae</li>
+              <li><span class="card-list-group-item">Genius:</span> Canis</li>
+            </ul>
+            <p class="card-text">The Eurasian wolf (<em>Canis lupus lupus</em>), also known as the common wolf or Middle Russian forest wolf, is a subspecies of grey wolf native to Europe.</p>
+          </div><!-- /.card-body -->
+        </a><!-- /.card-switch -->
+      </div><!-- /.card -->
+
+
+      <div id="card-44" class="card mb-4 style44">
+        <a class="card-switch" href="#" onclick="applyStyleToAll(44)">
+          <h2 class="card-title">"Leia" The Whippet</h2>
+          <img class="card-img" src="http://www.grzegorzgebik.eu/Leia.jpg" alt="Leia the whippet">
+          <div class="card-body">
+            <h3 class="card-subtitle">Wonderful but the greedest creature. Would eat literally everything.</h3>
+            <ul class="card-list-group">
+              <li><span class="card-list-group-item">Breed:</span> Whippet</li>
+              <li><span class="card-list-group-item">Full name:</span> Tylko Ty Bleached Blonde</li>
+              <li><span class="card-list-group-item">D.O.B.:</span> 02.05.2012</li>
+              <li><span class="card-list-group-item">Color:</span> Fawn</li>
+            </ul>
+            <p class="card-text">Whippet is a sighthound breed. Gentle, loving people and always happy to be as close as possible. Leia is a great example of typical whippet with her amazing character and huge talent to steal the food.</p>
+          </div><!-- /.card-body -->
+        </a><!-- /.card-switch -->
+      </div><!-- /.card -->
+
+
+      <div id="card-45" class="card mb-4 style45">
+        <a class="card-switch" href="#" onclick="applyStyleToAll(45)">
+          <h2 class="card-title">Hummingbird</h2>
+          <img class="card-img" src="https://odikapoulia.gr/wp-content/uploads/2017/01/%CE%B1%CF%81%CF%87%CE%B5%CE%AF%CE%BF-%CE%BB%CE%AE%CF%88%CE%B7%CF%82-2.jpg" alt="hummingbird">
+          <div class="card-body">
+            <h3 class="card-subtitle">The smallest extant bird species is a hummingbird, the 5 cm (2.0 in) bee hummingbird weighing less than 2.0 g (0.07 oz).</h3>
+            <ul class="card-list-group">
+              <li><span class="card-list-group-item">Family Name:</span> Trochilidae</li>
+              <li><span class="card-list-group-item">Top speed:</span> Exceeds 15 m/s (54 km/h; 34 mph)</li>
+              <li><span class="card-list-group-item">Lenght:</span> 7.5–13 cm (3–5 in)</li>
+              <li><span class="card-list-group-item">Average lifespan:</span> 4 years</li>
+            </ul>
+            <p class="card-text">They are known as hummingbirds because of the humming sound created by their beating wings which flap at high frequencies audible to humans. They hover in mid-air at rapid wing-flapping rates, which vary from around 12 beats per second in the largest species, to in excess of 80 in some of the smallest.</p>
+          </div><!-- /.card-body -->
+        </a><!-- /.card-switch -->
+      </div><!-- /.card -->
+
+
+      <div id="card-46" class="card mb-4 style46">
+        <a class="card-switch" href="#" onclick="applyStyleToAll(46)">
+          <h2 class="card-title">Husky Dog</h2>
+          <img class="card-img" src="https://image.ibb.co/fZL7ZR/dog.jpg" alt="name-of-your-animal">
+          <div class="card-body">
+            <h3 class="card-subtitle">Dogs can smell feelings.</h3>
+            <ul class="card-list-group">
+              <li><span class="card-list-group-item">Origin:</span> Siberia, Russia</li>
+              <li><span class="card-list-group-item">Average Lifespan:</span> 14 years</li>
+              <li><span class="card-list-group-item">Average Weight:</span> 22 kg</li>
+              <li><span class="card-list-group-item">Litter Size:</span> 4-8 puppies</li>
+            </ul>
+            <p class="card-text">The Siberian Husky is a beautiful dog breed with a thick coat that comes in a multitude of colors and markings. Their blue or multi-colored eyes and striking facial masks only add to the appeal of this breed, which originated in Siberia.</p>
+          </div><!-- /.card-body -->
+        </a><!-- /.card-switch -->
+      </div><!-- /.card -->
+
+
+      <div id="card-47" class="card mb-4 style47">
+        <a class="card-switch" href="#" onclick="applyStyleToAll(47)">
+          <h2 class="card-title">Giant Panda</h2>
+          <img class="card-img" src="https://leadingedgeenergy.com.au/wp-content/uploads/2017/07/panda3.jpg" alt="Giant panda">
+          <div class="card-body">
+            <h3 class="card-subtitle">The Giant Panda lives in mountainous regions, like Sichuan and Tibet. These magnificent mammals are the symbol of the World Wildlife Fund (WWF), a conservation organization.</h3>
+            <ul class="card-list-group">
+              <li><span class="card-list-group-item">Scientific Name:</span> Ailuropoda melanoleuca</li>
+              <li><span class="card-list-group-item">Habitat:</span> Bamboo Forest in Western China</li>
+              <li><span class="card-list-group-item">Lifespan:</span> 20 years</li>
+              <li><span class="card-list-group-item">Height:</span> 60 – 90 cm</li>
+            </ul>
+            <p class="card-text">Whilst they will occasionally eat small animals and fish, bamboo counts for 99 percent of their diet. Unlike most other bears, pandas do not hibernate. Female pandas give birth to one or two cubs every two years.</p>
+             <p class="card-text">Sadly, these beautiful bears are endangered, and it’s estimated that <em>only around 1,000 remain</em> in the wild. That’s why we need to do all we can to protect them!</p>
+          </div><!-- /.card-body -->
+        </a><!-- /.card-switch -->
+      </div><!-- /.card -->
+
+
+      <div id="card-48" class="card mb-4 style48">
+        <a class="card-switch" href="#" onclick="applyStyleToAll(48)">
+          <h2 class="card-title">Elephant</h2>
+          <img class="card-img" src="https://i.pinimg.com/564x/d9/f8/a3/d9f8a3b571e85c67f4d8096fed2440da.jpg" alt="elephant">
+          <div class="card-body">
+            <h3 class="card-subtitle">Elephants have the longest pregnancy of all the animals. It takes a female 22 months from conception to give birth.</h3>
+            <ul class="card-list-group">
+              <li><span class="card-list-group-item">Scientific Name:</span> Elephantidae</li>
+              <li><span class="card-list-group-item">Average Height:</span> 2,5 m</li>
+              <li><span class="card-list-group-item">Average Lifespan:</span> 60-70 years</li>
+              <li><span class="card-list-group-item">Habitat:</span> See below</li>
+            </ul>
+            <p class="card-text">Elephants are large mammals of the family Elephantidae and are scattered throughout sub-Saharan Africa, South Asia, and Southeast Asia. All elephants have several distinctive features, the most notable of which is a long trunk, used for many purposes, particularly breathing, lifting water, and grasping objects. Elephants are herbivorous and can be found in different habitats including savannahs, forests, deserts, and marshes.</p>
+          </div><!-- /.card-body -->
+        </a><!-- /.card-switch -->
+      </div><!-- /.card -->
+
+
+      <div id="card-49" class="card mb-4 style49">
+        <a class="card-switch" href="#" onclick="applyStyleToAll(49)">
+          <h2 class="card-title">Harp Seal</h2>
+          <img class="card-img" src="http://moziru.com/images/harp-seal-clipart-canada-10.jpg" alt="Harp Seal">
+          <div  class="card-body">
+            <h3 class="card-subtitle">Their large eyes are armed with large spherical lenses which help them focus over a long distance.</h3>
+            <ul class="card-list-group">
+              <li><span class="card-list-group-item">Scientific Name:</span> Pagophilus Groenlandica</li>
+              <li><span class="card-list-group-item">Weight:</span>  140-190 kg</li>
+              <li><span class="card-list-group-item">Lifespan:</span> 30-35 years</li>
+              <li><span class="card-list-group-item">Habitat:</span> North Atlantic and Arctic Oceans</li>
+            </ul>
+            <p class="card-text">The name “harp seal” comes from the large harp-shaped ring on the seal's back. They prefer to swim in the ocean, spending relatively little time on land. They are extremely social animals and can be very noisy, as well. They will form large colonies where they spend a great deal of time. Within that loose structure, smaller groups with their own hierarchy are believed to form.</p>
+          </div><!-- /.card-body -->
+          <div class="card-block">
+            <a href="https://en.wikipedia.org/wiki/Harp_seal" class="card-link"><img class="float-left" src="https://chart.googleapis.com/chart?cht=qr&chl=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FHarp_seal&chs=180x180&choe=UTF-8&chld=L|2" alt="qr code"></a>
+            <p>Scan or click the QR code for more detailed information.</p>
+          </div><!-- /.card-block -->
+        </a><!-- /.card-switch -->
+      </div><!-- /.card -->
+
+      <div id="card-50" class="card mb-4 style50">
+        <a class="card-switch" href="#" onclick="applyStyleToAll(50)">
+          <h2 class="card-title">Gray wolf</h2>
+          <img class="card-img" src="http://oi48.tinypic.com/2uzy0x2.jpg" alt="Gray-wolf" class="Image">
+          <div  class="card-body">
+            <h3 class="card-subtitle">The alpha female and alpha male wolves of a pack usually mate for life.</h3>
+            <ul class="card-list-group">
+              <li><span class="card-list-group-item">Scientific Name:</span> Canis lupus</li>
+              <li><span class="card-list-group-item">Average Lenght:</span> 105–160 cm</li>
+              <li><span class="card-list-group-item">Mating Season:</span> January or February</li>
+              <li><span class="card-list-group-item">Average Lifespan:</span> 5-6 years</li>
+            </ul>
+            <p class="card-text">Wolves play a key role in keeping ecosystems healthy. They help keep deer and elk populations in check, which can benefit many other plant and animal species. The carcasses of their prey also help to redistribute nutrients and provide food for other wildlife species, like grizzly bears and scavengers. Scientists are just beginning to fully understand the positive ripple effects that wolves have on ecosystems.</p>
+          </div><!-- /.card-body -->
+        </a><!-- /.card-switch -->
+      </div><!-- /.card -->
+
+      <div id="card-51" class="card mb-4 style51">
+        <a class="card-switch" href="#" onclick="applyStyleToAll(51)">
+          <h2 class="card-title">Cat</h2>
+          <img class="card-img" src="https://www.wallpaperup.com/uploads/wallpapers/2015/04/15/661851/0bb422d4c896ed3fd644ef25caf3ba71-500.jpg" alt="cat">
+          <div  class="card-body">
+            <h3 class="card-subtitle">Cats are the second most popular pet in the US by number of pets owned, behind freshwater fish. In a 2010 study they were ranked the third most popular pet in the UK, after fish and dogs, with around 8 million being owned.</h3>
+            <ul class="card-list-group">
+              <li><span class="card-list-group-item">Scientific Name:</span> Felis silvestris</li>
+              <li><span class="card-list-group-item">Average Lenght:</span> 30 centimeters</li>
+              <li><span class="card-list-group-item">Average Lifespan:</span> 12-15 years</li>
+              <li><span class="card-list-group-item">Habitat:</span> Almost any terrestrial habitat</li>
+            </ul>
+            <p class="card-text">The domestic cat is a small, typically furry, carnivorous mammal. They are often called house cats when kept as indoor pets or simply cats when there is no need to distinguish them from other felids and felines. They are often valued by humans for companionship and for their ability to hunt vermin. There are more than seventy cat breeds recognized by various cat registries.</p>
+          </div><!-- /.card-body -->
+        </a><!-- /.card-switch -->
+      </div><!-- /.card -->
+
+      <div id="card-52" class="card mb-4 style52">
+        <a class="card-switch" href="#" onclick="applyStyleToAll(52)">
+          <h2 class="card-title">KOALA - <small class="second-title"></small>Master of chillout ;)</h2>
+          <img class="card-img" src="https://image.ibb.co/jWQsfc/koalkitrzyuda.jpg"
+       alt="koala family">
+          <div  class="card-body">
+            <h3 class="card-subtitle">I am not bear! I am marsupial mammal like kangaroos and wombats. My babies are called joeys. After the birth the baby goes into my pouch, where it can drink milk and is kept warm and safe.</h3>
+            <ul class="card-list-group">
+              <li><span class="card-list-group-item">Habitat:</span> Forests of eastern Australia</li>
+              <li><span class="card-list-group-item">Diet:</span> I only eat eucalyptus leaves!</li>
+              <li><span class="card-list-group-item">Hobby:</span> Bedtime yoga and meditation</li>
+             </ul>
+            <p class="card-text">I am very busy creature. During the day I like to doze and tuck into forks or nooks in the trees.  Believe it or not, but I need to sleep for up to 20 hours a day! I have a lot of duties, so I spend only 15 minutes a day in social activity.</p>
+          </div><!-- /.card-body -->
+        </a><!-- /.card-switch -->
+      </div><!-- /.card -->
+
+      <div id="card-53" class="card mb-4 style53">
+        <a class="card-switch" href="#" onclick="applyStyleToAll(53)">
+          <h2 class="card-title">Tiger</h2>
+          <img class="card-img" src="http://lechrudnicki.com/dev/udacity/img/tiger.jpg" alt="tiger">
+          <div  class="card-body">
+            <h3 class="card-subtitle">Tigers are the largest wild cats in the world. Adults can weigh up to <strong>363kg</strong> and measure up to <strong>3.3m!</strong></h3>
+            <ul class="card-list-group">
+              <li><span class="card-list-group-item">Scientific Name:</span> Panthera tigris</li>
+              <li><span class="card-list-group-item">Conservation status:</span> Endangered</li>
+              <li><span class="card-list-group-item">Lifespan:</span> 20 – 26 years </li>
+              <li><span class="card-list-group-item">Mass:</span> Male: 90 – 310 kg, Female: 65 – 170 kg</li>
+            </ul>
+            <p class="card-text">The number of tigers has increased to 229 (a rise by 66) in Tamil Nadu since 2010...</p>
+          </div><!-- /.card-body -->
+        </a><!-- /.card-switch -->
+      </div><!-- /.card -->
+
+      <div id="card-54" class="card mb-4 style54">
+        <a class="card-switch" href="#" onclick="applyStyleToAll(54)">
+          <h2 class="card-title">The wolf</h2>
+          <img class="card-img" src="https://s26.postimg.org/528mbc3jd/wolf.jpg" alt="Wolf">
+          <div class="card-body">
+            <h3 class="card-subtitle">Wolves develop close relationships and strong social bonds. They often demonstrate deep affection for their family and may even sacrifice themselves to protect the family unit. They have a highly organised social structure enabling them to
+              enjoy maximum cooperation when hunting, communicating and defending territory.</h3>
+            <ul class="card-list-group">
+              <li><span class="card-list-group-item">Scientific Name:</span> Canis Lupus</li>
+              <li><span class="card-list-group-item">Average Lenght:</span> 105-160cm</li>
+              <li><span class="card-list-group-item">Average Lifespan:</span> 13 years</li>
+              <li><span class="card-list-group-item">Habitat:</span> Woods</li>
+            </ul>
+            <p class="card-text">The domestic dog shares many wolf traits. Once a wolf has found a mate, they usually stay together for life. The wolf was held in high esteem by the Dacians, whose name was derived from the Gaulish Daoi, meaning "wolf people". The wolf was viewed as the lord of all animals, and as the only effective power against evil.</p>
+          </div><!-- /.card-body -->
+        </a> <!-- /.card-switch -->
+      </div><!-- /.card -->
+
+      <div id="card-55" class="card mb-4 style55">
+        <a class="card-switch" href="#" onclick="applyStyleToAll(55)">
+          <h2 class="card-title">The Labrador Retriever</h2>
+          <img class="card-img" src="https://images.pexels.com/photos/6886/dog-puppy-tumblr-puppylove.jpg?w=1260&h=750&auto=compress&cs=tinysrgb" alt="Labrador Retriever puppy">
+          <div  class="card-body">
+            <h3 class="card-subtitle">The Lab is an extremely social breed and basically loves everyone. The one thing it’s not great at is spending a lot of time alone which, if you’ve ever owned a Lab, you probably already know.</h3>
+            <ul class="card-list-group">
+              <li><span class="card-list-group-item">Name:</span> Labrador Retriever</li>
+              <li><span class="card-list-group-item">Origin:</span> UK, Canada, Newfoundland</li>
+              <li><span class="card-list-group-item">Colors:</span> Black, chocolate, or yellow (ranges from pale yellow (nearly white) to fox red)</li>
+              <li><span class="card-list-group-item">Life Span:</span> 12–13 years</li>
+            </ul>
+            <p class="card-text">The Labrador Retriever, or just Labrador, is a type of retriever-gun dog.The Labrador is one of the most popular breeds of dog in Canada, the United Kingdom and the United States. A favourite disability assistance breed in many countries, Labradors are frequently trained to aid the blind, those who have autism, to act as a therapy dog, or to perform screening and detection work for law enforcement and other official agencies. Additionally, they are prized as sporting and hunting dogs.</p>
+          </div><!-- /.card-body -->
+        </a><!-- /.card-switch -->
+      </div><!-- /.card -->
+
+      <div id="card-56" class="card mb-4 style56">
+        <a class="card-switch" href="#" onclick="applyStyleToAll(56)">
+          <h2 class="card-title">Anomalocaris</h2>
+          <img class="card-img" src="http://4.bp.blogspot.com/-Gd3S7EuKTbI/TskgFiK6OPI/AAAAAAAAAgU/tEDAWlGZY3s/s1600/anianocanGif.gif" alt="Anomalocaris">
+          <div  class="card-body">
+            <h3 class="card-subtitle">Anomalocaris was first Earth carnivore lurking in Cambrian waters, real stuff of nightmares and sci-fi movies.</h3>
+            <ul class="card-list-group">
+              <li><span class="card-list-group-item">Scientific Family:</span> Anomalocarididae</li>
+              <li><span class="card-list-group-item">Temporal range:</span> Early to mid Cambrian</li>
+              <li><span class="card-list-group-item">Size:</span> Up to one meter long</li>
+              <li><span class="card-list-group-item">Lifestyle:</span> Predatory</li>
+            </ul>
+            <p class="card-text">Large body size, formidable grasping claws and an unusual disk-like mouth with razor-sharp serrations. A single pair of large, compound eyes on stalks. Propelled itself through the water by undulating the flexible lobes on the sides of its body.</p>
+          </div><!-- /.card-body -->
+        </a><!-- /.card-switch -->
+      </div><!-- /.card -->
+
+      <div id="card-57" class="card mb-4 style57">
+        <a class="card-switch" href="#" onclick="applyStyleToAll(57)">
+          <h2 class="card-title">Arctic Fox</h2>
+          <img class="card-img" src="https://www.walldevil.com/wallpapers/a55/thumb/arctic-fox-fox.jpg" alt="Artic Fox">
+          <div  class="card-body">
+            <h3 class="card-subtitle">People usually think arctic foxes are just white but in summer when the snow melts away, their fur turns dark to blend in with the environment.</h3>
+            <ul class="card-list-group">
+              <li><span class="card-list-group-item">Binomial Name:</span> Vulpes Lagopus</li>
+              <li><span class="card-list-group-item">Order:</span> Carnivora</li>
+              <li><span class="card-list-group-item">Family:</span> Canidae</li>
+              <li><span class="card-list-group-item">Genius:</span> Vulpes</li>
+            </ul>
+            <p class="card-text">The Arctic fox (Vulpes lagopus), also known as the white fox, polar fox, or snow fox, is a small fox native to the Arctic regions of the Northern Hemisphere and common throughout the Arctic tundra biome.</p>
+          </div><!-- /.card-body -->
+        </a><!-- /.card-switch -->
+      </div><!-- /.card -->
+
+      <div id="card-58" class="card mb-4 style58">
+        <a class="card-switch" href="#" onclick="applyStyleToAll(58)">
+          <h2 class="card-title">Scooby Doo</h2>
+          <img class="card-img" src="http://charlethedog.com/wp-content/uploads/2014/05/Scooby-3.jpg" alt="Scooby Doo">
+          <div  class="card-body">
+            <h3 class="card-subtitle">Frank Sinatra's "Strangers in the Night" inspired Scooby's name</h3>
+            <ul class="card-list-group">
+              <li><span class="card-list-group-item">Scientific Name:</span> Scoobert Doo</li>
+              <li><span class="card-list-group-item">Species:</span> Great Dan</li>
+              <li><span class="card-list-group-item">Favourite food:</span> Scooby Snack</li>
+              <li><span class="card-list-group-item">Occupation:</span> Mystery Inc. Detective</li>
+            </ul>
+            <p class="card-text">Scooby is brown from head to toe with several distinctive black spots on his upper body. He is generally a quadruped, but displays bipedal 'human' characteristics occasionally. Scooby also has opposible thumbs and can use his front paws like hands. He has a black nose and wears an off-yellow, diamond shaped-tagged blue-green collar with an "SD" (his initials) and has four toes on each foot and unlike other dogs, Scooby only has one pad on the sole of each of his feet.</p>
+          </div><!-- /.card-body -->
+        </a><!-- /.card-switch -->
+      </div><!-- /.card -->
+
+      <div id="card-59" class="card mb-4 style59">
+        <a class="card-switch" href="#" onclick="applyStyleToAll(59)">
+          <h2 class="card-title">Niffler</h2>
+          <img class="card-img" src="http://cdn.playbuzz.com/cdn/7374b4ff-a7c6-4c4f-8417-0ca1d96331b3/eb0892fa-731e-4638-9f41-ca5dee9b1131_560_420.jpg" alt="photo of a Niffler">
+          <div  class="card-body">
+            <h3 class="card-subtitle">Long-snouted, burrowing creatures native to Britain with a penchant for anything shiny.</h3>
+            <ul class="card-list-group">
+              <li><span class="card-list-group-item">Hair colour:</span> Black</li>
+              <li><span class="card-list-group-item">Native range:</span> Britain</li>
+              <li><span class="card-list-group-item">Ministry of Magic Classification:</span> XXX</li>
+              <li><span class="card-list-group-item">Speciality:</span> Locating treasure</li>
+             </ul>
+            <p class="card-text">Nifflers were rodent-like creatures with a long snout similar to that of a platypus and a coat of black, fluffy fur. They had a pouch on their bellies which held far more than at first seemed possible.</p>
+          </div><!-- /.card-body -->
+        </a><!-- /.card-switch -->
+      </div><!-- /.card -->
+
+      <div id="card-60" class="card mb-4 style60">
+        <a class="card-switch" href="#" onclick="applyStyleToAll(60)">
+          <h2 class="card-title">Lion</h2>
+          <img class="card-img" src="https://lh3.googleusercontent.com/eoi2wHwp1mCRJC4e5mLXgyTJcMDp-fMVeLyoTff0QWTZzT_Gxx1UZIHIciWPc3DiVzjTYtj1HZr74aNEFJRa8aMhEoZYlaSwiExHkpl5-qT6QSff-la2tMlITRwCjJaaKVwT4__moA" alt="Lion">
+          <div  class="card-body">
+            <h3 class="card-subtitle">Lions are the second largest big cat species in the world (behind tigers).</h3>
+            <ul class="card-list-group">
+              <li><span class="card-list-group-item">Scientific Name:</span> Panthera Leo</li>
+              <li><span class="card-list-group-item">Average Lenght:</span> 2 Meters</li>
+              <li><span class="card-list-group-item">Average Lifespan:</span> 12 Years</li>
+              <li><span class="card-list-group-item">Habitat:</span> Deserts of Africa</li>
+            </ul>
+            <p class="card-text">The average male lion weighs around 180 kg (400 lb) while the average female lion weighs around 130 kg (290 lb) and the heaviest lion on record weighed an amazing 375 kg (826 lb).The roar of a lion can be heard from 8 kilometers (5.0 miles) away.Lions can reach speeds of up to 81 kph (50 mph) but only in short bursts because of a lack of stamina.</p>
+          </div><!-- /.card-body -->
+        </a><!-- /.card-switch -->
+      </div><!-- /.card -->
+
+      <div id="card-61" class="card mb-4 style61">
+        <a class="card-switch" href="#" onclick="applyStyleToAll(61)">
+          <h2 class="card-title">Moon Calf</h2>
+          <img class="card-img" src="https://s18.postimg.org/5yk8cjc2x/mooncalf.jpg" alt="Moon Calf">
+          <div  class="card-body">
+            <h3 class="card-subtitle">Once the Mooncalf is in the moonlight, it performs complicated dance moves while standing on its hind legs. It is believed that this is part of the Mooncalf mating ritual, but also has the side effect of creating geometric patterns in wheat fields that confuse Muggles.</h3>
+            <ul class="card-list-group">
+              <li><span class="card-list-group-item">Ministry of Magic Classification:</span> XX</li>
+              <li><span class="card-list-group-item">Skin Colour:</span> Pale grey</li>
+              <li><span class="card-list-group-item">Native Range:</span> Existing worldwide</li>
+            </ul>
+            <p class="card-text">The Moon Calf is a shy creature that only comes out of its burrow during a full moon. The Mooncalf also has a very long neck and bulging blue eyes that sit on the top of its head. The "geometric patterns" mooncalves make is a reference to crop circles, believed by some to be made by UFOs.</p>
+          </div><!-- /.card-body -->
+        </a><!-- /.card-switch -->
+      </div><!-- /.card -->
+
+      <div id="card-62" class="card mb-4 style62">
+        <a class="card-switch" href="#" onclick="applyStyleToAll(62)">
+          <h2 class="card-title">Iberian Wolf</h2>
+            <img class="card-img" src="http://www.alfonsomico.com/gallery/alfonsomico/12737784ot.jpg" alt="iberian wolf">
+            <div class="card-body">
+              <h3 class="card-subtitle">The Iberian wolf populations are considered ‘near threatened’ which means they are at risk of becoming extinct in the near future.</h3>
+              <ul class="card-list-group">
+                <li><span class="card-list-group-item">Scientific Name:</span> Canis Lupus Signatus</li>
+                <li><span class="card-list-group-item">Habitat:</span> Iberian Peninsula</li>
+                <li><span class="card-list-group-item">Population:</span> 2.000</li>
+                <li><span class="card-list-group-item">Weight:</span> 50kg</li>
+                <li><span class="card-list-group-item">Conservation Status:</span> IUCN Red List</li>
+              </ul>
+              <p class="card-text">A medium sized predator weighing between 30kg to 40kg that lives in Northern Spain and Portugal. They are carnivorous, meat eaters, that prey on animals such as rabbit, deer and boar. Wild populations are considered ‘near threatened’ which means they are at risk of becoming extinct in the near future. Iberian Wolves have litters between 4 and 6 pups after a 63 day gestation.Wolves use their distinctive calls to protect territory from rivals and to call to other pack members. A wolf howl can be heard over a mile away.</p>
+            </div><!-- /.card-body -->
+          </a><!-- /.card-switch -->
+        </div><!-- /.card -->
+
+        <div id="card-63" class="card mb-4 style63">
+          <a class="card-switch" href="#" onclick="applyStyleToAll(63)">
+            <h2 class="card-title">Husky Dog</h2>
+            <img class="card-img" src="https://mndogshelp.ru/images/2588.jpg" alt="husky">
+            <div  class="card-body">
+              <h3 class="card-subtitle">The Husky originated in northeastern Siberia and was bred by the Chukchi Eskimos of northeastern Asia to pull heavy loads long distances across rough terrain in difficult conditions</h3>
+              <ul class="card-list-group">
+                <li><span class="card-list-group-item">Scientific Name:</span> Canis lupus familiari</li>
+                <li><span class="card-list-group-item">Average Lenght:</span> 50cm-60cm</li>
+                <li><span class="card-list-group-item">Average Lifespan:</span> 11-13 years</li>
+                <li><span class="card-list-group-item">Habitat:</span> A cold, northern climate</li>
+              </ul>
+              <p class="card-text">The first dogs arrived in the Americas 12,000 years ago; however, people and their dogs did not settle in the Arctic until the Paleo-Eskimo people 4,500 years ago and then the Thule people 1,000 years ago, both originating from Siberia.The Siberian Husky was originally developed by the Chukchi people of the Chukchi Peninsula in eastern Siberia.</p>
+            </div><!-- /.card-body -->
+          </a><!-- /.card-switch -->
+        </div><!-- /.card -->
+
+        <div id="card-64" class="card mb-4 style64">
+          <a class="card-switch" href="#" onclick="applyStyleToAll(64)">
+            <h2 class="card-title">Tarantula</h2>
+            <img class="card-img" src="https://economypestcontrol.com/wp-content/uploads/2017/02/tarantula.jpg" alt="tarantula">
+            <div  class="card-body">
+              <h3 class="card-subtitle">Despite the sinister size and appearance, the tarantulas are not dangerous for us, since they do not produce toxins harmful to humans.</h3>
+              <ul class="card-list-group">
+                <li><span class="card-list-group-item">Scientific Name:</span> Theraphosidae</li>
+                <li><span class="card-list-group-item">Average Lenght:</span> 2.5 to 10 cm</li>
+                <li><span class="card-list-group-item">Average Lifespan:</span> Male - 7 years; Female - 30 years</li>
+                <li><span class="card-list-group-item">Habitat:</span> Savanna, Grasslands, etc.</li>
+              </ul>
+              <p class="card-text">Like all arthropods, the tarantula is an invertebrate that relies on an exoskeleton for muscular support. Like other Arachnida, a tarantula’s body comprises two main parts, the prosoma (or cephalothorax) and the opisthosoma (or abdomen).</p>
+            </div><!-- /.card-body -->
+          </a><!-- /.card-switch -->
+        </div><!-- /.card -->
+
+        <div id="card-65" class="card mb-4 style65">
+          <a class="card-switch" href="#" onclick="applyStyleToAll(65)">
+            <h2 class="card-title">Seagull</h2>
+            <img class="card-img" src="http://kkimagery.com/wp-content/uploads/2012/06/Seagull.jpg" title="Photo by Koji Kawano" alt="Seagull">
+            <div  class="card-body">
+              <h3 class="card-subtitle">The larger species  <em>— in particular —</em>  are resourceful, inquisitive and intelligent birds, <u>many gull colonies display mobbing behaviour</u>, attacking and harassing would-be predators and other intruders.</em></h3>
+              <ul class="card-list-group">
+                <li><span class="card-list-group-item">Class -</span> <em>Avus</em></li>
+                <li><span class="card-list-group-item">Family -</span> <em>Laridae</em></li>
+                <li><span class="card-list-group-item">Size -</span> <em>up to 66 cm long</em></li>
+                <li><span class="card-list-group-item">Wingspan -</span> <em>1,2 – 1,6 m</em></li>
+                 <li><span class="card-list-group-item">Weight -</span> <em>1 – 1,5 kg</em></li>
+              </ul>
+              <p class="card-text">The <strong>Seagull</strong> <em>(Laridae)</em> is a large seabird — one of the best known of all gulls along the shores of Europe and the Baltic states. The <em>Laridae</em> a varied diet, including <u>fish</u>, <u>crustaceans</u> and <u>dead animals</u> as well as some <u>plants</u>.</p>
+            </div><!-- /.card-body -->
+          </a><!-- /.card-switch -->
+        </div><!-- /.card -->
+
+        <div id="card-66" class="card mb-4 style66">
+          <a class="card-switch" href="#" onclick="applyStyleToAll(66)">
+            <h2 class="card-title">Magical Unicorn</h2>
+            <img class="card-img" src="https://rachel-hovell-designs.000webhostapp.com/unicorn.png" alt="Magical Unicorn">
+            <div  class="card-body">
+              <h3 class="card-subtitle">Unicorns are believed to be kind and majestic, and will always offer help to a person in need.</h3>
+              <ul class="card-list-group">
+                <li><span class="card-list-group-item">Age:</span> Unknown</li>
+                <li><span class="card-list-group-item">Origin:</span> Unknown</li>
+                <li><span class="card-list-group-item">Attack Type:</span> Magic</li>
+                <li><span class="card-list-group-item">Attack Strength:</span> Infinite</li>
+              </ul>
+              <p class="card-text">The Magical Unicorn is a rare and widely undocumented creature, that holds magical powers greater than man can measure.</p>
+            </div><!-- /.card-body -->
+          </a><!-- /.card-switch -->
+        </div><!-- /.card -->
+
+        <div id="card-67" class="card mb-4 style67">
+          <a class="card-switch" href="#" onclick="applyStyleToAll(67)">
+            <h2 class="card-title">Otter<sup>1</sup></h2>
+            <img class="card-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/LutraCanadensis_fullres.jpg/1920px-LutraCanadensis_fullres.jpg" alt="riverOtter">
+            <div  class="card-body">
+              <h3 class="card-subtitle">Otters<sup>1</sup> are the best! They are carnivorous mammals in the subfamily Lutrinae. The species are all semiaquatic, aquatic or marine, they eat fish and invertebrates. Cousins to the weasel family, along with badgers, honey badgers, martens, minks, polecats, and wolverines.</h3>
+              <ul class="card-list-group">
+                <h4>Interesting Facts</h4>
+                <li><span class="card-list-group-item">Kingdom:</span> Animalia</li>
+                <li><span class="card-list-group-item">Class:</span> Mammalia</li>
+                <li><span class="card-list-group-item">Order:</span> Carnivoria</li>
+                <li><span class="card-list-group-item">Food:</span> Otters eat from 15% to 25% of their body weight each day.</li>
+                <li><span class="card-list-group-item">Habitat:</span> Antartica</li>
+                <li><span class="card-list-group-item">Communication:</span> Very chatty, extremely social</li>
+              </ul>
+              <p class="card-text">Otters are highly intelligent and one of the most skilled creatures in our world, but they only live for 10 years. If their life spanned for more, they could have taken over the world.. One of the most amazing things they can do is stay under water for 4 whole minutes, while they can dive for almost 100 meters to get their food. Kinda patient don't you think? They are night creatures, in the daylight they sunbathe and they live during the night! There are a lot of academic jokes about them as well. Because Otter is homophone to Other, there are jokes about Lacan's Otter.</p>
+            </div><!-- /.card-body -->
+          </a><!-- /.card-switch -->
+        </div><!-- /.card -->
+
+
+
+      <div id="card-100" class="card mb-4 style100">
+        <a class="card-switch" href="#" onclick="applyStyleToAll(100)">
+          <h2 class="card-title">Animal Name</h2>
+          <img class="card-img" src="http://placehold.it/700x500" alt="Card image cap">
+          <div class="card-body">
+            <h3 class="card-subtitle">Your card goes here!</h3>
+            <ul class="card-list-group">
+              <li><span class="card-list-group-item">Scientific Name:</span> Perspiciatis</li>
+              <li><span class="card-list-group-item">Average Lenght:</span> Quos quisquam</li>
+              <li><span class="card-list-group-item">Average Lifespan:</span> Vero vel quam</li>
+              <li><span class="card-list-group-item">Habitat:</span> Temporibus necessitatibus</li>
+            </ul>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque earum nostrum suscipit ducimus nihil provident, perferendis rem illo, voluptate atque, sit eius in voluptates.</p>
+            <div class="card-block">
+              <a href="#" class="card-link">Link</a>
+            </div><!-- /.card-block -->
+          </div><!-- /.card-body -->
+        </a><!-- /.card-switch -->
+      </div><!-- /.card -->
+
+    </div><!-- /.card-columns-->
+
+  </div><!-- /.container -->
+
+    <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; 2018</p>
+    </div><!-- /.container -->
+  </footer>
 
     <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+  <script src="cards.js"></script>
+  <script type="text/javascript">
+    document.getElementById("magic").onclick = function(){
+     //show an alert box
+    function msg()
+    {alert("Woow. Woow. Congratulations! Now you are a monkey:)")};
+    //change the image source
+    function imgSrc(){document.getElementById("img").src="https://media1.tenor.com/images/3543ba31e34bae42be9715c714ef4fa8/tenor.gif";}
+    return msg(), imgSrc();
+    };
+  </script>
 
-  </body>
+</body>
 
 </html>
