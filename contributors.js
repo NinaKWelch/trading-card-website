@@ -1,8 +1,8 @@
-/* Javascript for Contibutors Page */
+/* Javascript for Contributors Page */
 
 // Show contributors in a selected country when clicking on the country flag
 function selectCountry(countryIndex) {
-	const country = $("[class|='in']");
+	var country = $("[class|='in']");
 	country.hide();
 
 	switch (countryIndex) {
@@ -62,8 +62,8 @@ function selectCountry(countryIndex) {
 
 // Show contributors in a selected country, when chosen in the options menu
 $('#inputGroupCountries').on('change', function() {
-    const index = Number(this.value)
-	selectCountry(index)
+    var index = Number(this.value);
+	selectCountry(index);
 });
 
 

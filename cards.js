@@ -6,7 +6,7 @@ function applyStyleToAll(cardIndex) {
 
 // Reset button for card styles back to being all different - by Nina (https://github.com/NinaKWelch)
 function reset() {
-        for (var i = 1; i <= 100; i++) {
+    for (var i = 1; i <= 100; i++) {
         var temp = 'card-'+i;
         $( "[id="+temp+"]" ).attr('class', 'card mb-4 '+'style'+i);
     }
