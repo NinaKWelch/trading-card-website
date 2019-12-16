@@ -503,7 +503,7 @@ ul {
   border-radius: 10px;
   -webkit-box-shadow: 0 0 5px 6px #ccc;
           box-shadow: 0 0 5px 6px #ccc;
-  background-image: url(https://s26.postimg.org/lpbpvvcxl/glitter_background.jpg);
+  background-image: url(http://s26.postimg.org/lpbpvvcxl/glitter_background.jpg);
 }
 .style2 .card-title {
   font-family: "Lato", sans-serif;
@@ -1468,7 +1468,6 @@ ul {
 /* Card no 20 */
 .style20 {
   font-family: "Rosarivo", serif;
-  background-image: url("http://res.cloudinary.com/ninaw/image/upload/v1516990043/card-bg-bigger_wsz3e1.jpg");
   border-top: 4px solid #3c364e;
   border-right: 5px solid #3c364e;
   border-bottom: 7px solid #3c364e;
@@ -3513,7 +3512,7 @@ ul {
   border: 4px solid black;
   border-radius: 10px;
   padding: 25px 15px 18px;
-  background-image: url("http://www.psdgraphics.com/file/2016/dog-paws-pattern.jpg");
+  background-image: url("https://www.psdgraphics.com/file/2016/dog-paws-pattern.jpg");
   background-size: cover;
 }
 .style58 .card-title {
@@ -3998,7 +3997,7 @@ ul {
   font-size: 18px;
   padding: 18px 22px;
   border: 1px outset #ccc;
-  background-image: url(https://rachel-hovell-designs.000webhostapp.com/background.png);
+  background-image: url(http://rachel-hovell-designs.000webhostapp.com/background.png);
   -webkit-box-shadow: 10px 10px 5px #ccc;
           box-shadow: 10px 10px 5px #ccc;
 }
