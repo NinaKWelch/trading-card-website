@@ -1,10 +1,9 @@
-var gulp = require('gulp');
-var browserSync = require('browser-sync').create();
-var pkg = require('./package.json');
+const gulp = require('gulp');
+const browserSync = require('browser-sync').create();
+const pkg = require('./package.json');
 
 // Copy third party libraries from /node_modules into /vendor
 gulp.task('vendor', function() {
-
   // Bootstrap
   gulp.src([
       './node_modules/bootstrap/dist/**/*',
