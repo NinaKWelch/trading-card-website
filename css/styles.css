@@ -193,10 +193,10 @@ ul {
 @media only screen and (max-width: 767.68px) {
   .btn-toolbar {
       display: inline;
- }
+  }
   .btn-toolbar span {
       display: none;
- }
+  }
 }
 @media only screen and (max-width: 575.98px) {
   .btn-group {
