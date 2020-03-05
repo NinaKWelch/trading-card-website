@@ -11,19 +11,7 @@ This website uses the following resources:
 * Emojis by [Emoji CSS](https://afeld.github.io/emoji-css/)
 * Social Icons by [Simple Icons](https://github.com/simple-icons/simple-icons )
 
-## In Development
-
-### Pinterest style gallery for the cards
-
-Current layout uses [Bootstrap](https://getbootstrap.com/docs/4.0/components/card/) card-columns. 
-There is an issue with box-shadow property: if box-shadow is wide it gets cropped on all other browsers apart from Firefox.
-Maybe flexbox is a better option? To be explored...
-
 ## Ideas
-
-### Co-creators page:
-
-* Who is in your area? An option to look for people by country.
 
 ### Cards page:
 
@@ -38,14 +26,13 @@ Create a slider for displaying cards like [example 1](https://tympanus.net/Devel
 
 ### Fun stuff:
 
-* Some people have picked the same favourite animal, so there could be some kind of match function, like 'Check out who are kindred spirits?'
 * Food chain feature - maybe not so fun but educational! Could be done as a separate page
 
 Comments about these and other ideas welcome!
 
 ## Bugs and Issues
 
-* How to use SVG images so that their color can be chaged without adding all the code to the HTML page  
+* There is an issue with box-shadow property: if box-shadow is wide it gets cropped on all other browsers apart from Firefox. Maybe flexbox is a better option? To be explored...
 * Now that there are more cards and co-creators, the images are starting to load slower. Some kind of progressive loading could be a solution
 
 ## Contributors
@@ -58,10 +45,6 @@ The project was inspired by all the wonderful [Animal Trading Cards](https://cla
 
 I would love all of you get involved. Simplest way to contribute is to submit your card and have it displayed on the home page. If you would like to contribute some ideas, all the better.
 
-For those who are dying to put their fresh javaScript skills to test - it would be soo fab to add some cool features. It’s a team effort!
+For those who are dying to put their javaScript skills to test - it would be soo fab to add some cool features. It’s a team effort!
 
 To get started, [let me know about your ideas](https://discussions.udacity.com/t/paw-prints-new-shared-project-for-everyone-to-take-part-in/523110) and what you’d like to do.
-
-## Copyright and License
-
-TBC
