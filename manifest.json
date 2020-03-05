@@ -1,0 +1,20 @@
+{
+    "name": "Animal Trading Cards Design Challenge.",
+    "short_name": "Cards",
+    "start_url": "/trading-card-website/",
+    "icons": [
+        {
+        "src": "/trading-card-website/img/icons-192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+        },
+        {
+        "src": "/trading-card-website/img/icons-512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+        }
+    ],
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "display": "standalone"
+}
