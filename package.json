@@ -11,7 +11,7 @@
         "theme",
         "template"
     ],
-    "homepage": "https://startbootstrap.com/template-overviews/bare",
+    "homepage": "https://ninakwelch.github.io/trading-card-website/",
     "bugs": {
         "url": "https://github.com/BlackrockDigital/startbootstrap-bare/issues",
         "email": "feedback@startbootstrap.com"
@@ -23,12 +23,12 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/BlackrockDigital/startbootstrap-bare.git"
+        "url": "https://github.com/NinaKWelch/trading-card-website"
     },
     "dependencies": {
         "bootstrap": "^4.4.1",
         "jquery": "^3.4.1",
-        "popper.js": "^1.16.0",
+        "popper.js": "^1.16.1",
         "tether": "^1.4.7"
     },
     "devDependencies": {
