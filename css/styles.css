@@ -1161,7 +1161,6 @@ ul {
   border-radius: 15px;
   padding: 10px 15px;
   border: 1px solid black;
-  background-image: url("https://n6-img-fp.akamaized.net/free-photo/grunge-paper-background_1048-6689.jpg?size=338&ext=jpg");
   -webkit-box-shadow: 5px 7px 20px #dda04f;
           box-shadow: 5px 7px 20px #dda04f;
 }
@@ -1531,7 +1530,6 @@ ul {
 }
 .style21.card::after {
   content: "";
-  background: url(https://www.sciencenews.org/sites/default/files/2016/06/main/articles/062516_bookshelf_feat_free.jpg);
   opacity: 0.8;
   top: 0;
   left: 0;
